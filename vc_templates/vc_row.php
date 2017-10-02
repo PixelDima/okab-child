@@ -1,6 +1,6 @@
 <?php
 $section_content = $class = $padding = $bg_image = $style = $bg_pattern =
-$top_and_bottom_padding = $left_and_right_padding = $no_padding = '';
+$top_and_bottom_padding = $left_and_right_padding = $no_padding = $disable_element='';
 
 extract( shortcode_atts( array(
 	'id'                     => '',
@@ -22,6 +22,7 @@ extract( shortcode_atts( array(
 	'parallax_center'        => '50%',
 	'parallax_end'           => '100%',
 	'equal_height'           => false,
+	'disable_element'        => 'no',
 ), $atts, 'section_row' ) );
 
 wp_enqueue_script( 'magnific-js' );
@@ -33,6 +34,14 @@ if ( $top_and_bottom_padding != '' && $left_and_right_padding == '' ) {
 	$padding .= 'style="padding-right:' . $left_and_right_padding . '; padding-left:' . $left_and_right_padding . ';"';
 } elseif ( $top_and_bottom_padding != '' && $left_and_right_padding != '' ) {
 	$padding .= 'style="padding: ' . $top_and_bottom_padding . ' ' . $left_and_right_padding . ';"';
+}
+
+if ( 'yes' === $disable_element ) {
+	if ( vc_is_page_editable() ) {
+		$css_classes[] = 'hidden-xld hidden-ld hidden-md hidden-sd hidden-xsd';
+	} else {
+		return '';
+	}
 }
 
 $demo        = dima_helper::dima_get_demo();
