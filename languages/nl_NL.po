@@ -1,20 +1,19 @@
 # WordPress Blank Pot
 # Copyright (C) 2014 ...
 # This file is distributed under the GNU General Public License v2 or later.
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: okab v4.0.0\n"
 "Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
-"POT-Creation-Date: 2018-12-07 23:50+0100\n"
+"POT-Creation-Date: 2018-12-07 23:53+0100\n"
 "PO-Revision-Date: \n"
-"Last-Translator: Your Name <you@example.com>\n"
+"Last-Translator: pixeldima\n"
 "Language-Team: PixelDima\n"
-"Language: en_US\n"
+"Language: nl_NL\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Textdomain-Support: yesX-Generator: Poedit 1.6.4\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;"
@@ -30,86 +29,86 @@ msgstr ""
 #: amp_templates/meta-taxonomy.php:4
 msgctxt "Used between list items, there is a space after the comma."
 msgid " "
-msgstr ""
+msgstr " "
 
 #: amp_templates/meta-taxonomy.php:13
 msgid "Tags:"
-msgstr ""
+msgstr "Tags:"
 
 #: amp_templates/woo-single.php:24
 msgid "Category:"
 msgid_plural "Categories:"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Categorie:"
+msgstr[1] "Categorieën:"
 
 #: amp_templates/woo-single.php:25
 #: framework/functions/output/dima-class-breadcrumbs.php:49
 msgid "Tag:"
 msgid_plural "Tags:"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Tag:"
+msgstr[1] "Tags:"
 
 #: amp_templates/woo-single.php:31
 msgid "Add to Cart"
-msgstr ""
+msgstr "Toevoegen aan winkelwagen"
 
 #: amp_templates/woo-tabs.php:20 woocommerce/single-product-reviews.php:162
 msgid "Submit Review"
-msgstr ""
+msgstr "Plaats Review"
 
 #: bbpress/content-search.php:37
 msgid "Enter in your query in the search form above."
-msgstr ""
+msgstr "Voer je zoekopdracht in het bovenstaande zoekformulier in."
 
 #: bbpress/form-search.php:14
 msgid "Search for:"
-msgstr ""
+msgstr "Zoek naar:"
 
 #: bbpress/form-user-edit.php:98
 #: framework/functions/extensions/woocommerce.php:430
 #: framework/functions/extensions/woocommerce.php:469
 msgid "Name"
-msgstr ""
+msgstr "Naam"
 
 #: bbpress/form-user-edit.php:105
 msgid "First Name"
-msgstr ""
+msgstr "Voornaam"
 
 #: bbpress/form-user-edit.php:112
 msgid "Last Name"
-msgstr ""
+msgstr "Achternaam"
 
 #: bbpress/form-user-edit.php:119
 msgid "Nickname"
-msgstr ""
+msgstr "Bijnaam"
 
 #: bbpress/form-user-edit.php:126
 msgid "Display Name"
-msgstr ""
+msgstr "Weergavenaam"
 
 #: bbpress/form-user-edit.php:135
 msgid "Contact Info"
-msgstr ""
+msgstr "Contactinformatie"
 
 #: bbpress/form-user-edit.php:140 framework/views/okab/wp-comments.php:74
 msgid "Website"
-msgstr ""
+msgstr "Website"
 
 #: bbpress/form-user-edit.php:160
 msgid "About Yourself"
-msgstr ""
+msgstr "﻿Over jou"
 
 #: bbpress/form-user-edit.php:160
 msgid "About the user"
-msgstr ""
+msgstr "Over %s"
 
 #: bbpress/form-user-edit.php:165
 msgid "Biographical Info"
-msgstr ""
+msgstr "Biografische informatie"
 
 #: bbpress/form-user-edit.php:173
 msgid "Account"
-msgstr ""
+msgstr "Account"
 
 #: bbpress/form-user-edit.php:178 bbpress/form-user-login.php:20
 #: bbpress/form-user-register.php:22
@@ -118,12 +117,12 @@ msgstr ""
 #: framework/functions/__okab-template.php:368
 #: woocommerce/myaccount/form-login.php:87
 msgid "Username"
-msgstr ""
+msgstr "Gebruikersnaam"
 
 #: bbpress/form-user-edit.php:185 bbpress/form-user-register.php:27
 #: framework/functions/admin/customizer/register.php:808
 msgid "Email"
-msgstr ""
+msgstr "E-mail"
 
 #: bbpress/form-user-edit.php:197
 #, php-format
@@ -131,46 +130,50 @@ msgid ""
 "There is a pending email address change to <code>%1$s</code>. <a href=\"%2$s"
 "\">Cancel</a>"
 msgstr ""
+"Er is een nog niet verwerkte wijziging voor het e-mailadres <code>%1$s</"
+"code> . <a href=“%2$s”>Annuleren</a>"
 
 #: bbpress/form-user-edit.php:205
 msgid "New Password"
-msgstr ""
+msgstr "Nieuw wachtwoord"
 
 #: bbpress/form-user-edit.php:209
 msgid ""
 "If you would like to change the password type a new one. Otherwise leave "
 "this blank."
 msgstr ""
+"Als u uw wachtwoord wilt wijzigen kunt u een nieuwe intypen. Als u dit niet "
+"wilt dan kunt u het veld leeg laten."
 
 #: bbpress/form-user-edit.php:215
 msgid "Type your new password again."
-msgstr ""
+msgstr "Voer je wachtwoord opnieuw in."
 
 #: bbpress/form-user-edit.php:222
 msgid "User Role"
-msgstr ""
+msgstr "Gebruikersrol"
 
 #: bbpress/form-user-edit.php:229
 msgid "Network Role"
-msgstr ""
+msgstr "Netwerk rol"
 
 #: bbpress/form-user-edit.php:234
 msgid "Grant this user super admin privileges for the Network."
-msgstr ""
+msgstr "Verleen deze gebruiker admin rechten voor het netwerk."
 
 #: bbpress/form-user-edit.php:252 woocommerce/cart/shipping-calculator.php:97
 msgid "Update"
-msgstr ""
+msgstr "Bijwerken"
 
 #: bbpress/form-user-login.php:14 framework/functions/__okab-template.php:376
 #: woocommerce/global/form-login.php:54 woocommerce/myaccount/form-login.php:33
 #: woocommerce/myaccount/form-login.php:58
 msgid "Login"
-msgstr ""
+msgstr "Inloggen"
 
 #: bbpress/form-user-login.php:17 bbpress/form-user-login.php:39
 msgid "Log In"
-msgstr ""
+msgstr "Inloggen"
 
 #: bbpress/form-user-login.php:26 framework/functions/__okab-template.php:372
 #: framework/functions/__okab-template.php:373
@@ -179,169 +182,174 @@ msgstr ""
 #: woocommerce/myaccount/form-login.php:48
 #: woocommerce/myaccount/form-login.php:109
 msgid "Password"
-msgstr ""
+msgstr "Wachtwoord"
 
 #: bbpress/form-user-login.php:32
 msgid "Keep me signed in"
-msgstr ""
+msgstr "Aangemeld blijven"
 
 #: bbpress/form-user-lost-pass.php:15
 msgid "Lost Password"
-msgstr ""
+msgstr "Wachtwoord Vergeten?"
 
 #: bbpress/form-user-lost-pass.php:18
 msgid ""
 "Enter in your username or email address below then select the &ldquo;"
 "Reset&rdquo; button."
 msgstr ""
+"Voer uw gebruikersnaam of e-mailadres hieronder in en klik vervolgens op de "
+"&ldquo;Reset&rdquo; knop."
 
 #: bbpress/form-user-lost-pass.php:22
 msgid "Username or Email"
-msgstr ""
+msgstr "Gebruikersnaam of e-mail"
 
 #: bbpress/form-user-lost-pass.php:30
 #: framework/functions/admin/pixeldima-setup/framework-customizer-backup.php:237
 #: framework/functions/admin/pixeldima-setup/framework-customizer-backup.php:248
 msgid "Reset"
-msgstr ""
+msgstr "Reset"
 
 #: bbpress/form-user-register.php:15
 msgid "Create an Account"
-msgstr ""
+msgstr "Account aanmaken"
 
 #: bbpress/form-user-register.php:18
 msgid ""
 "Your username must be unique, and cannot be changed later. We use your email "
 "address to email you a secure password and verify your account."
 msgstr ""
+"Uw gebruikersnaam moet uniek zijn, en kan later niet worden gewijzigd. ﻿Uw e-"
+"mailadres wordt gebruikt om een beveiligd wachtwoord te sturen en zo uw "
+"account te verifiëren."
 
 #: bbpress/form-user-register.php:35 woocommerce/myaccount/form-login.php:78
 #: woocommerce/myaccount/form-login.php:124
 msgid "Register"
-msgstr ""
+msgstr "Registreren"
 
 #: bbpress/loop-search-reply.php:38 bbpress/loop-single-reply.php:44
 msgid "In reply to: "
-msgstr ""
+msgstr "In antwoord op: "
 
 #: bbpress/loop-search-topic.php:44
 msgid "Topic: "
-msgstr ""
+msgstr "Onderwerp: "
 
 #: bbpress/loop-search-topic.php:49
 msgid "in group forum "
-msgstr ""
+msgstr "in groepsforum "
 
 #: bbpress/loop-search-topic.php:53
 msgid "in forum "
-msgstr ""
+msgstr "in forum "
 
 #: bbpress/user-details.php:37
 #, php-format
 msgid "%s's Profile"
-msgstr ""
+msgstr "%s's profiel"
 
 #: bbpress/user-details.php:38
 msgid "Profile"
-msgstr ""
+msgstr "Profiel"
 
 #: bbpress/user-details.php:45
 #, php-format
 msgid "%s's Topics Started"
-msgstr ""
+msgstr "%s Gestarte onderwerpen"
 
 #: bbpress/user-details.php:45
 msgid "Topics Started"
-msgstr ""
+msgstr "Onderwerpen gestart"
 
 #: bbpress/user-details.php:52
 #, php-format
 msgid "%s's Replies Created"
-msgstr ""
+msgstr "%s keer geantwoord"
 
 #: bbpress/user-details.php:52
 msgid "Replies Created"
-msgstr ""
+msgstr "Reacties geplaatst"
 
 #: bbpress/user-details.php:60
 #, php-format
 msgid "%s's Favorites"
-msgstr ""
+msgstr "%s’s Favorieten"
 
 #: bbpress/user-details.php:60
 msgid "Favorites"
-msgstr ""
+msgstr "Favorieten"
 
 #: bbpress/user-details.php:71
 #, php-format
 msgid "%s's Subscriptions"
-msgstr ""
+msgstr "%s’s Abonnementen"
 
 #: bbpress/user-details.php:71
 msgid "Subscriptions"
-msgstr ""
+msgstr "Abonnementen"
 
 #: bbpress/user-details.php:79
 #, php-format
 msgid "Edit %s's Profile"
-msgstr ""
+msgstr "Bewerk %s’s profiel"
 
 #: bbpress/user-details.php:79 framework/functions/__okab-template.php:284
 #: framework/functions/helper/helper.php:103
 msgid "Edit"
-msgstr ""
+msgstr "Bewerken"
 
 #: framework/functions/__okab-template.php:31
 #: framework/functions/__okab-template.php:112
 #: framework/functions/__okab-template.php:198
 #, php-format
 msgid "Leave a comment on: &ldquo;%s&rdquo;"
-msgstr ""
+msgstr "Geef een reactie op: &ldquo;%s&rdquo;"
 
 #: framework/functions/__okab-template.php:47
 #: framework/functions/__okab-template.php:128
 #, php-format
 msgid "View all posts in: &ldquo;%s&rdquo;"
-msgstr ""
+msgstr "Bekijk alle berichten in: &ldquo;%s&rdquo;"
 
 #: framework/functions/__okab-template.php:87
 #: framework/functions/__okab-template.php:178
 msgid "By"
-msgstr ""
+msgstr "Door"
 
 #: framework/functions/__okab-template.php:97
 msgid "Comment"
-msgstr ""
+msgstr "Reactie"
 
 #: framework/functions/__okab-template.php:98
 #: framework/views/okab/wp-comments.php:33
 msgid "Comments"
-msgstr ""
+msgstr "Reacties"
 
 #: framework/functions/__okab-template.php:105
 #: framework/functions/__okab-template.php:152
 #: framework/functions/__okab-template.php:191
 #: framework/functions/__okab-template.php:210
 msgid "0"
-msgstr ""
+msgstr "0"
 
 #: framework/functions/__okab-template.php:147
 #: woocommerce/myaccount/my-orders.php:89
 msgid "View"
-msgstr ""
+msgstr "Bekijk"
 
 #: framework/functions/__okab-template.php:148
 msgid "Views"
-msgstr ""
+msgstr "Bekeken"
 
 #: framework/functions/__okab-template.php:246
 msgid "Author"
-msgstr ""
+msgstr "Auteur"
 
 #: framework/functions/__okab-template.php:265
 #, php-format
 msgid "%1$s at %2$s"
-msgstr ""
+msgstr "%1$s om %2$s"
 
 #: framework/functions/__okab-template.php:277
 msgid "Reply <span class=\"comment-reply-link-after\"></span>"
@@ -352,45 +360,45 @@ msgstr ""
 #: woocommerce/single-product/title.php:52
 #, php-format
 msgid "Rated %d out of 5"
-msgstr ""
+msgstr "Beoordeeld %d van 5"
 
 #: framework/functions/__okab-template.php:290
 msgid "out of 5"
-msgstr ""
+msgstr "van 5"
 
 #: framework/functions/__okab-template.php:297
 msgid "Your comment is awaiting moderation."
-msgstr ""
+msgstr "Je reactie wacht op goedkeuring."
 
 #: framework/functions/__okab-template.php:343
 msgid "Welcome"
-msgstr ""
+msgstr "Welkom"
 
 #: framework/functions/__okab-template.php:347
 msgid "Dashboard"
-msgstr ""
+msgstr "Dashboard"
 
 #: framework/functions/__okab-template.php:350
 msgid "Your Profile"
-msgstr ""
+msgstr "Jouw profiel"
 
 #: framework/functions/__okab-template.php:353
 msgid "Logout"
-msgstr ""
+msgstr "Uitloggen"
 
 #: framework/functions/__okab-template.php:380
 msgid "Remember Me"
-msgstr ""
+msgstr "Onthoud mij"
 
 #: framework/functions/__okab-template.php:388
 #: woocommerce/global/form-login.php:62 woocommerce/myaccount/form-login.php:65
 msgid "Lost your password?"
-msgstr ""
+msgstr "Wachtwoord vergeten?"
 
 #: framework/functions/__okab-template.php:464
 #: framework/functions/admin/pixeldima-setup/framework-demo-content.php:569
 msgid "All"
-msgstr ""
+msgstr "Alle"
 
 #: framework/functions/admin/customizer/choices.php:38
 #: framework/functions/admin/customizer/choices.php:190
@@ -407,7 +415,7 @@ msgstr ""
 #: framework/functions/admin/meta/meta-boxes.php:546
 #: framework/functions/admin/meta/meta-boxes.php:559
 msgid "On"
-msgstr ""
+msgstr "Aan"
 
 #: framework/functions/admin/customizer/choices.php:62
 #: framework/functions/admin/meta/meta-boxes.php:150
@@ -421,41 +429,41 @@ msgstr ""
 #: framework/functions/admin/meta/setup.php:151
 #: framework/functions/admin/meta/setup.php:278
 msgid "Off"
-msgstr ""
+msgstr "Uit"
 
 #: framework/functions/admin/customizer/choices.php:66
 #: framework/functions/admin/customizer/choices.php:115
 msgid "Dark"
-msgstr ""
+msgstr "Donker"
 
 #: framework/functions/admin/customizer/choices.php:67
 #: framework/functions/admin/customizer/choices.php:114
 msgid "Light"
-msgstr ""
+msgstr "Licht"
 
 #: framework/functions/admin/customizer/choices.php:76
 msgid "Left"
-msgstr ""
+msgstr "Links"
 
 #: framework/functions/admin/customizer/choices.php:77
 msgid "Right"
-msgstr ""
+msgstr "Rechts"
 
 #: framework/functions/admin/customizer/choices.php:81
 msgid "Fullwidth"
-msgstr ""
+msgstr "Fullwidth"
 
 #: framework/functions/admin/customizer/choices.php:82
 msgid "Boxed"
-msgstr ""
+msgstr "Boxed"
 
 #: framework/functions/admin/customizer/choices.php:86
 msgid "Standard"
-msgstr ""
+msgstr "Standaard"
 
 #: framework/functions/admin/customizer/choices.php:87
 msgid "Masonry"
-msgstr ""
+msgstr "Masonry"
 
 #: framework/functions/admin/customizer/choices.php:88
 msgid "Time Line"
@@ -484,7 +492,7 @@ msgstr ""
 #: framework/functions/admin/meta/meta-boxes.php:545
 #: framework/functions/admin/meta/meta-boxes.php:558
 msgid "Default"
-msgstr ""
+msgstr "Standaard"
 
 #: framework/functions/admin/customizer/choices.php:94
 #: framework/functions/admin/meta/meta-boxes.php:125
@@ -492,7 +500,7 @@ msgstr ""
 #: framework/functions/admin/meta/meta-boxes.php:388
 #: framework/functions/admin/meta/meta-boxes.php:522
 msgid "Mini"
-msgstr ""
+msgstr "Mini"
 
 #: framework/functions/admin/customizer/choices.php:95
 #: framework/functions/admin/customizer/choices.php:102
@@ -502,7 +510,7 @@ msgstr ""
 #: framework/functions/admin/meta/meta-boxes.php:391
 #: framework/functions/admin/meta/meta-boxes.php:525
 msgid "Right Sidebar"
-msgstr ""
+msgstr "Rechterzijbalk"
 
 #: framework/functions/admin/customizer/choices.php:96
 #: framework/functions/admin/customizer/choices.php:103
@@ -512,7 +520,7 @@ msgstr ""
 #: framework/functions/admin/meta/meta-boxes.php:390
 #: framework/functions/admin/meta/meta-boxes.php:524
 msgid "Left Sidebar"
-msgstr ""
+msgstr "Linkerzijbalk"
 
 #: framework/functions/admin/customizer/choices.php:97
 #: framework/functions/admin/customizer/choices.php:101
@@ -522,50 +530,50 @@ msgstr ""
 #: framework/functions/admin/meta/meta-boxes.php:389
 #: framework/functions/admin/meta/meta-boxes.php:523
 msgid "No Sidebar"
-msgstr ""
+msgstr "Geen zijbalk"
 
 #: framework/functions/admin/customizer/choices.php:143
 #: framework/functions/admin/customizer/choices.php:171
 msgid "Two"
-msgstr ""
+msgstr "Twee"
 
 #: framework/functions/admin/customizer/choices.php:144
 #: framework/functions/admin/customizer/choices.php:172
 msgid "Three"
-msgstr ""
+msgstr "Drie"
 
 #: framework/functions/admin/customizer/choices.php:145
 #: framework/functions/admin/customizer/choices.php:173
 msgid "Four"
-msgstr ""
+msgstr "Vier"
 
 #: framework/functions/admin/customizer/choices.php:150
 #: framework/functions/admin/meta/meta-boxes.php:70
 msgid "Full-Width"
-msgstr ""
+msgstr "Volledige breedte"
 
 #: framework/functions/admin/customizer/choices.php:151
 #: framework/functions/admin/meta/meta-boxes.php:71
 msgid "Floating"
-msgstr ""
+msgstr "Drijvend"
 
 #: framework/functions/admin/customizer/choices.php:152
 #: framework/functions/admin/meta/meta-boxes.php:72
 msgid "Fixed Left"
-msgstr ""
+msgstr "Vaste Links"
 
 #: framework/functions/admin/customizer/choices.php:153
 #: framework/functions/admin/meta/meta-boxes.php:73
 msgid "Fixed Right"
-msgstr ""
+msgstr "Vaste Rechts"
 
 #: framework/functions/admin/customizer/choices.php:157
 msgid "Static Top"
-msgstr ""
+msgstr "Statische Top"
 
 #: framework/functions/admin/customizer/choices.php:158
 msgid "Fixed Top"
-msgstr ""
+msgstr "Vaste Top"
 
 #: framework/functions/admin/customizer/choices.php:159
 msgid "Fixed Top (Animated)"
@@ -591,35 +599,35 @@ msgstr ""
 #: framework/functions/admin/meta/meta-boxes.php:465
 #: framework/functions/admin/meta/meta-boxes.php:586
 msgid "None"
-msgstr ""
+msgstr "Geen"
 
 #: framework/functions/admin/customizer/choices.php:170
 msgid "One"
-msgstr ""
+msgstr "Eén"
 
 #: framework/functions/admin/customizer/choices.php:177
 msgid "Start"
-msgstr ""
+msgstr "Start"
 
 #: framework/functions/admin/customizer/choices.php:178
 msgid "Center"
-msgstr ""
+msgstr "Midden"
 
 #: framework/functions/admin/customizer/choices.php:182
 msgid "Bold"
-msgstr ""
+msgstr "Vet"
 
 #: framework/functions/admin/customizer/choices.php:183
 msgid "Italic"
-msgstr ""
+msgstr "Cursief"
 
 #: framework/functions/admin/customizer/choices.php:184
 msgid "Uppercase"
-msgstr ""
+msgstr "Hoofdletters"
 
 #: framework/functions/admin/customizer/choices.php:185
 msgid "Underline"
-msgstr ""
+msgstr "Onderstreept"
 
 #: framework/functions/admin/customizer/choices.php:195
 msgid "With Title"
@@ -627,11 +635,11 @@ msgstr ""
 
 #: framework/functions/admin/customizer/choices.php:196
 msgid "With icon"
-msgstr ""
+msgstr "Met icoon"
 
 #: framework/functions/admin/customizer/choices.php:201
 msgid "none"
-msgstr ""
+msgstr "geen"
 
 #: framework/functions/admin/customizer/choices.php:202
 msgid "Zoom-in"
@@ -648,24 +656,24 @@ msgstr ""
 #: framework/functions/admin/customizer/choices.php:208
 #: framework/functions/admin/customizer/register.php:972
 msgid "Categories"
-msgstr ""
+msgstr "Categorieën"
 
 #: framework/functions/admin/customizer/choices.php:209
 msgid "Tags"
-msgstr ""
+msgstr "Tags"
 
 #: framework/functions/admin/customizer/choices.php:213
 #: framework/functions/admin/customizer/choices.php:218
 msgid "Slide"
-msgstr ""
+msgstr "Slide"
 
 #: framework/functions/admin/customizer/choices.php:214
 msgid "Fade"
-msgstr ""
+msgstr "Vervagen"
 
 #: framework/functions/admin/customizer/choices.php:219
 msgid "Grid"
-msgstr ""
+msgstr "Raster"
 
 #: framework/functions/admin/customizer/customizer-data.php:106
 #: framework/functions/admin/customizer/register.php:253
@@ -674,27 +682,27 @@ msgstr ""
 
 #: framework/functions/admin/customizer/include/controls/typography/dima_custom_control_typography.php:72
 msgid "Standard Fonts"
-msgstr ""
+msgstr "Standaard lettertypes"
 
 #: framework/functions/admin/customizer/include/controls/typography/dima_custom_control_typography.php:83
 msgid "Google Fonts"
-msgstr ""
+msgstr "Google Fonts"
 
 #: framework/functions/admin/customizer/include/fonts.php:7562
 msgid "Inherit"
-msgstr ""
+msgstr "Overnemen"
 
 #: framework/functions/admin/customizer/include/fonts.php:7582
 msgid "Arabic"
-msgstr ""
+msgstr "Arabisch"
 
 #: framework/functions/admin/customizer/include/fonts.php:7583
 msgid "Hebrew"
-msgstr ""
+msgstr "Hebreeuws"
 
 #: framework/functions/admin/customizer/include/fonts.php:7584
 msgid "Latin"
-msgstr ""
+msgstr "Latijn"
 
 #: framework/functions/admin/customizer/include/fonts.php:7585
 msgid "Latin Extended "
@@ -702,7 +710,7 @@ msgstr ""
 
 #: framework/functions/admin/customizer/include/fonts.php:7586
 msgid "Greek"
-msgstr ""
+msgstr "Grieks"
 
 #: framework/functions/admin/customizer/include/fonts.php:7587
 msgid "Greek Extended "
@@ -710,7 +718,7 @@ msgstr ""
 
 #: framework/functions/admin/customizer/include/fonts.php:7588
 msgid "Cyrillic"
-msgstr ""
+msgstr "Cyrillisch"
 
 #: framework/functions/admin/customizer/include/fonts.php:7589
 msgid "Cyrillic Extended "
@@ -726,7 +734,7 @@ msgstr ""
 
 #: framework/functions/admin/customizer/register.php:121
 msgid "Demos"
-msgstr ""
+msgstr "Demo’s"
 
 #: framework/functions/admin/customizer/register.php:127
 msgid "Site Layout and design"
@@ -735,25 +743,25 @@ msgstr ""
 #: framework/functions/admin/customizer/register.php:134
 #: framework/functions/admin/customizer/register.php:135
 msgid "Typography"
-msgstr ""
+msgstr "Typografie"
 
 #: framework/functions/admin/customizer/register.php:141
 #: framework/functions/admin/customizer/register.php:142
 #: framework/functions/admin/customizer/register.php:204
 msgid "Header"
-msgstr ""
+msgstr "Header"
 
 #: framework/functions/admin/customizer/register.php:148
 msgid "General Typography"
-msgstr ""
+msgstr "Algemene Typografie"
 
 #: framework/functions/admin/customizer/register.php:154
 msgid "Body"
-msgstr ""
+msgstr "Body"
 
 #: framework/functions/admin/customizer/register.php:160
 msgid "Navbar"
-msgstr ""
+msgstr "Navigatiebalk"
 
 #: framework/functions/admin/customizer/register.php:166
 msgid "Heading H1"
@@ -786,11 +794,11 @@ msgstr ""
 #: framework/functions/admin/customizer/register.php:216
 #: framework/functions/admin/customizer/register.php:406
 msgid "Sticky Header"
-msgstr ""
+msgstr "Sticky Header"
 
 #: framework/functions/admin/customizer/register.php:222
 msgid "Menu"
-msgstr ""
+msgstr "Menu"
 
 #: framework/functions/admin/customizer/register.php:228
 msgid "Sub-Menu"
@@ -798,7 +806,7 @@ msgstr ""
 
 #: framework/functions/admin/customizer/register.php:235
 msgid "Logo"
-msgstr ""
+msgstr "Logo"
 
 #: framework/functions/admin/customizer/register.php:241
 msgid "Logo (RTL)"
@@ -807,15 +815,15 @@ msgstr ""
 #: framework/functions/admin/customizer/register.php:247
 #: framework/functions/admin/customizer/register.php:702
 msgid "Topbar"
-msgstr ""
+msgstr "Topbalk"
 
 #: framework/functions/admin/customizer/register.php:259
 msgid "Page title"
-msgstr ""
+msgstr "Pagina Titel"
 
 #: framework/functions/admin/customizer/register.php:263
 msgid "Blog"
-msgstr ""
+msgstr "Blog"
 
 #: framework/functions/admin/customizer/register.php:264
 #: framework/functions/admin/meta/meta-boxes.php:132
@@ -823,31 +831,31 @@ msgstr ""
 #: framework/functions/admin/meta/meta-boxes.php:402
 #: framework/functions/admin/meta/meta-boxes.php:529
 msgid "Sidebar"
-msgstr ""
+msgstr "Zijbalk"
 
 #: framework/functions/admin/customizer/register.php:265
 msgid "WooCommerce"
-msgstr ""
+msgstr "WooCommerce"
 
 #: framework/functions/admin/customizer/register.php:266
 msgid "bbPress"
-msgstr ""
+msgstr "bbPress"
 
 #: framework/functions/admin/customizer/register.php:270
 #: framework/functions/admin/customizer/register.php:271
 #: framework/functions/admin/customizer/register.php:277
 msgid "Footer"
-msgstr ""
+msgstr "Footer"
 
 #: framework/functions/admin/customizer/register.php:283
 #: framework/functions/admin/pixeldima-setup/framework-demo-content.php:609
 msgid "Widgets"
-msgstr ""
+msgstr "Widgets"
 
 #: framework/functions/admin/customizer/register.php:287
 #: framework/functions/admin/customizer/register.php:308
 msgid "Social"
-msgstr ""
+msgstr "Social"
 
 #: framework/functions/admin/customizer/register.php:288
 msgid "Site icon & SEO"
@@ -867,12 +875,12 @@ msgstr ""
 
 #: framework/functions/admin/customizer/register.php:297
 msgid "Custom"
-msgstr ""
+msgstr "Aangepast"
 
 #: framework/functions/admin/customizer/register.php:301
 #: framework/functions/admin/customizer/register.php:302
 msgid "Advanced Settings"
-msgstr ""
+msgstr "Geavanceerde instellingen"
 
 #: framework/functions/admin/customizer/register.php:315
 msgid "Social Graph & SEO"
@@ -880,16 +888,16 @@ msgstr ""
 
 #: framework/functions/admin/customizer/register.php:322
 msgid "Advanced"
-msgstr ""
+msgstr "Geavanceerd"
 
 #: framework/functions/admin/customizer/register.php:328
 msgid "Advertisement"
-msgstr ""
+msgstr "Advertentie"
 
 #: framework/functions/admin/customizer/register.php:341
 #: framework/functions/admin/meta/meta-boxes.php:52
 msgid "Site Layout"
-msgstr ""
+msgstr "Site layout"
 
 #: framework/functions/admin/customizer/register.php:351
 #: framework/functions/admin/customizer/register.php:1802
@@ -899,11 +907,11 @@ msgstr ""
 #: framework/functions/admin/meta/meta-boxes.php:380
 #: framework/functions/admin/meta/meta-boxes.php:514
 msgid "Content Layout"
-msgstr ""
+msgstr "Inhoudopmaak"
 
 #: framework/functions/admin/customizer/register.php:364
 msgid "Header Layout"
-msgstr ""
+msgstr "Koptekst layout"
 
 #: framework/functions/admin/customizer/register.php:374
 msgid "Navbar Transparent"
@@ -927,7 +935,7 @@ msgstr ""
 
 #: framework/functions/admin/customizer/register.php:434
 msgid "Sticky Header On Mobile"
-msgstr ""
+msgstr "Sticky Header op mobiel"
 
 #: framework/functions/admin/customizer/register.php:437
 msgid "Check ON to activate sticky menu on mobile"
@@ -936,18 +944,18 @@ msgstr ""
 #: framework/functions/admin/customizer/register.php:444 searchform.php:3
 #: searchform.php:4
 msgid "Search"
-msgstr ""
+msgstr "Zoeken"
 
 #: framework/functions/admin/customizer/register.php:456
 #: framework/functions/admin/customizer/register.php:528
 #: framework/functions/admin/customizer/register.php:2523
 msgid "Logo Width (px)"
-msgstr ""
+msgstr "Logo breedte (px)"
 
 #: framework/functions/admin/customizer/register.php:465
 #: framework/functions/admin/customizer/register.php:537
 msgid "Upload Your Logo"
-msgstr ""
+msgstr "Upload je logo"
 
 #: framework/functions/admin/customizer/register.php:474
 #: framework/functions/admin/customizer/register.php:546
@@ -976,21 +984,21 @@ msgstr ""
 
 #: framework/functions/admin/customizer/register.php:518
 msgid "Logo Position"
-msgstr ""
+msgstr "Positie van het logo"
 
 #: framework/functions/admin/customizer/register.php:592
 #: framework/functions/admin/customizer/register.php:600
 #: framework/functions/admin/customizer/register.php:2678
 msgid "Header Background Color"
-msgstr ""
+msgstr "Achtergrondkleur Header"
 
 #: framework/functions/admin/customizer/register.php:609
 msgid "Sticky Header Background Color"
-msgstr ""
+msgstr "Sticky Header Achtergrondkleur"
 
 #: framework/functions/admin/customizer/register.php:618
 msgid "Sticky Header Menu Font Color"
-msgstr ""
+msgstr "Sticky Header Menu lettertype kleur"
 
 #: framework/functions/admin/customizer/register.php:627
 msgid "NavBar Text Color"
@@ -1018,11 +1026,11 @@ msgstr ""
 
 #: framework/functions/admin/customizer/register.php:673
 msgid "Sub-Menu Background Color"
-msgstr ""
+msgstr "Sub-Menu Achtergrondkleur"
 
 #: framework/functions/admin/customizer/register.php:682
 msgid "Sub-Menu Text Color"
-msgstr ""
+msgstr "Sub-Menu Tekstkleur"
 
 #: framework/functions/admin/customizer/register.php:691
 msgid "Sub-Menu Text Hover Color"
@@ -1057,19 +1065,19 @@ msgstr ""
 #: framework/views/dima-global/topbar.php:54
 #: woocommerce/checkout/thankyou.php:35
 msgid "My Account"
-msgstr ""
+msgstr "Mijn Account"
 
 #: framework/functions/admin/customizer/register.php:780
 msgid "Social Networking"
-msgstr ""
+msgstr "Sociale Netwerken"
 
 #: framework/functions/admin/customizer/register.php:790
 msgid "Address"
-msgstr ""
+msgstr "Adres"
 
 #: framework/functions/admin/customizer/register.php:799
 msgid "Phone"
-msgstr ""
+msgstr "Telefoon"
 
 #: framework/functions/admin/customizer/register.php:818
 msgid "Today's Date Format"
@@ -1092,7 +1100,7 @@ msgstr ""
 
 #: framework/functions/admin/customizer/register.php:839
 msgid "Page Title Style"
-msgstr ""
+msgstr "Pagina Titel Stijl"
 
 #: framework/functions/admin/customizer/register.php:849
 #: framework/functions/admin/meta/meta-boxes.php:155
@@ -1104,11 +1112,11 @@ msgstr ""
 
 #: framework/functions/admin/customizer/register.php:858
 msgid "Page Title Image"
-msgstr ""
+msgstr "Pagina Titel BG Afbeelding"
 
 #: framework/functions/admin/customizer/register.php:867
 msgid "Page Title Background Color"
-msgstr ""
+msgstr "Pagina Titel achtergrondkleur"
 
 #: framework/functions/admin/customizer/register.php:877
 msgid "Breaking News Bar"
@@ -1152,7 +1160,7 @@ msgstr ""
 
 #: framework/functions/admin/customizer/register.php:982
 msgid "Tag"
-msgstr ""
+msgstr "Tag"
 
 #: framework/functions/admin/customizer/register.php:991
 msgid "Select your demo"
@@ -1166,7 +1174,7 @@ msgstr ""
 
 #: framework/functions/admin/customizer/register.php:1002
 msgid "Body Background"
-msgstr ""
+msgstr "Body Achtergrond"
 
 #: framework/functions/admin/customizer/register.php:1012
 msgid "Body Background Pattern"
@@ -1175,7 +1183,7 @@ msgstr ""
 #: framework/functions/admin/customizer/register.php:1022
 #: framework/functions/admin/meta/meta-boxes.php:94
 msgid "Body Background Image"
-msgstr ""
+msgstr "Body achtergrond afbeelding"
 
 #: framework/functions/admin/customizer/register.php:1032
 msgid "Top & Bottom Margin (px)"
@@ -1199,19 +1207,19 @@ msgstr ""
 
 #: framework/functions/admin/customizer/register.php:1082
 msgid "Smooth Scroll"
-msgstr ""
+msgstr "Vloeiend Scrollen"
 
 #: framework/functions/admin/customizer/register.php:1092
 msgid "Main color"
-msgstr ""
+msgstr "Hoofdkleur"
 
 #: framework/functions/admin/customizer/register.php:1104
 msgid "Custom Fonts"
-msgstr ""
+msgstr "Aangepaste Fonts"
 
 #: framework/functions/admin/customizer/register.php:1114
 msgid "Font Subsets"
-msgstr ""
+msgstr "Lettertype subsets"
 
 #: framework/functions/admin/customizer/register.php:1124
 #: framework/functions/admin/customizer/register.php:1209
@@ -1222,7 +1230,7 @@ msgstr ""
 #: framework/functions/admin/customizer/register.php:1586
 #: framework/functions/admin/customizer/register.php:1661
 msgid "Font Family"
-msgstr ""
+msgstr "Font Familie"
 
 #: framework/functions/admin/customizer/register.php:1140
 #: framework/functions/admin/customizer/register.php:1226
@@ -1242,11 +1250,11 @@ msgstr ""
 
 #: framework/functions/admin/customizer/register.php:1160
 msgid "Body Font Size (px)"
-msgstr ""
+msgstr "Body lettergrootte (px)"
 
 #: framework/functions/admin/customizer/register.php:1169
 msgid "Body text color"
-msgstr ""
+msgstr "Body tekstkleur"
 
 #: framework/functions/admin/customizer/register.php:1178
 msgid "Text Link color"
@@ -1263,7 +1271,7 @@ msgstr ""
 #: framework/functions/admin/customizer/register.php:1501
 #: framework/functions/admin/customizer/register.php:1576
 msgid "Heading Font Style"
-msgstr ""
+msgstr "Kop Lettertypestijl"
 
 #: framework/functions/admin/customizer/register.php:1236
 msgid "Heading Font Weights"
@@ -1271,7 +1279,7 @@ msgstr ""
 
 #: framework/functions/admin/customizer/register.php:1246
 msgid "Headings Letter Spacing (px)"
-msgstr ""
+msgstr "Koptekst letter afstand (px)"
 
 #: framework/functions/admin/customizer/register.php:1255
 #: framework/functions/admin/customizer/register.php:1331
@@ -1280,7 +1288,7 @@ msgstr ""
 #: framework/functions/admin/customizer/register.php:1556
 #: framework/functions/admin/customizer/register.php:1631
 msgid "Font Size (px)"
-msgstr ""
+msgstr "Lettergrootte (px)"
 
 #: framework/functions/admin/customizer/register.php:1265
 #: framework/functions/admin/customizer/register.php:1340
@@ -1289,7 +1297,7 @@ msgstr ""
 #: framework/functions/admin/customizer/register.php:1565
 #: framework/functions/admin/customizer/register.php:1640
 msgid "Headings color"
-msgstr ""
+msgstr "Headings kleur"
 
 #: framework/functions/admin/customizer/register.php:1312
 #: framework/functions/admin/customizer/register.php:1387
@@ -1305,7 +1313,7 @@ msgstr ""
 #: framework/functions/admin/customizer/register.php:1547
 #: framework/functions/admin/customizer/register.php:1622
 msgid "Letter Spacing"
-msgstr ""
+msgstr "Letterspatiëring"
 
 #: framework/functions/admin/customizer/register.php:1651
 msgid "Navbar Font Style"
@@ -1317,15 +1325,15 @@ msgstr ""
 
 #: framework/functions/admin/customizer/register.php:1704
 msgid "Navbar Font Size (px)"
-msgstr ""
+msgstr "Navigatiebalk lettergrootte (px)"
 
 #: framework/functions/admin/customizer/register.php:1715
 msgid "Logo Font Style"
-msgstr ""
+msgstr "Logo Font Style"
 
 #: framework/functions/admin/customizer/register.php:1725
 msgid "Logo Font"
-msgstr ""
+msgstr "Logo Font"
 
 #: framework/functions/admin/customizer/register.php:1751
 msgid "Logo Font Weights"
@@ -1333,15 +1341,15 @@ msgstr ""
 
 #: framework/functions/admin/customizer/register.php:1761
 msgid "Logo Font Size (px)"
-msgstr ""
+msgstr "Logo Font Size (px)"
 
 #: framework/functions/admin/customizer/register.php:1770
 msgid "Logo Letter Spacing (px)"
-msgstr ""
+msgstr "Logo letter afstand"
 
 #: framework/functions/admin/customizer/register.php:1779
 msgid "Logo Text Color"
-msgstr ""
+msgstr "Tekstkleur"
 
 #: framework/functions/admin/customizer/register.php:1792
 msgid "Posts Style"
@@ -1349,15 +1357,15 @@ msgstr ""
 
 #: framework/functions/admin/customizer/register.php:1812
 msgid "Columns"
-msgstr ""
+msgstr "Kolommen"
 
 #: framework/functions/admin/customizer/register.php:1822
 msgid "Full Post Content on Index"
-msgstr ""
+msgstr "Volledige berichtinhoud"
 
 #: framework/functions/admin/customizer/register.php:1832
 msgid "Excerpt Limit"
-msgstr ""
+msgstr "Excerpt limiet"
 
 #: framework/functions/admin/customizer/register.php:1834
 msgid "Displayed Post Excerpt"
@@ -1377,7 +1385,7 @@ msgstr ""
 
 #: framework/functions/admin/customizer/register.php:1872
 msgid "Remove Featured Image"
-msgstr ""
+msgstr "Verwijder Aanbevolen Afbeelding"
 
 #: framework/functions/admin/customizer/register.php:1882
 msgid "Blog Hover Overlay Color"
@@ -1405,11 +1413,11 @@ msgstr ""
 
 #: framework/functions/admin/customizer/register.php:1932
 msgid "Display Author Box"
-msgstr ""
+msgstr "Toon Auteur Box"
 
 #: framework/functions/admin/customizer/register.php:1942
 msgid "Display Related Posts"
-msgstr ""
+msgstr "Toon gerelateerde berichten"
 
 #: framework/functions/admin/customizer/register.php:1952
 msgid "Related Posts Is Slide"
@@ -1417,11 +1425,11 @@ msgstr ""
 
 #: framework/functions/admin/customizer/register.php:1962
 msgid "Related Posts Columns"
-msgstr ""
+msgstr "Gerelateerde berichten kolommen"
 
 #: framework/functions/admin/customizer/register.php:1972
 msgid "Related Posts Count"
-msgstr ""
+msgstr "Aantal gerelateerde berichten"
 
 #: framework/functions/admin/customizer/register.php:1981
 #: framework/functions/admin/customizer/register.php:3137
@@ -1441,7 +1449,7 @@ msgstr ""
 #: framework/functions/admin/customizer/register.php:1994
 #: framework/functions/admin/customizer/register.php:3151
 msgid "Article"
-msgstr ""
+msgstr "Artikel"
 
 #: framework/functions/admin/customizer/register.php:1995
 #: framework/functions/admin/customizer/register.php:3152
@@ -1456,15 +1464,15 @@ msgstr ""
 #: framework/functions/admin/customizer/register.php:2036
 #: framework/functions/admin/customizer/register.php:2433
 msgid "Font Style"
-msgstr ""
+msgstr "Lettertype stijl"
 
 #: framework/functions/admin/customizer/register.php:2027
 msgid "Body/Link Text Size"
-msgstr ""
+msgstr "Body/Link tekstgrootte"
 
 #: framework/functions/admin/customizer/register.php:2050
 msgid "Navbar Menu"
-msgstr ""
+msgstr "Navigatiebalk menu"
 
 #: framework/functions/admin/customizer/register.php:2060
 msgid "Cart Price"
@@ -1476,15 +1484,15 @@ msgstr ""
 
 #: framework/functions/admin/customizer/register.php:2080
 msgid "Shop Layout"
-msgstr ""
+msgstr "Winkel indeling"
 
 #: framework/functions/admin/customizer/register.php:2090
 msgid "Shop Columns"
-msgstr ""
+msgstr "Winkel kolommen"
 
 #: framework/functions/admin/customizer/register.php:2100
 msgid "Posts Per Page"
-msgstr ""
+msgstr "Berichten per pagina"
 
 #: framework/functions/admin/customizer/register.php:2109
 msgid "OKAB Sort"
@@ -1492,23 +1500,23 @@ msgstr ""
 
 #: framework/functions/admin/customizer/register.php:2119
 msgid "Product Layout"
-msgstr ""
+msgstr "Product Opmaak"
 
 #: framework/functions/admin/customizer/register.php:2130
 msgid "Product Tabs"
-msgstr ""
+msgstr "Product tabblad"
 
 #: framework/functions/admin/customizer/register.php:2140
 msgid "Description Tab"
-msgstr ""
+msgstr "Omschrijving tabblad"
 
 #: framework/functions/admin/customizer/register.php:2150
 msgid "Additional Information Tab"
-msgstr ""
+msgstr "Aanvullende informatie tabblad"
 
 #: framework/functions/admin/customizer/register.php:2160
 msgid "Reviews Tab"
-msgstr ""
+msgstr "Beoordeling tabblad"
 
 #: framework/functions/admin/customizer/register.php:2170
 msgid "Show Social Share Icons"
@@ -1521,31 +1529,31 @@ msgstr ""
 #: framework/functions/admin/customizer/register.php:2190
 #: woocommerce/single-product/w1-related.php:49
 msgid "Related Products"
-msgstr ""
+msgstr "Gerelateerde producten"
 
 #: framework/functions/admin/customizer/register.php:2200
 msgid "Related Product Columns"
-msgstr ""
+msgstr "Gerelateerd product kolommen"
 
 #: framework/functions/admin/customizer/register.php:2210
 msgid "Related Product Post Count"
-msgstr ""
+msgstr "Gerelateerd product berichten aantal"
 
 #: framework/functions/admin/customizer/register.php:2219
 msgid "Upsells"
-msgstr ""
+msgstr "Bijverkoop"
 
 #: framework/functions/admin/customizer/register.php:2229
 msgid "Upsell Columns"
-msgstr ""
+msgstr "Bijverkoop kolommen"
 
 #: framework/functions/admin/customizer/register.php:2239
 msgid "Upsell Post Count"
-msgstr ""
+msgstr "Upsell berichten aantal"
 
 #: framework/functions/admin/customizer/register.php:2248
 msgid "Cross Sells"
-msgstr ""
+msgstr "Kruisverkoop"
 
 #: framework/functions/admin/customizer/register.php:2258
 msgid "Cross Sells Columns"
@@ -1571,11 +1579,11 @@ msgstr ""
 #: framework/functions/admin/customizer/register.php:2630
 #: framework/functions/admin/setup.php:63
 msgid "Footer Menu"
-msgstr ""
+msgstr "Footer Menu"
 
 #: framework/functions/admin/customizer/register.php:2325
 msgid "Footer Background Color"
-msgstr ""
+msgstr "Footer Achtergrondkleur"
 
 #: framework/functions/admin/customizer/register.php:2334
 msgid "Small Footer Background Color"
@@ -1603,7 +1611,7 @@ msgstr ""
 
 #: framework/functions/admin/customizer/register.php:2395
 msgid "Footer Widget Areas"
-msgstr ""
+msgstr "Footer widget gebied"
 
 #: framework/functions/admin/customizer/register.php:2405
 msgid "Widget Header text size"
@@ -1611,7 +1619,7 @@ msgstr ""
 
 #: framework/functions/admin/customizer/register.php:2414
 msgid "Widget Header Font Style"
-msgstr ""
+msgstr "Widget header tekst stijl"
 
 #: framework/functions/admin/customizer/register.php:2424
 msgid "Widget Body/Link Text Size"
@@ -1619,27 +1627,27 @@ msgstr ""
 
 #: framework/functions/admin/customizer/register.php:2443
 msgid "Widget Header Color"
-msgstr ""
+msgstr "Widget header kleur"
 
 #: framework/functions/admin/customizer/register.php:2452
 msgid "Widget Text Color"
-msgstr ""
+msgstr "Widget Tekst Kleur"
 
 #: framework/functions/admin/customizer/register.php:2461
 msgid "Widget Link Color"
-msgstr ""
+msgstr "Widget link kleur"
 
 #: framework/functions/admin/customizer/register.php:2470
 msgid "Widget Border Color"
-msgstr ""
+msgstr "Widget border kleur"
 
 #: framework/functions/admin/customizer/register.php:2484
 msgid "CSS"
-msgstr ""
+msgstr "CSS"
 
 #: framework/functions/admin/customizer/register.php:2494
 msgid "JavaScript"
-msgstr ""
+msgstr "JavaScript"
 
 #: framework/functions/admin/customizer/register.php:2505
 msgid "Enable AMP"
@@ -1651,7 +1659,7 @@ msgstr ""
 
 #: framework/functions/admin/customizer/register.php:2533
 msgid "Facebook App ID"
-msgstr ""
+msgstr "Facebook App ID"
 
 #: framework/functions/admin/customizer/register.php:2542
 msgid "Leave a Comment ( Translate )"
@@ -1676,15 +1684,15 @@ msgstr ""
 #: framework/functions/admin/customizer/register.php:2589
 #: framework/views/dima-global/related-post.php:20
 msgid "Related Posts"
-msgstr ""
+msgstr "Gerelateerde berichten"
 
 #: framework/functions/admin/customizer/register.php:2599
 msgid "Share Buttons"
-msgstr ""
+msgstr "Deel knoppen"
 
 #: framework/functions/admin/customizer/register.php:2610
 msgid "Back to top button"
-msgstr ""
+msgstr "Back to top button"
 
 #: framework/functions/admin/customizer/register.php:2620
 msgid "Footer Logo Image"
@@ -1692,7 +1700,7 @@ msgstr ""
 
 #: framework/functions/admin/customizer/register.php:2641
 msgid "Copyright Text"
-msgstr ""
+msgstr "Copyright tekst"
 
 #: framework/functions/admin/customizer/register.php:2651
 msgid "Advertisement Above Content"
@@ -1712,15 +1720,15 @@ msgstr ""
 
 #: framework/functions/admin/customizer/register.php:2669
 msgid "Background Color"
-msgstr ""
+msgstr "Achtergrondkleur"
 
 #: framework/functions/admin/customizer/register.php:2687
 msgid "Title Color"
-msgstr ""
+msgstr "Titelkleur"
 
 #: framework/functions/admin/customizer/register.php:2696
 msgid "Links color"
-msgstr ""
+msgstr "Link kleur"
 
 #: framework/functions/admin/customizer/register.php:2705
 msgid "Footer color"
@@ -1793,7 +1801,7 @@ msgstr ""
 
 #: framework/functions/admin/customizer/register.php:2833
 msgid "Space before &lt;/head&gt;"
-msgstr ""
+msgstr "Ruimte vóór &lt;/head&gt;"
 
 #: framework/functions/admin/customizer/register.php:2835
 msgid ""
@@ -1814,7 +1822,7 @@ msgstr ""
 
 #: framework/functions/admin/customizer/register.php:2852
 msgid "Space before &lt;/body&gt;"
-msgstr ""
+msgstr "Ruimte vóór &lt;/body&gt;"
 
 #: framework/functions/admin/customizer/register.php:2861
 msgid "Gooele Map API Key"
@@ -1822,75 +1830,75 @@ msgstr ""
 
 #: framework/functions/admin/customizer/register.php:2876
 msgid "Facebook"
-msgstr ""
+msgstr "Facebook"
 
 #: framework/functions/admin/customizer/register.php:2885
 msgid "Twitter"
-msgstr ""
+msgstr "Twitter"
 
 #: framework/functions/admin/customizer/register.php:2894
 msgid "Google+"
-msgstr ""
+msgstr "Google+"
 
 #: framework/functions/admin/customizer/register.php:2903
 msgid "linkedin"
-msgstr ""
+msgstr "linkedIn"
 
 #: framework/functions/admin/customizer/register.php:2912
 msgid "Youtube"
-msgstr ""
+msgstr "YouTube"
 
 #: framework/functions/admin/customizer/register.php:2921
 msgid "Vimeo"
-msgstr ""
+msgstr "Vimeo"
 
 #: framework/functions/admin/customizer/register.php:2930
 msgid "Foursquare"
-msgstr ""
+msgstr "Foursquare"
 
 #: framework/functions/admin/customizer/register.php:2939
 msgid "Tumblr"
-msgstr ""
+msgstr "Tumblr"
 
 #: framework/functions/admin/customizer/register.php:2948
 msgid "Instagram"
-msgstr ""
+msgstr "Instagram"
 
 #: framework/functions/admin/customizer/register.php:2957
 msgid "Dribbble"
-msgstr ""
+msgstr "Dribbble"
 
 #: framework/functions/admin/customizer/register.php:2966
 msgid "Flickr"
-msgstr ""
+msgstr "Flickr"
 
 #: framework/functions/admin/customizer/register.php:2975
 msgid "Behance"
-msgstr ""
+msgstr "Behance"
 
 #: framework/functions/admin/customizer/register.php:2984
 msgid "Pinterest"
-msgstr ""
+msgstr "Pinterest"
 
 #: framework/functions/admin/customizer/register.php:2993
 msgid "Whatsapp"
-msgstr ""
+msgstr "WhatsApp"
 
 #: framework/functions/admin/customizer/register.php:3002
 msgid "Soundcloud"
-msgstr ""
+msgstr "Soundcloud"
 
 #: framework/functions/admin/customizer/register.php:3011
 msgid "RSS"
-msgstr ""
+msgstr "RSS"
 
 #: framework/functions/admin/customizer/register.php:3020
 msgid "VK"
-msgstr ""
+msgstr "VK"
 
 #: framework/functions/admin/customizer/register.php:3033
 msgid "Upload Favicon"
-msgstr ""
+msgstr "Favicon uploaden"
 
 #: framework/functions/admin/customizer/register.php:3035
 msgid ""
@@ -1902,15 +1910,15 @@ msgstr ""
 
 #: framework/functions/admin/customizer/register.php:3041
 msgid "Apple iPhone Icon"
-msgstr ""
+msgstr "Apple iPhone Icoon"
 
 #: framework/functions/admin/customizer/register.php:3043
 msgid "Icon for Apple iPhone (57px x 57px)"
-msgstr ""
+msgstr "Icoon voor Apple iPhone (57px x 57px)"
 
 #: framework/functions/admin/customizer/register.php:3050
 msgid "Apple iPhone Retina Icon"
-msgstr ""
+msgstr "Apple iPhone Retina Icoon"
 
 #: framework/functions/admin/customizer/register.php:3052
 msgid "Icon for Apple iPhone Retina Version (120px x 120px)"
@@ -1918,23 +1926,23 @@ msgstr ""
 
 #: framework/functions/admin/customizer/register.php:3059
 msgid "Apple iPad Icon"
-msgstr ""
+msgstr "Apple iPad Icon"
 
 #: framework/functions/admin/customizer/register.php:3061
 msgid "Icon for Apple iPhone (72px x 72px)"
-msgstr ""
+msgstr "Icoon voor Apple iPhone (72px x 72px)"
 
 #: framework/functions/admin/customizer/register.php:3068
 msgid "Apple iPad Retina Icon"
-msgstr ""
+msgstr "Apple iPad Retina pictogram"
 
 #: framework/functions/admin/customizer/register.php:3070
 msgid "Icon for Apple iPad Retina Version (144px x 144px)"
-msgstr ""
+msgstr "Icoon voor Apple iPad Retina (144px x 144px)"
 
 #: framework/functions/admin/customizer/register.php:3081
 msgid "Open Graph"
-msgstr ""
+msgstr "Open Graph"
 
 #: framework/functions/admin/customizer/register.php:3091
 msgid "Upload opengraph image"
@@ -1977,7 +1985,7 @@ msgstr ""
 
 #: framework/functions/admin/customizer/register.php:3182
 msgid "Related Projects Columns"
-msgstr ""
+msgstr "Kolommen met Gerelateerde Projecten"
 
 #: framework/functions/admin/customizer/register.php:3192
 msgid "Related Projects Count"
@@ -2005,32 +2013,32 @@ msgstr ""
 
 #: framework/functions/admin/gutenberg/setup.php:42
 msgid "white"
-msgstr ""
+msgstr "wit"
 
 #: framework/functions/admin/gutenberg/setup.php:47
 msgid "paragraph"
-msgstr ""
+msgstr "paragraaf"
 
 #: framework/functions/admin/gutenberg/setup.php:52
 #: framework/functions/admin/pixeldima-setup/framework-customizer-backup.php:91
 msgid "Error"
-msgstr ""
+msgstr "Fout"
 
 #: framework/functions/admin/gutenberg/setup.php:57
 msgid "Warning"
-msgstr ""
+msgstr "Waarschuwing"
 
 #: framework/functions/admin/gutenberg/setup.php:62
 msgid "Success"
-msgstr ""
+msgstr "Succes"
 
 #: framework/functions/admin/gutenberg/setup.php:67
 msgid "Info"
-msgstr ""
+msgstr "Info"
 
 #: framework/functions/admin/meta/meta-boxes.php:38
 msgid "Page Settings"
-msgstr ""
+msgstr "Pagina instellingen"
 
 #: framework/functions/admin/meta/meta-boxes.php:39
 #: framework/functions/admin/meta/meta-boxes.php:360
@@ -2038,13 +2046,15 @@ msgid ""
 "Here you will find various options you can use to create different page "
 "styles."
 msgstr ""
+"Hier vindt u diverse opties die u kunt gebruiken om verschillende "
+"paginastijlen te maken."
 
 #: framework/functions/admin/meta/meta-boxes.php:45
 #: framework/functions/admin/meta/meta-boxes.php:234
 #: framework/functions/admin/meta/meta-boxes.php:366
 #: framework/functions/admin/meta/meta-boxes.php:500
 msgid "Body CSS Class(es)"
-msgstr ""
+msgstr "Body CSS Klasse (n)"
 
 #: framework/functions/admin/meta/meta-boxes.php:46
 #: framework/functions/admin/meta/meta-boxes.php:235
@@ -2054,6 +2064,8 @@ msgid ""
 "Add a custom CSS class to the &lt;body&gt; element. Separate multiple class "
 "names with a space."
 msgstr ""
+"Voeg een aangepaste CSS-klasse aan de <body> element. Scheid meerdere class "
+"namen met een spatie."
 
 #: framework/functions/admin/meta/meta-boxes.php:53
 msgid "Choose your site layout"
@@ -2061,7 +2073,7 @@ msgstr ""
 
 #: framework/functions/admin/meta/meta-boxes.php:62
 msgid "Header Styles"
-msgstr ""
+msgstr "Kop Stijlen"
 
 #: framework/functions/admin/meta/meta-boxes.php:63
 msgid "Using this option you can choose your header style"
@@ -2079,7 +2091,7 @@ msgstr ""
 
 #: framework/functions/admin/meta/meta-boxes.php:86
 msgid "One Page Navigation"
-msgstr ""
+msgstr "One Page Navigatie"
 
 #: framework/functions/admin/meta/meta-boxes.php:87
 msgid "Choose your One Page navigation menu"
@@ -2102,7 +2114,7 @@ msgstr ""
 #: framework/functions/admin/meta/meta-boxes.php:373
 #: framework/functions/admin/meta/meta-boxes.php:507
 msgid "Fullwidth Section"
-msgstr ""
+msgstr "Volle Breedte Sectie"
 
 #: framework/functions/admin/meta/meta-boxes.php:111
 msgid ""
@@ -2131,7 +2143,7 @@ msgstr ""
 #: framework/functions/admin/meta/meta-boxes.php:412
 #: framework/functions/admin/meta/meta-boxes.php:540
 msgid "Choose to show or hide the page title bar."
-msgstr ""
+msgstr "Kiezen om de paginatitelbalk verbergen of te laten zien."
 
 #: framework/functions/admin/meta/meta-boxes.php:156
 #: framework/functions/admin/meta/meta-boxes.php:297
@@ -2145,7 +2157,7 @@ msgstr ""
 #: framework/functions/admin/meta/meta-boxes.php:437
 #: framework/functions/admin/meta/meta-boxes.php:565
 msgid "Subtitle"
-msgstr ""
+msgstr "Ondertitel"
 
 #: framework/functions/admin/meta/meta-boxes.php:169
 #: framework/functions/admin/meta/meta-boxes.php:310
@@ -2187,7 +2199,7 @@ msgstr ""
 #: framework/functions/admin/meta/meta-boxes.php:466
 #: framework/functions/admin/meta/meta-boxes.php:587
 msgid "Parallax"
-msgstr ""
+msgstr "Parallax"
 
 #: framework/functions/admin/meta/meta-boxes.php:191
 msgid "Fixed Parallax"
@@ -2209,21 +2221,21 @@ msgstr ""
 #: framework/functions/admin/meta/meta-boxes.php:478
 #: framework/functions/admin/meta/meta-boxes.php:599
 msgid "default"
-msgstr ""
+msgstr "standaard"
 
 #: framework/functions/admin/meta/meta-boxes.php:203
 #: framework/functions/admin/meta/meta-boxes.php:344
 #: framework/functions/admin/meta/meta-boxes.php:479
 #: framework/functions/admin/meta/meta-boxes.php:600
 msgid "start"
-msgstr ""
+msgstr "start"
 
 #: framework/functions/admin/meta/meta-boxes.php:204
 #: framework/functions/admin/meta/meta-boxes.php:345
 #: framework/functions/admin/meta/meta-boxes.php:480
 #: framework/functions/admin/meta/meta-boxes.php:601
 msgid "center"
-msgstr ""
+msgstr "midden"
 
 #: framework/functions/admin/meta/meta-boxes.php:208
 msgid "Element Shortcode Above the Sidebar"
@@ -2237,7 +2249,7 @@ msgstr ""
 
 #: framework/functions/admin/meta/meta-boxes.php:227
 msgid "Post Settings"
-msgstr ""
+msgstr "Post"
 
 #: framework/functions/admin/meta/meta-boxes.php:228
 msgid ""
@@ -2264,7 +2276,7 @@ msgstr ""
 #: framework/functions/admin/meta/meta-boxes.php:467
 #: framework/functions/admin/meta/meta-boxes.php:588
 msgid "Fixed"
-msgstr ""
+msgstr "Vast"
 
 #: framework/functions/admin/meta/meta-boxes.php:337
 #: framework/functions/admin/meta/meta-boxes.php:472
@@ -2274,7 +2286,7 @@ msgstr ""
 
 #: framework/functions/admin/meta/meta-boxes.php:359
 msgid "Portfolio Settings"
-msgstr ""
+msgstr "Portfolio Instellingen"
 
 #: framework/functions/admin/meta/meta-boxes.php:374
 #: framework/functions/admin/meta/meta-boxes.php:508
@@ -2285,16 +2297,18 @@ msgstr ""
 
 #: framework/functions/admin/meta/meta-boxes.php:444
 msgid "Project Link"
-msgstr ""
+msgstr "Project Link"
 
 #: framework/functions/admin/meta/meta-boxes.php:445
 msgid ""
 "Provide an external link to the project you worked on if one is available."
 msgstr ""
+"Zorg voor een externe link naar het project dat je gewerkt als die "
+"beschikbaar is."
 
 #: framework/functions/admin/meta/meta-boxes.php:493
 msgid "Product Settings"
-msgstr ""
+msgstr "Product instellingen"
 
 #: framework/functions/admin/meta/meta-boxes.php:494
 msgid ""
@@ -2304,7 +2318,7 @@ msgstr ""
 
 #: framework/functions/admin/meta/meta-boxes.php:616
 msgid "Gallery Settings"
-msgstr ""
+msgstr "Galerij instellingen"
 
 #: framework/functions/admin/meta/meta-boxes.php:617
 msgid "Gallery Post Settings."
@@ -2312,7 +2326,7 @@ msgstr ""
 
 #: framework/functions/admin/meta/meta-boxes.php:623
 msgid "Animation"
-msgstr ""
+msgstr "Animatie"
 
 #: framework/functions/admin/meta/meta-boxes.php:624
 msgid "Controls the animation type, \"fade\" or \"slide\""
@@ -2324,11 +2338,11 @@ msgstr ""
 
 #: framework/functions/admin/meta/meta-boxes.php:633
 msgid "Set the speed of the slideshow cycling, in milliseconds"
-msgstr ""
+msgstr "Stel de snelheid van de diavoorstelling in milliseconden in"
 
 #: framework/functions/admin/meta/meta-boxes.php:639
 msgid "Animation Speed"
-msgstr ""
+msgstr "Animatie snelheid"
 
 #: framework/functions/admin/meta/meta-boxes.php:640
 msgid "Set the speed of animations, in milliseconds."
@@ -2344,68 +2358,69 @@ msgstr ""
 
 #: framework/functions/admin/meta/meta-boxes.php:665
 msgid "Quote Post Settings"
-msgstr ""
+msgstr "Citaat instellingen"
 
 #: framework/functions/admin/meta/meta-boxes.php:666
 #: framework/functions/admin/meta/meta-boxes.php:673
 msgid "Input your quote."
-msgstr ""
+msgstr "Voer citaat in"
 
 #: framework/functions/admin/meta/meta-boxes.php:672
 msgid "The Quote"
-msgstr ""
+msgstr "Het citaat"
 
 #: framework/functions/admin/meta/meta-boxes.php:679
 msgid "Citation"
-msgstr ""
+msgstr "Citatie"
 
 #: framework/functions/admin/meta/meta-boxes.php:680
 msgid "Specify who originally said the quote."
-msgstr ""
+msgstr "Specificeren wie oorspronkelijk zei de offerte."
 
 #: framework/functions/admin/meta/meta-boxes.php:696
 msgid "Link Post Settings"
-msgstr ""
+msgstr "Link instellingen"
 
 #: framework/functions/admin/meta/meta-boxes.php:697
 msgid "Input your link."
-msgstr ""
+msgstr "Voer uw link."
 
 #: framework/functions/admin/meta/meta-boxes.php:703
 msgid "The Link"
-msgstr ""
+msgstr "De link"
 
 #: framework/functions/admin/meta/meta-boxes.php:704
 msgid "Insert your link URL, e.g. http://www.themeforest.net."
-msgstr ""
+msgstr "Plaats uw link URL, bijvoorbeeld http://www.themeforest.net."
 
 #: framework/functions/admin/meta/meta-boxes.php:721
 msgid "Video Post Settings"
-msgstr ""
+msgstr "Video instellingen"
 
 #: framework/functions/admin/meta/meta-boxes.php:722
 msgid "These settings enable you to embed videos into your posts."
 msgstr ""
+"Deze instellingen stellen u in staat video’s in te sluiten in uw berichten."
 
 #: framework/functions/admin/meta/meta-boxes.php:728
 msgid "M4V File URL"
-msgstr ""
+msgstr "Link voor M4V bestand"
 
 #: framework/functions/admin/meta/meta-boxes.php:729
 msgid "The URL to the .m4v video file."
-msgstr ""
+msgstr "De URL naar het .webm videobestand"
 
 #: framework/functions/admin/meta/meta-boxes.php:735
 msgid "OGV File URL"
-msgstr ""
+msgstr "Link voor OGV bestand"
 
 #: framework/functions/admin/meta/meta-boxes.php:736
 msgid "The URL to the .ogv video file."
-msgstr ""
+msgstr "De URL naar het .webm videobestand"
 
 #: framework/functions/admin/meta/meta-boxes.php:742
 msgid "Embedded Video Code"
-msgstr ""
+msgstr "Embedded Video Code"
 
 #: framework/functions/admin/meta/meta-boxes.php:743
 msgid ""
@@ -2413,44 +2428,49 @@ msgid ""
 "Vimeo, or Wistia, paste the embed code here. This field will override the "
 "above."
 msgstr ""
+"Als u iets anders dan zelf gehost video, zoals YouTube, Vimeo, of Wistia, "
+"plak de embed code hier. Dit veld zal overschrijven het bovenstaande."
 
 #: framework/functions/admin/meta/meta-boxes.php:759
 msgid "Audio Post Settings"
-msgstr ""
+msgstr "Audio-instellingen"
 
 #: framework/functions/admin/meta/meta-boxes.php:760
 msgid "These settings enable you to embed audio into your posts."
 msgstr ""
+"Deze instellingen stellen u in staat video’s in te sluiten in uw berichten."
 
 #: framework/functions/admin/meta/meta-boxes.php:766
 msgid "MP3 File URL"
-msgstr ""
+msgstr "MP3-bestands-URL"
 
 #: framework/functions/admin/meta/meta-boxes.php:767
 msgid "The URL to the .mp3 audio file."
-msgstr ""
+msgstr "De URL naar de .mp3 audiobestand."
 
 #: framework/functions/admin/meta/meta-boxes.php:773
 msgid "OGA File URL"
-msgstr ""
+msgstr "OGA URL File"
 
 #: framework/functions/admin/meta/meta-boxes.php:774
 msgid "The URL to the .oga or .ogg audio file."
-msgstr ""
+msgstr "De URL naar de .oga of Ogg audiobestand."
 
 #: framework/functions/admin/meta/meta-boxes.php:780
 msgid "Embedded Audio Code"
-msgstr ""
+msgstr "Embedded Audio Code"
 
 #: framework/functions/admin/meta/meta-boxes.php:781
 msgid ""
 "If you are using something other than self hosted audio such as Soundcloud "
 "paste the embed code here. This field will override the above."
 msgstr ""
+"Als u iets anders dan zelf gehoste audio zoals Soundcloud plak de embed code "
+"hier. Dit veld zal overschrijven het bovenstaande."
 
 #: framework/functions/admin/meta/meta-boxes.php:797
 msgid "Slider Settings"
-msgstr ""
+msgstr "Slider instellingen"
 
 #: framework/functions/admin/meta/meta-boxes.php:798
 msgid "Select your options to display a slider."
@@ -2468,7 +2488,7 @@ msgstr ""
 #: framework/functions/admin/meta/meta-boxes.php:808
 #: framework/functions/admin/meta/meta-boxes.php:815
 msgid "Deactivated"
-msgstr ""
+msgstr "Gedeactiveerd"
 
 #: framework/functions/admin/meta/meta-boxes.php:811
 msgid "Slider : Below The Menu"
@@ -2477,20 +2497,20 @@ msgstr ""
 #: framework/functions/admin/meta/meta-class-gallery-image.php:42
 #: framework/functions/admin/meta/meta-class-gallery-image.php:57
 msgid "Delete image"
-msgstr ""
+msgstr "Verwijder afbeelding"
 
 #: framework/functions/admin/meta/meta-class-gallery-image.php:42
 #: framework/functions/admin/meta/meta-class-gallery-image.php:58
 msgid "Delete"
-msgstr ""
+msgstr "Verwijderen"
 
 #: framework/functions/admin/meta/meta-class-gallery-image.php:55
 msgid "Add Images to Post Gallery"
-msgstr ""
+msgstr "Afbeeldingen toevoegen aan blog gallerij"
 
 #: framework/functions/admin/meta/meta-class-gallery-image.php:56
 msgid "Add to gallery"
-msgstr ""
+msgstr "Aan galerij toevoegen"
 
 #: framework/functions/admin/meta/meta-class-gallery-image.php:58
 msgid "Add post gallery images"
@@ -2502,7 +2522,7 @@ msgstr ""
 
 #: framework/functions/admin/meta/setup.php:201
 msgid "Browse"
-msgstr ""
+msgstr "Bladeren"
 
 #: framework/functions/admin/pixeldima-setup.php:44
 msgid "Okab Plugins"
@@ -2523,7 +2543,7 @@ msgstr ""
 #: framework/functions/admin/pixeldima-setup/framework-customizer-backup.php:81
 #: framework/functions/admin/pixeldima-setup/framework-customizer-backup.php:175
 msgid "Done!"
-msgstr ""
+msgstr "Gereed!"
 
 #: framework/functions/admin/pixeldima-setup/framework-customizer-backup.php:82
 msgid "Successfully restored!."
@@ -2536,7 +2556,7 @@ msgstr ""
 #: framework/functions/admin/pixeldima-setup/framework-customizer-backup.php:111
 #: framework/functions/admin/pixeldima-setup/framework-demo-content.php:660
 msgid "Import"
-msgstr ""
+msgstr "Importeren"
 
 #: framework/functions/admin/pixeldima-setup/framework-customizer-backup.php:114
 #, php-format
@@ -2548,7 +2568,7 @@ msgstr ""
 
 #: framework/functions/admin/pixeldima-setup/framework-customizer-backup.php:124
 msgid "Upload"
-msgstr ""
+msgstr "Uploaden"
 
 #: framework/functions/admin/pixeldima-setup/framework-customizer-backup.php:160
 msgid ""
@@ -2558,7 +2578,7 @@ msgstr ""
 
 #: framework/functions/admin/pixeldima-setup/framework-customizer-backup.php:165
 msgid "Download"
-msgstr ""
+msgstr "Download"
 
 #: framework/functions/admin/pixeldima-setup/framework-customizer-backup.php:176
 msgid "Successfully Export."
@@ -2566,7 +2586,7 @@ msgstr ""
 
 #: framework/functions/admin/pixeldima-setup/framework-customizer-backup.php:220
 msgid "Success!"
-msgstr ""
+msgstr "Succes!"
 
 #: framework/functions/admin/pixeldima-setup/framework-customizer-backup.php:221
 msgid "Successfully reset."
@@ -2605,7 +2625,7 @@ msgstr ""
 
 #: framework/functions/admin/pixeldima-setup/framework-demo-content.php:54
 msgid "Please note"
-msgstr ""
+msgstr "Let op"
 
 #: framework/functions/admin/pixeldima-setup/framework-demo-content.php:55
 msgid ""
@@ -2729,7 +2749,7 @@ msgstr ""
 
 #: framework/functions/admin/pixeldima-setup/framework-demo-content.php:562
 msgid "Import Content"
-msgstr ""
+msgstr "Importeer content"
 
 #: framework/functions/admin/pixeldima-setup/framework-demo-content.php:563
 msgid "( menus only import with \"All\" )"
@@ -2737,32 +2757,32 @@ msgstr ""
 
 #: framework/functions/admin/pixeldima-setup/framework-demo-content.php:574
 msgid "Posts"
-msgstr ""
+msgstr "Berichten"
 
 #: framework/functions/admin/pixeldima-setup/framework-demo-content.php:579
 msgid "Pages"
-msgstr ""
+msgstr "Pagina's"
 
 #: framework/functions/admin/pixeldima-setup/framework-demo-content.php:584
 #: framework/functions/output/dima-class-breadcrumbs.php:153
 msgid "Portfolio"
-msgstr ""
+msgstr "Portfolio"
 
 #: framework/functions/admin/pixeldima-setup/framework-demo-content.php:589
 msgid "Products"
-msgstr ""
+msgstr "Producten"
 
 #: framework/functions/admin/pixeldima-setup/framework-demo-content.php:594
 msgid "Media"
-msgstr ""
+msgstr "Media"
 
 #: framework/functions/admin/pixeldima-setup/framework-demo-content.php:599
 msgid "Sliders"
-msgstr ""
+msgstr "Sliders"
 
 #: framework/functions/admin/pixeldima-setup/framework-demo-content.php:604
 msgid "Customizer"
-msgstr ""
+msgstr "Customizer"
 
 #: framework/functions/admin/pixeldima-setup/framework-demo-content.php:615
 msgid "Need help ? "
@@ -2829,12 +2849,12 @@ msgstr ""
 #: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:366
 #: woocommerce/myaccount/my-orders.php:93
 msgid "Cancel"
-msgstr ""
+msgstr "Annuleren"
 
 #: framework/functions/admin/pixeldima-setup/framework-dima-nav-tab.php:28
 #, php-format
 msgid "Welcome to %s"
-msgstr ""
+msgstr "Welkom bij %s"
 
 #: framework/functions/admin/pixeldima-setup/framework-dima-nav-tab.php:47
 #, php-format
@@ -2865,7 +2885,7 @@ msgstr ""
 #: framework/functions/admin/pixeldima-setup/framework-home.php:48
 #: framework/functions/admin/pixeldima-setup/framework-home.php:53
 msgid "Submit A Ticket"
-msgstr ""
+msgstr "Ticket Indienen"
 
 #: framework/functions/admin/pixeldima-setup/framework-home.php:50
 msgid "Need one-to-one assistance? Get in touch with our Support team."
@@ -2873,7 +2893,7 @@ msgstr ""
 
 #: framework/functions/admin/pixeldima-setup/framework-home.php:58
 msgid "Troubleshooting"
-msgstr ""
+msgstr "Probleemoplossen"
 
 #: framework/functions/admin/pixeldima-setup/framework-home.php:60
 msgid ""
@@ -2886,11 +2906,11 @@ msgstr ""
 
 #: framework/functions/admin/pixeldima-setup/framework-notices.php:18
 msgid "Howdy"
-msgstr ""
+msgstr "Hallo"
 
 #: framework/functions/admin/pixeldima-setup/framework-plugins.php:25
 msgid "Plugins"
-msgstr ""
+msgstr "Plugins"
 
 #: framework/functions/admin/pixeldima-setup/framework-plugins.php:26
 #, php-format
@@ -2901,13 +2921,15 @@ msgstr ""
 
 #: framework/functions/admin/pixeldima-setup/framework-plugins.php:95
 msgid "Required"
-msgstr ""
+msgstr "Verplicht"
 
 #: framework/functions/admin/pixeldima-setup/framework-system-status.php:217
 msgid ""
 "Please copy and paste this information in your ticket when contacting "
 "support:"
 msgstr ""
+"Kopieer en plak deze informatie in uw ticket wanneer je contact met ons "
+"opneemt:"
 
 #: framework/functions/admin/pixeldima-setup/framework-system-status.php:219
 msgid "Get system report"
@@ -2921,7 +2943,7 @@ msgstr ""
 
 #: framework/functions/admin/pixeldima-setup/framework-system-status.php:354
 msgid "System Status"
-msgstr ""
+msgstr "Systeemstatus"
 
 #: framework/functions/admin/pixeldima-setup/framework-system-status.php:358
 msgid "Here you can check the system status."
@@ -2958,20 +2980,20 @@ msgstr ""
 
 #: framework/functions/admin/pixeldima-setup/pixeldima-setup-settings.php:421
 msgid "Revolution Slider downloaded..."
-msgstr ""
+msgstr "Revolution Slider gedownload ..."
 
 #: framework/functions/admin/pixeldima-setup/pixeldima-setup-settings.php:770
 #: framework/functions/admin/pixeldima-setup/pixeldima-setup-settings.php:777
 msgid "Install"
-msgstr ""
+msgstr "Installeer"
 
 #: framework/functions/admin/pixeldima-setup/pixeldima-setup-settings.php:783
 msgid "Preview"
-msgstr ""
+msgstr "Voorbeeld"
 
 #: framework/functions/admin/pixeldima-setup/pixeldima-setup-settings.php:791
 msgid "Required Plugins"
-msgstr ""
+msgstr "Vereiste Plugins"
 
 #: framework/functions/admin/pixeldima-setup/pixeldima-setup-settings.php:799
 msgid "Demo Requirement"
@@ -2979,7 +3001,7 @@ msgstr ""
 
 #: framework/functions/admin/setup.php:62
 msgid "Primary Menu"
-msgstr ""
+msgstr "Hoofdmenu"
 
 #: framework/functions/admin/setup.php:66
 msgid "AMP menu"
@@ -2987,11 +3009,11 @@ msgstr ""
 
 #: framework/functions/admin/widgets.php:32
 msgid "Main Sidebar"
-msgstr ""
+msgstr "Hoofd Sidebar"
 
 #: framework/functions/admin/widgets.php:34
 msgid "Appears on posts and pages that include the sidebar."
-msgstr ""
+msgstr "Verschijnt op berichten en pagina’s die de zijbalk tonen."
 
 #: framework/functions/admin/widgets.php:43
 msgid "Shop - For WooCommerce Pages"
@@ -3015,11 +3037,11 @@ msgstr ""
 
 #: framework/functions/admin/widgets.php:70
 msgid "Widgetized footer area."
-msgstr ""
+msgstr "Gebied widgetized voettekst."
 
 #: framework/functions/class-dima-maintenance.php:60
 msgid "Website Under Maintenance"
-msgstr ""
+msgstr "Website in onderhoud"
 
 #: framework/functions/class-dima-maintenance.php:75
 msgid ""
@@ -3037,7 +3059,7 @@ msgstr ""
 
 #: framework/functions/class-dima-maintenance.php:94
 msgid "follow this link"
-msgstr ""
+msgstr "volg deze link"
 
 #: framework/functions/class-dima-maintenance.php:98
 #, php-format
@@ -3053,11 +3075,11 @@ msgstr ""
 
 #: framework/functions/extensions/bbpress.php:72
 msgid "To Parent Forum"
-msgstr ""
+msgstr "Naar Bovenliggende Forum"
 
 #: framework/functions/extensions/bbpress.php:92
 msgid "To Forums List"
-msgstr ""
+msgstr "Forums List"
 
 #: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:29
 msgid "Menu Icon (Use font awesome or simple line icons name)"
@@ -3069,11 +3091,11 @@ msgstr ""
 
 #: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:49
 msgid "Menu First Level Style"
-msgstr ""
+msgstr "Menu Eerste Level Style"
 
 #: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:54
 msgid "Default Style"
-msgstr ""
+msgstr "Standaard Stijl"
 
 #: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:56
 msgid "Button Mini"
@@ -3081,11 +3103,11 @@ msgstr ""
 
 #: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:58
 msgid "Button Small"
-msgstr ""
+msgstr "Button Klein"
 
 #: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:60
 msgid "Button Large"
-msgstr ""
+msgstr "Grote knop"
 
 #: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:62
 msgid "Button Big"
@@ -3105,7 +3127,7 @@ msgstr ""
 
 #: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:93
 msgid "Mega Menu Columns"
-msgstr ""
+msgstr "Mega Menu Kolommen"
 
 #: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:110
 msgid "Set MegaMenu Background"
@@ -3114,92 +3136,94 @@ msgstr ""
 #: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:200
 #, php-format
 msgid "%s (Invalid)"
-msgstr ""
+msgstr "%s (Ongeldig)"
 
 #: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:204
 #, php-format
 msgid "%s (Pending)"
-msgstr ""
+msgstr "%s (In afwachting van)"
 
 #: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:220
 msgid "sub item"
-msgstr ""
+msgstr "sub item"
 
 #: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:235
 msgid "Move up"
-msgstr ""
+msgstr "Verplaats omhoog"
 
 #: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:249
 msgid "Move down"
-msgstr ""
+msgstr "Verplaats omlaag"
 
 #: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:253
 #: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:255
 msgid "Edit Menu Item"
-msgstr ""
+msgstr "Bewerk menu item"
 
 #: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:264
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
 #: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:274
 msgid "Navigation Label"
-msgstr ""
+msgstr "Navigatie label"
 
 #: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:283
 msgid "Title Attribute"
-msgstr ""
+msgstr "Titel Attribuut"
 
 #: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:295
 msgid "Open link in a new window/tab"
-msgstr ""
+msgstr "Open link in een nieuw venster/tab"
 
 #: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:300
 msgid "CSS Classes (optional)"
-msgstr ""
+msgstr "CSS Classes (optioneel)"
 
 #: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:309
 msgid "Link Relationship (XFN)"
-msgstr ""
+msgstr "Link Relationship (XFN)"
 
 #: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:318
 msgid "Description"
-msgstr ""
+msgstr "Omschrijving"
 
 #: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:323
 msgid ""
 "The description will be displayed in the menu if the current theme supports "
 "it."
 msgstr ""
+"De omschrijving word weergegeven in het menu als het huidige thema dit "
+"ondersteunt."
 
 #: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:331
 msgid "Move"
-msgstr ""
+msgstr "Verplaats"
 
 #: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:333
 msgid "Up one"
-msgstr ""
+msgstr "Één stap omhoog"
 
 #: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:335
 msgid "Down one"
-msgstr ""
+msgstr "Één stap omlaag"
 
 #: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:339
 msgid "To the top"
-msgstr ""
+msgstr "Naar boven"
 
 #: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:346
 #, php-format
 msgid "Original: %s"
-msgstr ""
+msgstr "Origineel: %s"
 
 #: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:360
 msgid "Remove"
-msgstr ""
+msgstr "Verwijderen"
 
 #: framework/functions/extensions/knowledge-base.php:29
 msgid "Knowledge Base Main"
-msgstr ""
+msgstr "Kennis bank hoofd"
 
 #: framework/functions/extensions/knowledge-base.php:31
 msgid "This widget area uses in the Knowledge Base pages."
@@ -3211,46 +3235,49 @@ msgid ""
 "There doesn&lsquo;t seem to be any available shipping methods. Please double "
 "check your address, or contact us if you need any help."
 msgstr ""
+"Sorry, het lijkt erop dat er geen beschikbare verzendmethoden voor u zijn. "
+"Controleer nogmaals uw adres of neem contact met ons op als u hulp nodig "
+"heeft."
 
 #: framework/functions/extensions/woocommerce.php:352
 msgid "Subtotal :"
-msgstr ""
+msgstr "Subtotaal :"
 
 #: framework/functions/extensions/woocommerce.php:356
 msgid "View Cart"
-msgstr ""
+msgstr "Bekijk winkelwagen"
 
 #: framework/functions/extensions/woocommerce.php:357
 msgid "Checkout"
-msgstr ""
+msgstr "Afrekenen"
 
 #: framework/functions/extensions/woocommerce.php:418
 #: framework/functions/extensions/woocommerce.php:471
 #: woocommerce/myaccount/my-orders.php:24
 msgid "Date"
-msgstr ""
+msgstr "Datum"
 
 #: framework/functions/extensions/woocommerce.php:421
 #: framework/functions/extensions/woocommerce.php:470
 #: woocommerce/cart/cart.php:36 woocommerce/cart/cart.php:91
 msgid "Price"
-msgstr ""
+msgstr "Prijs"
 
 #: framework/functions/extensions/woocommerce.php:424
 #: framework/functions/extensions/woocommerce.php:472
 msgid "Popularity"
-msgstr ""
+msgstr "Populariteit"
 
 #: framework/functions/extensions/woocommerce.php:427
 #: framework/functions/extensions/woocommerce.php:473
 #: woocommerce/single-product-reviews.php:169
 msgid "Rating"
-msgstr ""
+msgstr "Beoordeling"
 
 #: framework/functions/extensions/woocommerce.php:433
 #: framework/functions/extensions/woocommerce.php:468
 msgid "Default Order"
-msgstr ""
+msgstr "Standaard"
 
 #: framework/functions/extensions/woocommerce.php:466
 #: framework/functions/extensions/woocommerce.php:468
@@ -3260,7 +3287,7 @@ msgstr ""
 #: framework/functions/extensions/woocommerce.php:472
 #: framework/functions/extensions/woocommerce.php:473
 msgid "Sort by"
-msgstr ""
+msgstr "Sorteer op"
 
 #: framework/functions/helper/advertisment.php:18
 msgid "Adblock Detected"
@@ -3272,23 +3299,23 @@ msgstr ""
 
 #: framework/functions/helper/pagination.php:34
 msgid "Page %CURRENT_PAGE% of %TOTAL_PAGES%"
-msgstr ""
+msgstr "Pagina %CURRENT_PAGE% van %TOTAL_PAGES%"
 
 #: framework/functions/helper/pagination.php:37
 msgid "First Page"
-msgstr ""
+msgstr "Eerste Pagina"
 
 #: framework/functions/helper/pagination.php:38
 msgid "Last Page"
-msgstr ""
+msgstr "Laatste Pagina"
 
 #: framework/functions/output/content.php:51
 msgid "Pages:"
-msgstr ""
+msgstr "Pagina’s:"
 
 #: framework/functions/output/content.php:376
 msgid "Author: "
-msgstr ""
+msgstr "Auteur:"
 
 #: framework/functions/output/content.php:392
 msgid "Visit the Facebook Profile for"
@@ -3332,57 +3359,57 @@ msgstr ""
 
 #: framework/functions/output/dima-class-breadcrumbs.php:48
 msgid "Home"
-msgstr ""
+msgstr "Home"
 
 #: framework/functions/output/dima-class-breadcrumbs.php:50
 msgid "Search:"
-msgstr ""
+msgstr "Zoeken:"
 
 #: framework/functions/output/dima-class-breadcrumbs.php:51
 msgid "404 - Page not Found"
-msgstr ""
+msgstr "404 - Pagina niet gevonden"
 
 #: framework/functions/output/dima-class-breadcrumbs.php:135
 msgid "Latest Posts"
-msgstr ""
+msgstr "Laatste berichten"
 
 #: framework/functions/output/dima-class-breadcrumbs.php:139
 #, php-format
 msgid "Search results for: %s"
-msgstr ""
+msgstr "Zoekresultaten voor: %s"
 
 #: framework/functions/output/dima-class-breadcrumbs.php:142
 msgid "Error 404 Page"
-msgstr ""
+msgstr "Error-404 Pagina"
 
 #: framework/functions/output/dima-class-breadcrumbs.php:148
 msgid "Shop"
-msgstr ""
+msgstr "Winkel"
 
 #: framework/functions/output/dima-class-breadcrumbs.php:160
 #, php-format
 msgid "Daily Archives: %s"
-msgstr ""
+msgstr "Dagelijkse archieven: %s"
 
 #: framework/functions/output/dima-class-breadcrumbs.php:162
 #, php-format
 msgid "Monthly Archives: %s"
-msgstr ""
+msgstr "Maandelijkse archieven: %s"
 
 #: framework/functions/output/dima-class-breadcrumbs.php:162
 msgctxt "monthly archives date format"
 msgid "F Y"
-msgstr ""
+msgstr "F Y"
 
 #: framework/functions/output/dima-class-breadcrumbs.php:164
 #, php-format
 msgid "Yearly Archives: %s"
-msgstr ""
+msgstr "Jaarlijkse Archieven: %s"
 
 #: framework/functions/output/dima-class-breadcrumbs.php:164
 msgctxt "yearly archives date format"
 msgid "Y"
-msgstr ""
+msgstr "Y"
 
 #: framework/functions/output/featured.php:84
 #: framework/functions/output/featured.php:285
@@ -3399,7 +3426,7 @@ msgstr ""
 #: framework/views/okab/content-quote.php:52
 #, php-format
 msgid "Permalink to: \"%s\""
-msgstr ""
+msgstr "\"%s\""
 
 #: framework/functions/scripts.php:132
 msgid "Let&apos;s go!"
@@ -3429,11 +3456,11 @@ msgstr ""
 
 #: framework/functions/scripts.php:137
 msgid "Hang in there, trying to reconnect..."
-msgstr ""
+msgstr "Hang daar in, in een poging om opnieuw te verbinden ..."
 
 #: framework/functions/scripts.php:138
 msgid "Experiencing technical difficulties..."
-msgstr ""
+msgstr "Technische problemen ..."
 
 #: framework/functions/scripts.php:139
 msgid "We&apos;re sorry, but the demo data could not be imported."
@@ -3441,7 +3468,7 @@ msgstr ""
 
 #: framework/functions/scripts.php:140
 msgid "All done. Have fun!"
-msgstr ""
+msgstr "Alles is gedaan! Veel plezier!"
 
 #: framework/functions/scripts.php:142
 msgid ""
@@ -3578,25 +3605,25 @@ msgstr ""
 
 #: framework/views/dima-global/content-dima-loading.php:15
 msgid "LOADING"
-msgstr ""
+msgstr "LADEN"
 
 #: framework/views/dima-global/content-dima-loading.php:17
 msgid "CLOSE"
-msgstr ""
+msgstr "SLUIT"
 
 #: framework/views/dima-global/navbar-mobile.php:44
 #: framework/views/dima-global/navbar.php:51
 #: framework/views/dima-global/navbar.php:89
 msgid "Start Typing..."
-msgstr ""
+msgstr "Zoek…"
 
 #: framework/views/dima-global/navbar.php:142
 msgid "Typing..."
-msgstr ""
+msgstr "Aan het typen ..."
 
 #: framework/views/dima-global/related-portfolio.php:24
 msgid "Related Projects"
-msgstr ""
+msgstr "Gerelateerde projecten"
 
 #: framework/views/okab/_archive-header.php:22
 msgid "Entries by"
@@ -3608,57 +3635,59 @@ msgstr ""
 
 #: framework/views/okab/wp-comments.php:50
 msgid "&larr; Older Comments"
-msgstr ""
+msgstr "&larr; Oudere reacties"
 
 #: framework/views/okab/wp-comments.php:51
 msgid "Newer Comments &rarr;"
-msgstr ""
+msgstr "Nieuwere reacties &rarr;"
 
 #: framework/views/okab/wp-comments.php:58
 msgid "Comments are closed."
-msgstr ""
+msgstr "Reacties zijn gesloten."
 
 #: framework/views/okab/wp-comments.php:72
 msgid "Name*"
-msgstr ""
+msgstr "Naam*"
 
 #: framework/views/okab/wp-comments.php:73
 msgid "Email*"
-msgstr ""
+msgstr "E-mail*"
 
 #: framework/views/okab/wp-comments.php:75
 msgid ""
 "Save my name, email, and website in this browser for the next time I comment."
 msgstr ""
+"Bewaar mijn naam, e-mailadres en website in deze browser voor de volgende "
+"keer dat ik een reactie plaats."
 
 #: framework/views/okab/wp-comments.php:105
 #, php-format
 msgid "You must be %slogged in%s to post a comment."
-msgstr ""
+msgstr "Je moet %singelogd zijn%s om een reactie te geven."
 
 #: framework/views/okab/wp-comments.php:106
 msgid "Logged in as"
-msgstr ""
+msgstr "Ingelogd als"
 
 #: framework/views/okab/wp-comments.php:106
 msgid "Log out of this account"
-msgstr ""
+msgstr "Uitloggen"
 
 #: framework/views/okab/wp-comments.php:106
 msgid "Log out &raquo;"
-msgstr ""
+msgstr "Uitloggen &raquo;"
 
 #: framework/views/okab/wp-comments.php:107
 msgid "cancel reply"
-msgstr ""
+msgstr "annuleer reactie"
 
 #: framework/views/okab/wp-comments.php:108
 msgid "Comment..."
-msgstr ""
+msgstr "Reactie..."
 
 #: framework/views/okab/wp-comments.php:111
 msgid "POST COMMENT"
-msgstr ""
+msgstr "REACTIE PLAATSEN"
 
 #: framework/views/okab/wp-search.php:21 framework/views/okab/wp-search.php:52
 msgid "Not so happy with results? Search for a new keyword"
@@ -3666,163 +3695,166 @@ msgstr ""
 
 #: framework/views/okab/wp-search.php:28 framework/views/okab/wp-search.php:59
 msgid "search results for"
-msgstr ""
+msgstr "zoekresultaten voor"
 
 #: framework/views/okab/wp-search.php:37 framework/views/okab/wp-search.php:66
 msgid ""
 "Sorry, but nothing matched your search terms. Please try again with some "
 "different keywords."
 msgstr ""
+"Sorry, maar we hebben geen resultaten gevonden. Probeer een andere zoekterm."
 
 #: woocommerce/cart/cart-totals.php:31 woocommerce/cart/cart-totals.php:32
 msgid "Subtotal"
-msgstr ""
+msgstr "Subtotaal"
 
 #: woocommerce/cart/cart-totals.php:53 woocommerce/cart/cart-totals.php:54
 msgid "Shipping"
-msgstr ""
+msgstr "Verzending"
 
 #: woocommerce/cart/cart-totals.php:68
 #, php-format
 msgid "estimated for %s"
-msgstr ""
+msgstr "geschat voor %s"
 
 #: woocommerce/cart/cart-totals.php:89 woocommerce/cart/cart-totals.php:90
 #: woocommerce/cart/cart.php:38 woocommerce/myaccount/my-orders.php:26
 #: woocommerce/order/order-details.php:39
 msgid "Total"
-msgstr ""
+msgstr "Totaal"
 
 #: woocommerce/cart/cart.php:35 woocommerce/cart/cart.php:69
 #: woocommerce/order/order-details.php:38
 msgid "Product"
-msgstr ""
+msgstr "Product"
 
 #: woocommerce/cart/cart.php:37 woocommerce/cart/cart.php:96
 msgid "Quantity"
-msgstr ""
+msgstr "Aantal"
 
 #: woocommerce/cart/cart.php:84
 msgid "Available on backorder"
-msgstr ""
+msgstr "Beschikbaar via nabestelling"
 
 #: woocommerce/cart/cart.php:116
 msgid "Remove this item"
-msgstr ""
+msgstr "Verwijder dit item"
 
 #: woocommerce/cart/cart.php:138
 msgid "Cart Totals"
-msgstr ""
+msgstr "Totaal"
 
 #: woocommerce/cart/cart.php:142
 msgid "Coupon"
-msgstr ""
+msgstr "Coupon"
 
 #: woocommerce/cart/cart.php:144 woocommerce/checkout/form-coupon.php:37
 msgid "Coupon code"
-msgstr ""
+msgstr "Kortingscode"
 
 #: woocommerce/cart/cart.php:147 woocommerce/checkout/form-coupon.php:44
 msgid "Apply Coupon"
-msgstr ""
+msgstr "Kortingscode toepassen"
 
 #: woocommerce/cart/cart.php:159
 msgid "Update Cart"
-msgstr ""
+msgstr "Winkelwagen bijwerken"
 
 #: woocommerce/cart/cart.php:165
 msgid "Proceed to Checkout"
-msgstr ""
+msgstr "Afrekenen"
 
 #: woocommerce/cart/cross-sells.php:29
 msgid "You may be interested in&hellip;"
-msgstr ""
+msgstr "Je bent misschien ook geïnteresseerd in&hellip;"
 
 #: woocommerce/cart/shipping-calculator.php:25
 msgid "Calculate Shipping"
-msgstr ""
+msgstr "Bereken verzendkosten"
 
 #: woocommerce/cart/shipping-calculator.php:26
 msgid "Calculate shipping"
-msgstr ""
+msgstr "Bereken verzendkosten"
 
 #: woocommerce/cart/shipping-calculator.php:32
 msgid "Select a country&hellip;"
-msgstr ""
+msgstr "Selecteer een land&hellip;"
 
 #: woocommerce/cart/shipping-calculator.php:51
 #: woocommerce/cart/shipping-calculator.php:58
 #: woocommerce/cart/shipping-calculator.php:72
 msgid "State / county"
-msgstr ""
+msgstr "Provincie"
 
 #: woocommerce/cart/shipping-calculator.php:59
 msgid "Select a state&hellip;"
-msgstr ""
+msgstr "Selecteer een provincie&hellip;"
 
 #: woocommerce/cart/shipping-calculator.php:83
 msgid "City"
-msgstr ""
+msgstr "Stad"
 
 #: woocommerce/cart/shipping-calculator.php:92
 msgid "Postcode / Zip"
-msgstr ""
+msgstr "Postcode"
 
 #: woocommerce/checkout/form-checkout.php:25
 msgid "You must be logged in to checkout."
-msgstr ""
+msgstr "Je moet ingelogd zijn om af te rekenen."
 
 #: woocommerce/checkout/form-checkout.php:56
 msgid "Your order"
-msgstr ""
+msgstr "Uw bestelling"
 
 #: woocommerce/checkout/form-coupon.php:25
 msgid "Have a coupon?"
-msgstr ""
+msgstr "Heeft u een kortingscode?"
 
 #: woocommerce/checkout/form-coupon.php:25
 msgid "Click here to enter your code"
-msgstr ""
+msgstr "Klik hier om uw code in te vullen"
 
 #: woocommerce/checkout/form-coupon.php:31
 msgid "If you have a coupon code, please apply it below."
-msgstr ""
+msgstr "Als u een couponcode heeft, kunt u deze hieronder gebruiken."
 
 #: woocommerce/checkout/thankyou.php:28
 msgid ""
 "Unfortunately your order cannot be processed as the originating bank/"
 "merchant has declined your transaction. Please attempt your purchase again."
 msgstr ""
+"Helaas kan je reservering niet verwerkt worden omdat de oorspronkelijke bank/"
+"handelaar je transactie heeft geweigerd. Probeer je aankoop opnieuw."
 
 #: woocommerce/checkout/thankyou.php:32 woocommerce/myaccount/my-orders.php:85
 msgid "Pay"
-msgstr ""
+msgstr "Betalen"
 
 #: woocommerce/checkout/thankyou.php:41 woocommerce/checkout/thankyou.php:97
 msgid "Thank you. Your order has been received."
-msgstr ""
+msgstr "Bedankt. Uw bestelling is ontvangen."
 
 #: woocommerce/checkout/thankyou.php:45
 msgid "Order Number:"
-msgstr ""
+msgstr "Bestelnummer:"
 
 #: woocommerce/checkout/thankyou.php:50 woocommerce/checkout/thankyou.php:55
 msgid "Date:"
-msgstr ""
+msgstr "Datum:"
 
 #: woocommerce/checkout/thankyou.php:62
 #: woocommerce/order/order-details-customer.php:37
 #: woocommerce/order/w2-order-details-customer.php:32
 msgid "Email:"
-msgstr ""
+msgstr "E-mail:"
 
 #: woocommerce/checkout/thankyou.php:68
 msgid "Total:"
-msgstr ""
+msgstr "Totaal:"
 
 #: woocommerce/checkout/thankyou.php:78
 msgid "Payment method:"
-msgstr ""
+msgstr "Betaalmethode:"
 
 #: woocommerce/content-product.php:71
 msgid "Customer review"
@@ -3835,120 +3867,120 @@ msgstr ""
 
 #: woocommerce/global/form-login.php:36 woocommerce/global/form-login.php:38
 msgid "Username or email"
-msgstr ""
+msgstr "Gebruikersnaam of e-mailadres"
 
 #: woocommerce/global/form-login.php:58 woocommerce/myaccount/form-login.php:61
 msgid "Remember me"
-msgstr ""
+msgstr "Onthoud mij"
 
 #: woocommerce/loop/sale-flash.php:17
 #: woocommerce/single-product/sale-flash.php:26
 msgid "Sale!"
-msgstr ""
+msgstr "Aanbieding!"
 
 #: woocommerce/loop/title.php:48 woocommerce/single-product/title.php:56
 msgid "Customer reviews"
-msgstr ""
+msgstr "Klantbeoordelingen"
 
 #: woocommerce/myaccount/form-change-password.php:21
 msgid "New password"
-msgstr ""
+msgstr "Nieuw wachtwoord"
 
 #: woocommerce/myaccount/form-change-password.php:26
 msgid "Re-enter new password"
-msgstr ""
+msgstr "Herhaal nieuw wachtwoord"
 
 #: woocommerce/myaccount/form-change-password.php:33
 msgid "Save"
-msgstr ""
+msgstr "Opslaan"
 
 #: woocommerce/myaccount/form-edit-address.php:20
 msgid "Billing address"
-msgstr ""
+msgstr "Factuuradres"
 
 #: woocommerce/myaccount/form-edit-address.php:20
 msgid "Shipping address"
-msgstr ""
+msgstr "Verzendadres"
 
 #: woocommerce/myaccount/form-edit-address.php:47
 msgid "Save Address"
-msgstr ""
+msgstr "Adres opslaan"
 
 #: woocommerce/myaccount/form-login.php:40
 msgid "Username or email address"
-msgstr ""
+msgstr "Gebruikersnaam of e-mailadres"
 
 #: woocommerce/myaccount/form-login.php:98
 msgid "Email address"
-msgstr ""
+msgstr "E-mailadres"
 
 #: woocommerce/myaccount/my-orders.php:23
 msgid "Order"
-msgstr ""
+msgstr "Bestelling"
 
 #: woocommerce/myaccount/my-orders.php:25
 msgid "Status"
-msgstr ""
+msgstr "Status"
 
 #: woocommerce/myaccount/my-orders.php:40
 msgid "Recent Orders"
-msgstr ""
+msgstr "Recente bestellingen"
 
 #: woocommerce/myaccount/my-orders.php:67
 msgctxt "hash before order number"
 msgid "#"
-msgstr ""
+msgstr "#"
 
 #: woocommerce/myaccount/my-orders.php:78
 #, php-format
 msgid "%s for %s item"
 msgid_plural "%s for %s items"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%s voor %s product"
+msgstr[1] "%s voor %s product"
 
 #: woocommerce/order/order-details-customer.php:26
 #: woocommerce/order/w2-order-details-customer.php:21
 msgid "Customer Details"
-msgstr ""
+msgstr "Klantgegevens"
 
 #: woocommerce/order/order-details-customer.php:30
 #: woocommerce/order/w2-order-details-customer.php:25
 msgid "Note:"
-msgstr ""
+msgstr "Notitie:"
 
 #: woocommerce/order/order-details-customer.php:44
 #: woocommerce/order/w2-order-details-customer.php:39
 msgid "Telephone:"
-msgstr ""
+msgstr "Telefoon:"
 
 #: woocommerce/order/order-details-customer.php:62
 #: woocommerce/order/w2-order-details-customer.php:56
 msgid "Billing Address"
-msgstr ""
+msgstr "Factuuradres"
 
 #: woocommerce/order/order-details-customer.php:65
 #: woocommerce/order/order-details-customer.php:79
 #: woocommerce/order/w2-order-details-customer.php:59
 #: woocommerce/order/w2-order-details-customer.php:73
 msgid "N/A"
-msgstr ""
+msgstr "N/A"
 
 #: woocommerce/order/order-details-customer.php:76
 #: woocommerce/order/w2-order-details-customer.php:70
 msgid "Shipping Address"
-msgstr ""
+msgstr "Verzendadres"
 
 #: woocommerce/order/order-details.php:34
 msgid "Order Details"
-msgstr ""
+msgstr "Bestelgegevens"
 
 #: woocommerce/single-product-reviews.php:29
 msgid "Your Name *"
-msgstr ""
+msgstr "Je naam *"
 
 #: woocommerce/single-product-reviews.php:30
 msgid "Your Email *"
-msgstr ""
+msgstr "Uw E-mail *"
 
 #: woocommerce/single-product-reviews.php:31
 msgid "Your Review *"
@@ -3958,68 +3990,1972 @@ msgstr ""
 #, php-format
 msgid "%s review for %s"
 msgid_plural "%s reviews for %s"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%s beoordeling voor %s"
+msgstr[1] "%s beoordelingen voor %s"
 
 #: woocommerce/single-product-reviews.php:117
 msgid "Reviews"
-msgstr ""
+msgstr "Beoordelingen"
 
 #: woocommerce/single-product-reviews.php:138
 msgid "There are no reviews yet."
-msgstr ""
+msgstr "Er zijn nog geen beoordelingen."
 
 #: woocommerce/single-product-reviews.php:153
 msgid "<span>Add a Review</span>"
-msgstr ""
+msgstr "<span>Voeg een beoordeling toe</span>"
 
 #: woocommerce/single-product-reviews.php:153
 msgid "Be the First to Review"
-msgstr ""
+msgstr "Wees de eerste om een review te schrijven"
 
 #: woocommerce/single-product-reviews.php:154
 #, php-format
 msgid "Leave a Reply to %s"
-msgstr ""
+msgstr "Reageer op %s"
 
 #: woocommerce/single-product-reviews.php:170
 msgid "Rate&hellip;"
-msgstr ""
+msgstr "Beoordeel&hellip;"
 
 #: woocommerce/single-product-reviews.php:171
 msgid "Perfect"
-msgstr ""
+msgstr "Perfect"
 
 #: woocommerce/single-product-reviews.php:172
 msgid "Good"
-msgstr ""
+msgstr "Goed"
 
 #: woocommerce/single-product-reviews.php:173
 msgid "Average"
-msgstr ""
+msgstr "Gemiddeld"
 
 #: woocommerce/single-product-reviews.php:174
 msgid "Not that bad"
-msgstr ""
+msgstr "Niet slecht"
 
 #: woocommerce/single-product-reviews.php:175
 msgid "Very Poor"
-msgstr ""
+msgstr "Slecht"
 
 #: woocommerce/single-product-reviews.php:192
 msgid ""
 "Only logged in customers who have purchased this product may leave a review."
 msgstr ""
+"Alleen aangemelde klanten die dit product gekocht hebben, kunnen een review "
+"schrijven."
 
 #: woocommerce/single-product/product-image.php:88
 msgid "Awaiting product image"
-msgstr ""
+msgstr "Wacht op productafbeelding"
 
 #: woocommerce/single-product/related.php:36
 msgid "Related products"
-msgstr ""
+msgstr "Gerelateerde producten"
 
 #: woocommerce/single-product/up-sells.php:53
 #: woocommerce/single-product/w1-up-sells.php:53
 msgid "You may also like&hellip;"
-msgstr ""
+msgstr "Dit vind je misschien ook leuk &hellip;"
+
+#~ msgid "Portfolio Item"
+#~ msgstr "Portfolio item"
+
+#~ msgid "Add New Item"
+#~ msgstr "Voeg nieuw item toe"
+
+#~ msgid "Add New Portfolio Item"
+#~ msgstr "Nieuw Portfolio onderdeel toevoegen"
+
+#~ msgid "Edit Portfolio Item"
+#~ msgstr "Bewerk portfolio onderdeel"
+
+#~ msgid "View Item"
+#~ msgstr "Bekijk item"
+
+#~ msgid "Search Portfolio"
+#~ msgstr "Zoek in portfolio"
+
+#~ msgid "No portfolio items found"
+#~ msgstr "Geen portfolio items gevonden"
+
+#~ msgid "No portfolio items found in trash"
+#~ msgstr "Geen portfolio items gevonden in de prullenbak"
+
+#~ msgid "Portfolio Categories"
+#~ msgstr "Portfolio categorieën"
+
+#~ msgid "Portfolio Category"
+#~ msgstr "Portfolio categorie"
+
+#~ msgid "Search Portfolio Categories"
+#~ msgstr "Zoek portfolio categorieën"
+
+#~ msgid "Popular Portfolio Categories"
+#~ msgstr "Populaire portfolio categorieën"
+
+#~ msgid "All Portfolio Categories"
+#~ msgstr "Alle portfolio categorieën"
+
+#~ msgid "Parent Portfolio Category"
+#~ msgstr "Portfolio Hoofdcategorie"
+
+#~ msgid "Parent Portfolio Category:"
+#~ msgstr "Portfolio Hoofdcategorie:"
+
+#~ msgid "Edit Portfolio Category"
+#~ msgstr "Portfolio Categorie bewerken"
+
+#~ msgid "Update Portfolio Category"
+#~ msgstr "Portfolio Categorie bijwerken"
+
+#~ msgid "Add New Portfolio Category"
+#~ msgstr "Voeg nieuwe portfolio categorie toe"
+
+#~ msgid "New Portfolio Category Name"
+#~ msgstr "Nieuwe Portfolio Categorie Naam"
+
+#~ msgid "Separate portfolio categories with commas"
+#~ msgstr "Portfolio-categorieën scheiden met komma’s"
+
+#~ msgid "Add or remove portfolio categories"
+#~ msgstr "Toevoegen of verwijderen van portfolio categorieën"
+
+#~ msgid "Choose from the most used portfolio categories"
+#~ msgstr "Kies uit de meest gebruikte Portfolio categoriën"
+
+#~ msgid "Portfolio Tags"
+#~ msgstr "Portfolio trefwoorden"
+
+#~ msgid "Portfolio Tag"
+#~ msgstr "Portfolio trefwoord"
+
+#~ msgid "Search Portfolio Tags"
+#~ msgstr "Zoek in portfolio trefwoorden"
+
+#~ msgid "Popular Portfolio Tags"
+#~ msgstr "Populaire portfolio trefwoorden"
+
+#~ msgid "All Portfolio Tags"
+#~ msgstr "Alle portfolio trefwoorden"
+
+#~ msgid "Parent Portfolio Tag"
+#~ msgstr "Portfolio hoofdlabel"
+
+#~ msgid "Parent Portfolio Tag:"
+#~ msgstr "Hoofd portfolio Label"
+
+#~ msgid "Edit Portfolio Tag"
+#~ msgstr "Bewerk portfolio tag"
+
+#~ msgid "Update Portfolio Tag"
+#~ msgstr "Portfolio label bijwerken"
+
+#~ msgid "Add New Portfolio Tag"
+#~ msgstr "Nieuw portfolio label toevoegen"
+
+#~ msgid "New Portfolio Tag Name"
+#~ msgstr "Nieuwe portfolio label naam"
+
+#~ msgid "Separate portfolio tags with commas"
+#~ msgstr "Scheid portfolio trefwoorden met komma’s"
+
+#~ msgid "Add or remove portfolio tags"
+#~ msgstr "Toevoegen of verwijderen van portfolio trefwoorden"
+
+#~ msgid "Choose from the most used portfolio tags"
+#~ msgstr "Kies de meest gebruikte portfolio trefwoorden"
+
+#~ msgid "Thumbnail"
+#~ msgstr "Thumbnail"
+
+#~ msgid "(Optional) Enter a unique class name."
+#~ msgstr "(Optioneel) Voer een unieke naam van de klasse."
+
+#~ msgid "(Optional) Enter a unique ID."
+#~ msgstr "(Optioneel) Voer een unieke ID. in"
+
+#~ msgid "Container"
+#~ msgstr "Container"
+
+#~ msgid "Structure"
+#~ msgstr "Structuur"
+
+#~ msgid "Marginless Columns"
+#~ msgstr "Marginless Columns"
+
+#~ msgid "Select to remove the spacing between columns."
+#~ msgstr "Selecteer de afstand tussen de kolommen te verwijderen."
+
+#~ msgid "ID"
+#~ msgstr "ID"
+
+#~ msgid "Class"
+#~ msgstr "Klasse"
+
+#~ msgid "Style"
+#~ msgstr "Stijl"
+
+#~ msgid "(Optional) Enter inline CSS."
+#~ msgstr "(Optioneel) Voer inline CSS."
+
+#~ msgid "column"
+#~ msgstr "kolom"
+
+#, fuzzy
+#~| msgid "Create an Account"
+#~ msgid "Create a custom columns"
+#~ msgstr "Account aanmaken"
+
+#, fuzzy
+#~| msgid "Animation"
+#~ msgid "Delay Animation"
+#~ msgstr "Animatie"
+
+#~ msgid "Read More"
+#~ msgstr "Lees meer"
+
+#, fuzzy
+#~| msgid "Medium"
+#~ msgid "Medium Devise"
+#~ msgstr "Medium"
+
+#~ msgid "Responsive Visibility"
+#~ msgstr "Responsive zichtbaarheid"
+
+#~ msgid "Line"
+#~ msgstr "Regel"
+
+#~ msgid "Line Style"
+#~ msgstr "Lijnstijl"
+
+#~ msgid "Double"
+#~ msgstr "Dubbel"
+
+#~ msgid "Dashed"
+#~ msgstr "Gestreept"
+
+#~ msgid "Divider"
+#~ msgstr "Scheidingslijn"
+
+#~ msgid "Divider Position"
+#~ msgstr "Divider Positie"
+
+#~ msgid "Select Option"
+#~ msgstr "Selecteer optie"
+
+#~ msgid "End"
+#~ msgstr "Einde"
+
+#~ msgid "Full Width"
+#~ msgstr "Volledige breedte"
+
+#~ msgid "Font Awesome"
+#~ msgstr "Font Awesome"
+
+#~ msgid "Custom Font"
+#~ msgstr "Aangepast lettertype"
+
+#~ msgid "Icon Class"
+#~ msgstr "Icon Class"
+
+#~ msgid "Icon"
+#~ msgstr "Icoon"
+
+#~ msgid "Select icon from library."
+#~ msgstr "Selecteer pictogram uit bibliotheek."
+
+#~ msgid "Icon Size"
+#~ msgstr "Icon Grootte"
+
+#~ msgid "Clear"
+#~ msgstr "Wissen"
+
+#~ msgid "Clear floated elements in your content"
+#~ msgstr "Duidelijke dreef elementen in uw inhoud"
+
+#~ msgid "Size"
+#~ msgstr "Grootte"
+
+#~ msgid "Team member"
+#~ msgstr "Teamlid"
+
+#~ msgid "Content"
+#~ msgstr "Inhoud"
+
+#~ msgid "Member Name"
+#~ msgstr "Naam lid"
+
+#, fuzzy
+#~| msgid "Description"
+#~ msgid "Member Description"
+#~ msgstr "Omschrijving"
+
+#, fuzzy
+#~| msgid "Logo Position"
+#~ msgid "Member Position"
+#~ msgstr "Positie van het logo"
+
+#, fuzzy
+#~| msgid "Hide Cover Photo"
+#~ msgid "Member Photo"
+#~ msgstr "Verberg Cover Foto"
+
+#, fuzzy
+#~| msgid "Footer Background Color"
+#~ msgid "Choose background color for the text"
+#~ msgstr "Footer Achtergrondkleur"
+
+#, fuzzy
+#~| msgid "Widget Text Color"
+#~ msgid "Name Text Color"
+#~ msgstr "Widget Tekst Kleur"
+
+#~ msgid "Description Text Color"
+#~ msgstr "Beschrijving tekstkleur"
+
+#~ msgid "Remove Border"
+#~ msgstr "Rand verwijderen"
+
+#, fuzzy
+#~| msgid "Boxed"
+#~ msgid "Info Boxed"
+#~ msgstr "Boxed"
+
+#~ msgid "Add Icon"
+#~ msgstr "Icoon toevoegen"
+
+#~ msgid "Icon Title"
+#~ msgstr "Titel icon"
+
+#, fuzzy
+#~| msgid "The Link"
+#~ msgid "URL Link"
+#~ msgstr "De link"
+
+#~ msgid "Open link in a new tab"
+#~ msgstr "Open link in een nieuw tabblad"
+
+#, fuzzy
+#~| msgid "Open link in a new window/tab"
+#~ msgid "Check to open your link in a new tab."
+#~ msgstr "Open link in een nieuw venster/tab"
+
+#~ msgid "Counter"
+#~ msgstr "Teller"
+
+#, fuzzy
+#~| msgid "Footer Background Color"
+#~ msgid "Counter Icon Color"
+#~ msgstr "Footer Achtergrondkleur"
+
+#, fuzzy
+#~| msgid "Description"
+#~ msgid "Counter Description"
+#~ msgstr "Omschrijving"
+
+#, fuzzy
+#~| msgid "Description"
+#~ msgid "Add description text"
+#~ msgstr "Omschrijving"
+
+#, fuzzy
+#~| msgid "Footer Background Color"
+#~ msgid "Counter Description Color"
+#~ msgstr "Footer Achtergrondkleur"
+
+#~ msgid "Counter Speed"
+#~ msgstr "Counter Speed"
+
+#~ msgid "Information"
+#~ msgstr "Informatie"
+
+#~ msgid "Include an informational skill bar"
+#~ msgstr "Onder andere een informatieve skill bar"
+
+#~ msgid "Percent"
+#~ msgstr "Procent"
+
+#~ msgid "Color"
+#~ msgstr "Kleur"
+
+#, fuzzy
+#~| msgid "Choose to show or hide the page title bar."
+#~ msgid "Choose the color of the progress circle"
+#~ msgstr "Kiezen om de paginatitelbalk verbergen of te laten zien."
+
+#~ msgid "Progress Bar"
+#~ msgstr "Voortgangsbalk"
+
+#~ msgid "Progress Bar Style"
+#~ msgstr "Voortgangsbalk Stijl"
+
+#~ msgid "Style One"
+#~ msgstr "Stijl één"
+
+#~ msgid "Style Two"
+#~ msgstr "Stijl twee"
+
+#, fuzzy
+#~| msgid "Choose to show or hide the page title bar."
+#~ msgid "Choose the color of the progress bar."
+#~ msgstr "Kiezen om de paginatitelbalk verbergen of te laten zien."
+
+#~ msgid "Drop Shadow"
+#~ msgstr "Slagschaduw"
+
+#~ msgid "Striped"
+#~ msgstr "Gestreept"
+
+#, fuzzy
+#~| msgid "Apple iPhone Icon"
+#~ msgid "Inline Icons"
+#~ msgstr "Apple iPhone Icoon"
+
+#~ msgid "Small"
+#~ msgstr "Klein"
+
+#~ msgid "Medium"
+#~ msgstr "Medium"
+
+#~ msgid "Big"
+#~ msgstr "Groot"
+
+#~ msgid "Icon Alignment"
+#~ msgstr "Icoon uitlijning"
+
+#, fuzzy
+#~| msgid "Page Title Style"
+#~ msgid "Circle Style"
+#~ msgstr "Pagina Titel Stijl"
+
+#~ msgid "Gallery"
+#~ msgstr "Galerij"
+
+#~ msgid "1 column"
+#~ msgstr "1 kolom"
+
+#~ msgid "2 columns"
+#~ msgstr "2 kolommen"
+
+#~ msgid "3 columns"
+#~ msgstr "3 kolommen"
+
+#~ msgid "4 columns"
+#~ msgstr "4 kolommen"
+
+#~ msgid "5 columns"
+#~ msgstr "5 kolommen"
+
+#~ msgid "6 columns"
+#~ msgstr "6 Kolommen"
+
+#~ msgid "Image"
+#~ msgstr "Afbeelding"
+
+#~ msgid "Include an image in your content"
+#~ msgstr "Onder andere een afbeelding in uw inhoud"
+
+#, fuzzy
+#~| msgid "Upload Your Logo"
+#~ msgid "Upload your image."
+#~ msgstr "Upload je logo"
+
+#, fuzzy
+#~| msgid "Image"
+#~ msgid "Image Float"
+#~ msgstr "Afbeelding"
+
+#~ msgid "Optionally float the image."
+#~ msgstr "Eventueel drijven de afbeelding."
+
+#~ msgid "Alt"
+#~ msgstr "Alt"
+
+#~ msgid "Enter in the alt text for your image."
+#~ msgstr "Voer in de alt-tekst voor uw imago."
+
+#~ msgid "Gallery Item"
+#~ msgstr "Gallerij item"
+
+#~ msgid "Lightbox Type"
+#~ msgstr "Lightbox Type"
+
+#~ msgid "Select what actions you want to trigger the popover or tooltip."
+#~ msgstr "Selecteer welke acties u wilt de popover of tooltip triggeren."
+
+#~ msgid "Popup Position"
+#~ msgstr "Popup positie"
+
+#~ msgid "Info Content"
+#~ msgstr "Info Content"
+
+#~ msgid "Extra content for the popover."
+#~ msgstr "Extra content voor de popover."
+
+#~ msgid "Image Width"
+#~ msgstr "Afbeeldingsbreedte"
+
+#, fuzzy
+#~| msgid "Image"
+#~ msgid "Image Shape"
+#~ msgstr "Afbeelding"
+
+#, fuzzy
+#~| msgid "Delete image"
+#~ msgid "Select the image shape."
+#~ msgstr "Verwijder afbeelding"
+
+#~ msgid "Box"
+#~ msgstr "Box"
+
+#~ msgid "Radius"
+#~ msgstr "Radius"
+
+#~ msgid "Circle"
+#~ msgstr "Cirkel"
+
+#~ msgid "Image Hover"
+#~ msgstr "Muis-Over Afbeelding"
+
+#, fuzzy
+#~| msgid "Delete image"
+#~ msgid "Select the image hover."
+#~ msgstr "Verwijder afbeelding"
+
+#~ msgid "Opacity"
+#~ msgstr "Doorzichtigheid"
+
+#~ msgid "Text"
+#~ msgstr "Tekst"
+
+#~ msgid "Enter your text."
+#~ msgstr "Voer uw<br>tekst hier in"
+
+#~ msgid "Blog Style"
+#~ msgstr "Blog stijl"
+
+#~ msgid "Timeline"
+#~ msgstr "Tijdlijn"
+
+#, fuzzy
+#~| msgid "Image"
+#~ msgid "Image Side"
+#~ msgstr "Afbeelding"
+
+#~ msgid "Block 1"
+#~ msgstr "Blok 1"
+
+#~ msgid "Block 2"
+#~ msgstr "Blok 2"
+
+#~ msgid "Block 3"
+#~ msgstr "Blok 3"
+
+#~ msgid "Dark background"
+#~ msgstr "Voor Donkere Achtergrond"
+
+#~ msgid "Post Count"
+#~ msgstr "Aantal berichten:"
+
+#, fuzzy
+#~| msgid "Shop Columns"
+#~ msgid "Post Columns"
+#~ msgstr "Winkel kolommen"
+
+#, fuzzy
+#~| msgid "Remove Featured Image"
+#~ msgid "Featured Image hover"
+#~ msgstr "Verwijder Aanbevolen Afbeelding"
+
+#~ msgid "zoom-in"
+#~ msgstr "Voer het zoomniveau in  in Google maps"
+
+#~ msgid "gray"
+#~ msgstr "grijs"
+
+#, fuzzy
+#~| msgid "Excerpt Limit"
+#~ msgid "Excerpts length"
+#~ msgstr "Excerpt limiet"
+
+#~ msgid "Category"
+#~ msgstr "Categorie"
+
+#~ msgid "Offset"
+#~ msgstr "Offset"
+
+#~ msgid "Display Pagination"
+#~ msgstr "Geef paginering weer"
+
+#~ msgid "Popular"
+#~ msgstr "Populair"
+
+#, fuzzy
+#~| msgid "Remove Featured Image"
+#~ msgid "Check to remove the featured image."
+#~ msgstr "Verwijder Aanbevolen Afbeelding"
+
+#~ msgid "Portfolio Style"
+#~ msgstr "Portfolio Stijl"
+
+#~ msgid "AutoPlay"
+#~ msgstr "Automatisch afspelen"
+
+#~ msgid "Loop"
+#~ msgstr "Continu afspelen"
+
+#, fuzzy
+#~| msgid "Slider Settings"
+#~ msgid "Slider Bullets"
+#~ msgstr "Slider instellingen"
+
+#, fuzzy
+#~| msgid "Upsell Post Count"
+#~ msgid "Portfolio Post Count"
+#~ msgstr "Upsell berichten aantal"
+
+#~ msgid "Select how many posts to display."
+#~ msgstr "Selecteer hoeveel berichten om te laten zien."
+
+#, fuzzy
+#~| msgid "Related Posts Columns"
+#~ msgid "Portfolio Post Columns"
+#~ msgstr "Gerelateerde berichten kolommen"
+
+#, fuzzy
+#~| msgid "Choose to show or hide the page title bar."
+#~ msgid "Check to hide the filters."
+#~ msgstr "Kiezen om de paginatitelbalk verbergen of te laten zien."
+
+#, fuzzy
+#~| msgid "Page Title Style"
+#~ msgid "Image hover style"
+#~ msgstr "Pagina Titel Stijl"
+
+#, fuzzy
+#~| msgid "With icon"
+#~ msgid "With Icon"
+#~ msgstr "Met icoon"
+
+#~ msgid ""
+#~ "To filter your posts by category, enter in the slug of your desired "
+#~ "category. To filter by multiple categories, enter in your slugs separated "
+#~ "by a comma."
+#~ msgstr ""
+#~ "Om je berichten te filteren op categorie, voeren de slug in van de "
+#~ "gewenste categorie. Om te filteren op meerdere categorieën, voer je slugs "
+#~ "in gescheiden door een komma."
+
+#~ msgid "Pagination"
+#~ msgstr "Paginering"
+
+#, fuzzy
+#~| msgid "Related products"
+#~ msgid "Show multiple products"
+#~ msgstr "Gerelateerde producten"
+
+#~ msgid "Product Style"
+#~ msgstr "Product stijl"
+
+#~ msgid "List"
+#~ msgstr "Lijst"
+
+#~ msgid "Products Count"
+#~ msgstr "Aantal producten"
+
+#~ msgid "Product Columns"
+#~ msgstr "Product kolommen"
+
+#~ msgid "Order by"
+#~ msgstr "Sorteer op"
+
+#~ msgid "Title"
+#~ msgstr "Titel"
+
+#~ msgid "Modified"
+#~ msgstr "Gewijzigd"
+
+#~ msgid "Random"
+#~ msgstr "Willekeurig"
+
+#~ msgid "Comment count"
+#~ msgstr "Aantal reacties"
+
+#~ msgid "Menu order"
+#~ msgstr "Menuvolgorde"
+
+#~ msgid "Sort By"
+#~ msgstr "Sorteer op"
+
+#~ msgid "Descending"
+#~ msgstr "Aflopend"
+
+#~ msgid "Ascending"
+#~ msgstr "Oplopend"
+
+#~ msgid "Clients"
+#~ msgstr "Klanten"
+
+#, fuzzy
+#~| msgid "Related Posts Columns"
+#~ msgid "Clients Columns"
+#~ msgstr "Gerelateerde berichten kolommen"
+
+#, fuzzy
+#~| msgid "Delete image"
+#~ msgid "Client Image"
+#~ msgstr "Verwijder afbeelding"
+
+#, fuzzy
+#~| msgid "Delete image"
+#~ msgid "Add client image."
+#~ msgstr "Verwijder afbeelding"
+
+#, fuzzy
+#~| msgid "Open link in a new window/tab"
+#~ msgid "Check to open the link in a new tab."
+#~ msgstr "Open link in een nieuw venster/tab"
+
+#~ msgid "Banner"
+#~ msgstr "Banner"
+
+#~ msgid "Marketing"
+#~ msgstr "Marketing"
+
+#~ msgid "Banner Background Type"
+#~ msgstr "Type achtergrond banner"
+
+#, fuzzy
+#~| msgid "Select a country&hellip;"
+#~ msgid "Select background type."
+#~ msgstr "Selecteer een land&hellip;"
+
+#, fuzzy
+#~| msgid "Body Background Image"
+#~ msgid "Covered Background Image"
+#~ msgstr "Body achtergrond afbeelding"
+
+#~ msgid "Background Video"
+#~ msgstr "Achtergrond Video"
+
+#~ msgid "Banner Background Image"
+#~ msgstr "Afbeelding op achtergrond banner"
+
+#~ msgid "Banner Height"
+#~ msgstr "Banner Hoogte"
+
+#~ msgid "Hover"
+#~ msgstr "Hover"
+
+#~ msgid "Text Color"
+#~ msgstr "Tekstkleur"
+
+#~ msgid "light"
+#~ msgstr "licht"
+
+#~ msgid "dark"
+#~ msgstr "donker"
+
+#~ msgid "Text Width"
+#~ msgstr "Tekst-breedte"
+
+#, fuzzy
+#~| msgid "Content Layout"
+#~ msgid "Content Float"
+#~ msgstr "Inhoudopmaak"
+
+#~ msgid "Content Animation"
+#~ msgstr "Content Animatie"
+
+#, fuzzy
+#~| msgid "Slider"
+#~ msgid "Owl Slider"
+#~ msgstr "Slider"
+
+#~ msgid "Slideshow"
+#~ msgstr "Slideshow"
+
+#, fuzzy
+#~| msgid "Slider Settings"
+#~ msgid "Slider Bullets "
+#~ msgstr "Slider instellingen"
+
+#~ msgid "Slider Arrows"
+#~ msgstr "Toon slider pijlen"
+
+#, fuzzy
+#~| msgid "Animation Speed"
+#~ msgid "Smart Speed"
+#~ msgstr "Animatie snelheid"
+
+#, fuzzy
+#~| msgid "Default"
+#~ msgid "Default: 250."
+#~ msgstr "Standaard"
+
+#~ msgid "Autoplay Speed"
+#~ msgstr "Autoplay snelheid"
+
+#, fuzzy
+#~| msgid "Animation Speed"
+#~ msgid "Pagination speed."
+#~ msgstr "Animatie snelheid"
+
+#~ msgid "Elements Margin"
+#~ msgstr "Elementenmarge"
+
+#~ msgid "Devices"
+#~ msgstr "Apparaten"
+
+#, fuzzy
+#~| msgid "Phone"
+#~ msgid "Dark Phone"
+#~ msgstr "Telefoon"
+
+#, fuzzy
+#~| msgid "Lightbox"
+#~ msgid "Light phone"
+#~ msgstr "Lightbox"
+
+#, fuzzy
+#~| msgid "Copyright Text"
+#~ msgid "Light Tablet"
+#~ msgstr "Copyright tekst"
+
+#, fuzzy
+#~| msgid "Slider Settings"
+#~ msgid "Slide element settings"
+#~ msgstr "Slider instellingen"
+
+#~ msgid "Flex Slider"
+#~ msgstr "Flex Slider"
+
+#, fuzzy
+#~| msgid "Animation Speed"
+#~ msgid "Slider Animation Type"
+#~ msgstr "Animatie snelheid"
+
+#~ msgid "Set the speed of animations, in milliseconds"
+#~ msgstr "Animatiesnelheid instellen, in milliseconden"
+
+#, fuzzy
+#~| msgid "Navigation Label"
+#~ msgid "Navigation Control"
+#~ msgstr "Navigatie label"
+
+#~ msgid "Hide"
+#~ msgstr "Verberg"
+
+#~ msgid "Thumbnails"
+#~ msgstr "Miniaturen"
+
+#, fuzzy
+#~| msgid "Thumbnail"
+#~ msgid "Thumbnails Columns"
+#~ msgstr "Thumbnail"
+
+#~ msgid "Six Columns"
+#~ msgstr "Zes kolommen"
+
+#, fuzzy
+#~| msgid "Columns"
+#~ msgid "Nine Columns"
+#~ msgstr "Kolommen"
+
+#, fuzzy
+#~| msgid "Navigation Label"
+#~ msgid "Navigation Direction"
+#~ msgstr "Navigatie label"
+
+#, fuzzy
+#~| msgid "Slider Settings"
+#~ msgid "Slide item settings"
+#~ msgstr "Slider instellingen"
+
+#, fuzzy
+#~| msgid "Thumbnail"
+#~ msgid "Image Thumbnail"
+#~ msgstr "Thumbnail"
+
+#~ msgid "Pricing Table"
+#~ msgstr "Prijstabel"
+
+#~ msgid "Include a pricing table column"
+#~ msgstr "Inclusief een kolom prijstabel"
+
+#~ msgid "Pricing Table Style"
+#~ msgstr "Pricing Table Style"
+
+#, fuzzy
+#~| msgid "Page Title Background Color"
+#~ msgid "Pricing Table Title Background Color"
+#~ msgstr "Pagina Titel achtergrondkleur"
+
+#, fuzzy
+#~| msgid "Header Background Color"
+#~ msgid "Choose Header Background color"
+#~ msgstr "Achtergrondkleur Header"
+
+#~ msgid "Green"
+#~ msgstr "Groen"
+
+#~ msgid "Blue"
+#~ msgstr "Blauw"
+
+#~ msgid "Yellow"
+#~ msgstr "Geel"
+
+#~ msgid "Red"
+#~ msgstr "Rood"
+
+#~ msgid "Purple"
+#~ msgstr "Paars"
+
+#~ msgid "Currency Symbol"
+#~ msgstr "Valutasymbool"
+
+#~ msgid "Interval"
+#~ msgstr "Interval"
+
+#~ msgid "Per Month"
+#~ msgstr "Per maand"
+
+#, fuzzy
+#~| msgid "Fullwidth Section"
+#~ msgid "Full width separator"
+#~ msgstr "Volle Breedte Sectie"
+
+#~ msgid "Button"
+#~ msgstr "Knop"
+
+#~ msgid "Add a clickable button to your content"
+#~ msgstr "Voeg een klikbare knop toe aan uw inhoud"
+
+#~ msgid "Button Text"
+#~ msgstr "Knop tekst"
+
+#, fuzzy
+#~| msgid "Input your quote."
+#~ msgid "Enter your button text."
+#~ msgstr "Voer citaat in"
+
+#~ msgid "Button Style"
+#~ msgstr "Button Stijl"
+
+#, fuzzy
+#~| msgid "Animation Speed"
+#~ msgid "Animation Direction"
+#~ msgstr "Animatie snelheid"
+
+#~ msgid "Up"
+#~ msgstr "Omhoog"
+
+#~ msgid "Down"
+#~ msgstr "Omlaag"
+
+#~ msgid "Button Size"
+#~ msgstr "Knop formaat"
+
+#~ msgid "Select the button size."
+#~ msgstr "Selecteer het formaat van de knop."
+
+#~ msgid "Large"
+#~ msgstr "Groot"
+
+#~ msgid "Huge"
+#~ msgstr "Zeer groot"
+
+#~ msgid "Button Shape"
+#~ msgstr "Knoppen vorm"
+
+#~ msgid "Select the button shape."
+#~ msgstr "Selecteer de vorm van de knop."
+
+#~ msgid "Square"
+#~ msgstr "Vierkant"
+
+#~ msgid "Pill"
+#~ msgstr "Pil"
+
+#~ msgid "Button Color"
+#~ msgstr "Knopkleur"
+
+#~ msgid "Choose button color"
+#~ msgstr "Kies kleur van de button"
+
+#~ msgid "White"
+#~ msgstr "Wit"
+
+#, fuzzy
+#~| msgid "Button Small"
+#~ msgid "Button Float"
+#~ msgstr "Button Klein"
+
+#~ msgid "Optionally float the button."
+#~ msgstr "Eventueel drijven op de knop."
+
+#~ msgid "Enter in the URL you want your button to link to."
+#~ msgstr "Voer in de URL die u wilt dat uw knop om te linken naar."
+
+#~ msgid "Block"
+#~ msgstr "Blok"
+
+#, fuzzy
+#~| msgid "Share Buttons"
+#~ msgid "Disabled Button"
+#~ msgstr "Deel knoppen"
+
+#~ msgid "Callout"
+#~ msgstr "Tekstballon"
+
+#~ msgid "No button"
+#~ msgstr "Geen button"
+
+#~ msgid "Enter the title for your callout."
+#~ msgstr "Geef de titel van uw bijschrift."
+
+#, fuzzy
+#~| msgid "Footer Background Color"
+#~ msgid "Callout Background color"
+#~ msgstr "Footer Achtergrondkleur"
+
+#, fuzzy
+#~| msgid "Title Color"
+#~ msgid "Callout Title Color"
+#~ msgstr "Titelkleur"
+
+#, fuzzy
+#~| msgid "Body text color"
+#~ msgid "Callout Text color"
+#~ msgstr "Body tekstkleur"
+
+#~ msgid "Callout Background Image"
+#~ msgstr "Actieknop achtergrond Afbeelding"
+
+#~ msgid "Cover Background"
+#~ msgstr "Dekking van de achtergrond"
+
+#~ msgid "Enter in the URL you want your callout button to link to."
+#~ msgstr "Voer in de URL die u wilt dat uw bijschrift knop om te linken naar."
+
+#~ msgid "Alert Box"
+#~ msgstr "Waarschuwingsvenster"
+
+#, fuzzy
+#~| msgid "Apple iPhone Icon"
+#~ msgid "Alert Box Icon"
+#~ msgstr "Apple iPhone Icoon"
+
+#~ msgid "Google Map"
+#~ msgstr "Google Map"
+
+#~ msgid "Embed a customizable Google map"
+#~ msgstr "Insluiten een aanpasbare Google map"
+
+#~ msgid "Latitude"
+#~ msgstr "Breedtegraad"
+
+#~ msgid "Longitude"
+#~ msgstr "Lengtegraad"
+
+#~ msgid "Shape"
+#~ msgstr "Vorm"
+
+#, fuzzy
+#~| msgid "Select a state&hellip;"
+#~ msgid "Select map shape"
+#~ msgstr "Selecteer een provincie&hellip;"
+
+#~ msgid "Draggable"
+#~ msgstr "Versleepbaar"
+
+#~ msgid "Zoom Level"
+#~ msgstr "Zoomniveau"
+
+#~ msgid ""
+#~ "Choose the initial zoom level of your map. This value should be between 1 "
+#~ "and 18. 1 is fully zoomed out and 18 is right at street level."
+#~ msgstr ""
+#~ "Kies de eerste zoomniveau van je kaart. Deze waarde moet tussen 1 en 18. "
+#~ "1 is volledig uitgezoomd en 18 is direct op straatniveau."
+
+#~ msgid "Zoom Control"
+#~ msgstr "Zoom-controle"
+
+#~ msgid "Height"
+#~ msgstr "Hoogte"
+
+#~ msgid ""
+#~ "Choose an optional height for your map. If no height is selected, a "
+#~ "responsive, proportional unit will be used. Any type of unit is "
+#~ "acceptable (e.g. 450px, 30em, 40%, et cetera)."
+#~ msgstr ""
+#~ "Kies een optionele hoogte voor je kaart. Als er geen hoogte is "
+#~ "geselecteerd, wordt een responsieve, proportionele eenheid worden "
+#~ "gebruikt. Elk type van de unit is mogelijk (bv 450px, 30em, 40%, et "
+#~ "cetera)."
+
+#~ msgid "Width"
+#~ msgstr "Breedte"
+
+#~ msgid "Custom Color"
+#~ msgstr "Aangepaste kleur"
+
+#~ msgid "Google Map Marker"
+#~ msgstr "Google Map Marker"
+
+#~ msgid "Place a location marker on your Google map"
+#~ msgstr "Plaats een locatie marker op uw Google-kaart"
+
+#~ msgid "Marker Latitude"
+#~ msgstr "Latitude"
+
+#~ msgid "Marker Longitude"
+#~ msgstr "Longitude"
+
+#~ msgid "Additional Information"
+#~ msgstr "Extra informatie"
+
+#~ msgid ""
+#~ "Optional description text to appear in a popup when your marker is "
+#~ "clicked on."
+#~ msgstr ""
+#~ "Optionele beschrijving tekst te verschijnen in een pop-up wanneer uw "
+#~ "marker wordt geklikt."
+
+#~ msgid "Custom Marker Image"
+#~ msgstr "Custom Marker Afbeelding"
+
+#~ msgid ""
+#~ "Utilize a custom marker image instead of the default provided by Google."
+#~ msgstr ""
+#~ "Gebruik maken van aangepaste marker beeld in plaats van de standaard "
+#~ "wordt aangeboden door Google."
+
+#~ msgid "Map"
+#~ msgstr "Kaart"
+
+#~ msgid "Embed a map from a third-party provider"
+#~ msgstr "Een kaart insluiten van een derde partij provider"
+
+#~ msgid "Code"
+#~ msgstr "Code"
+
+#~ msgid ""
+#~ "Switch to the \"text\" editor and do not place anything else here other "
+#~ "than your &lsaquo;iframe&rsaquo; or &lsaquo;embed&rsaquo; code."
+#~ msgstr ""
+#~ "Schakel over naar de \"tekst\" editor en zet niets anders hier anders dan "
+#~ "je <iframe> en <embed> code."
+
+#, fuzzy
+#~| msgid "Customer Details"
+#~ msgid "Custom heading"
+#~ msgstr "Klantgegevens"
+
+#~ msgid "Include a custom headline in your content"
+#~ msgstr "Maak een Custos Headline"
+
+#~ msgid "Enter your text"
+#~ msgstr "Voer uw tekst in"
+
+#~ msgid "Heading Level"
+#~ msgstr "Koptekstniveau:"
+
+#~ msgid "Heading Alignment"
+#~ msgstr "Heading uitlijning"
+
+#, fuzzy
+#~| msgid "Footer Background Color"
+#~ msgid "Choose box background color."
+#~ msgstr "Footer Achtergrondkleur"
+
+#~ msgid "Select Options"
+#~ msgstr "Selecteer opties"
+
+#~ msgid "Header Type"
+#~ msgstr "Type kop"
+
+#, fuzzy
+#~| msgid "Icon size"
+#~ msgid "Enter SVG Icon size"
+#~ msgstr "Icoongrootte"
+
+#~ msgid "Use Image"
+#~ msgstr "Gebruik afbeelding"
+
+#~ msgid "Alt Text"
+#~ msgstr "ALT-tekst"
+
+#~ msgid "Image size"
+#~ msgstr "Afbeeldingsgrootte"
+
+#~ msgid "Icon Color"
+#~ msgstr "Pictogram kleur"
+
+#~ msgid "Icon Background"
+#~ msgstr "Achtergrondkleur van de icoon"
+
+#, fuzzy
+#~| msgid "Footer Background Color"
+#~ msgid "Choose icon background color."
+#~ msgstr "Footer Achtergrondkleur"
+
+#~ msgid "Icon Border"
+#~ msgstr "Icoon Rand"
+
+#, fuzzy
+#~| msgid "Import Content"
+#~ msgid "Iconbox Content"
+#~ msgstr "Importeer content"
+
+#, fuzzy
+#~| msgid "Icon size"
+#~ msgid "Iconbox Title"
+#~ msgstr "Icoongrootte"
+
+#, fuzzy
+#~| msgid "Title Color"
+#~ msgid "Title Color "
+#~ msgstr "Titelkleur"
+
+#~ msgid "Timeline Item"
+#~ msgstr "Tijdlijn item"
+
+#~ msgid "Float"
+#~ msgstr "Float"
+
+#~ msgid "Process"
+#~ msgstr "Verwerken"
+
+#, fuzzy
+#~| msgid "Font Style"
+#~ msgid "Process Style"
+#~ msgstr "Lettertype stijl"
+
+#~ msgid "Vertical"
+#~ msgstr "Verticaal"
+
+#~ msgid "Horizontal"
+#~ msgstr "Horizontaal"
+
+#~ msgid "Five"
+#~ msgstr "Vijf"
+
+#~ msgid "Video (Self Hosted)"
+#~ msgstr "Video (Self Hosted)"
+
+#~ msgid "Include responsive video into your content"
+#~ msgstr "Inclusief responsieve video in je eigen content"
+
+#~ msgid "M4V"
+#~ msgstr "M4V"
+
+#~ msgid "OGV"
+#~ msgstr "OGV"
+
+#~ msgid "Poster Image"
+#~ msgstr "Schrijver afbeelding"
+
+#~ msgid "Hide Controls"
+#~ msgstr "Hide Controls"
+
+#~ msgid "Muted"
+#~ msgstr "Geluid op stil"
+
+#~ msgid "Autoplay"
+#~ msgstr "Automatisch afspelen"
+
+#~ msgid "Video (Embedded)"
+#~ msgstr "Video (Embedded)"
+
+#~ msgid "Audio (Self Hosted)"
+#~ msgstr "Audio (Self Hosted)"
+
+#~ msgid "Place audio files into your content"
+#~ msgstr "Plaats de audio bestanden in je eigen content"
+
+#~ msgid "MP3"
+#~ msgstr "MP3"
+
+#~ msgid "OGA"
+#~ msgstr "nationaal instituut voor landbouwverzekeringen"
+
+#~ msgid "Audio (Embedded)"
+#~ msgstr "Audio (Ingesloten)"
+
+#~ msgid "Social Sharing"
+#~ msgstr "Sociaal Delen"
+
+#~ msgid "Include social sharing into your content"
+#~ msgstr "Onder meer social sharing in je eigen content"
+
+#~ msgid "Google Plus"
+#~ msgstr "Google Plus"
+
+#~ msgid "LinkedIn"
+#~ msgstr "LinkedIn"
+
+#~ msgid "Reddit"
+#~ msgstr "Reddit"
+
+#~ msgid "Tabs"
+#~ msgstr "Tabbladen"
+
+#~ msgid "Include a tabs container after your tab nav"
+#~ msgstr "Onder andere een tabs container na uw tabblad nav"
+
+#~ msgid "Tab"
+#~ msgstr "Tabblad"
+
+#~ msgid "Include a tab into your tabs container"
+#~ msgstr "Onder andere een tab in uw tabbladen container"
+
+#~ msgid "Active"
+#~ msgstr "Actief"
+
+#~ msgid "Select to make this tab active."
+#~ msgstr "Selecteer om dit tabblad te activeren."
+
+#~ msgid "Tab Nav"
+#~ msgstr "Tab Nav"
+
+#~ msgid "Include a tab nav into your content"
+#~ msgstr "Onder andere een tab nav in je eigen content"
+
+#~ msgid "Tab Style"
+#~ msgstr "Tab Stijl"
+
+#~ msgid "Tab Nav Position"
+#~ msgstr "Tabblad Nav Positie"
+
+#~ msgid "Select the position of your tab nav."
+#~ msgstr "Selecteer de positie van uw tabblad nav."
+
+#~ msgid "Tab Nav Items Per Row"
+#~ msgstr "Tab Nav Items per rij"
+
+#~ msgid ""
+#~ "If your tab nav is on top, select how many tab nav items you want per row."
+#~ msgstr ""
+#~ "Als uw tab nav is op de top, selecteren hoeveel tab nav items die u wilt "
+#~ "per rij."
+
+#~ msgid "Six"
+#~ msgstr "Zes"
+
+#~ msgid "Tab Nav Item"
+#~ msgstr "Tab Nav Item"
+
+#~ msgid "Include a tab nav item into your tab nav"
+#~ msgstr "Onder andere een tab nav voorwerp in uw tabblad nav"
+
+#~ msgid "Include a title for your tab nav item."
+#~ msgstr "Onder andere een titel voor uw tabblad nav punt."
+
+#~ msgid "Accordion"
+#~ msgstr "Accordeon"
+
+#~ msgid "Include an accordion into your content"
+#~ msgstr "Inclusief een accordeon in je eigen content"
+
+#, fuzzy
+#~| msgid "Font Style"
+#~ msgid "Accordion Style"
+#~ msgstr "Lettertype stijl"
+
+#, fuzzy
+#~| msgid "Body Background"
+#~ msgid "Default no Background"
+#~ msgstr "Body Achtergrond"
+
+#, fuzzy
+#~| msgid "Select a country&hellip;"
+#~ msgid "Select accordion icon type"
+#~ msgstr "Selecteer een land&hellip;"
+
+#, fuzzy
+#~| msgid "Deactivated"
+#~ msgid "Separated"
+#~ msgstr "Gedeactiveerd"
+
+#~ msgid "Parent ID"
+#~ msgstr "ID bovenliggende map"
+
+#~ msgid ""
+#~ "Optionally include an ID given to the parent accordion to only allow one "
+#~ "toggle to be open at a time."
+#~ msgstr ""
+#~ "Optioneel zijn een ID gegeven aan de ouder accordeon om alleen een toggle "
+#~ "open tegelijk zijn."
+
+#, fuzzy
+#~| msgid "Grid"
+#~ msgid "Big Grid"
+#~ msgstr "Raster"
+
+#, fuzzy
+#~| msgid "Display Related Posts"
+#~ msgid "Display your blog posts"
+#~ msgstr "Toon gerelateerde berichten"
+
+#, fuzzy
+#~| msgid "Page Title Style"
+#~ msgid "Big Grid Style"
+#~ msgstr "Pagina Titel Stijl"
+
+#, fuzzy
+#~| msgid "Four"
+#~ msgid "Four "
+#~ msgstr "Vier"
+
+#, fuzzy
+#~| msgid "Slider Settings"
+#~ msgid "Slide Options"
+#~ msgstr "Slider instellingen"
+
+#~ msgid "Include post author information"
+#~ msgstr "Inclusief bericht informatie over de auteur"
+
+#~ msgid "Author ID"
+#~ msgstr "Auteur ID"
+
+#~ msgid ""
+#~ "By default the author of the post or page will be output by leaving this "
+#~ "input blank. If you would like to output the information of another "
+#~ "author, enter in their user ID here."
+#~ msgstr ""
+#~ "Standaard is de auteur van de post of pagina zal worden uitgevoerd door "
+#~ "het verlaten van deze ingang leeg. Als u wilt uitgang de informatie van "
+#~ "een andere auteur, invoeren in hun gebruikersnaam hier."
+
+#~ msgid "Drop cap"
+#~ msgstr "decoratieve initiaal"
+
+#~ msgid "Character"
+#~ msgstr "Kenmerk"
+
+#~ msgid "link"
+#~ msgstr "link"
+
+#~ msgid "Add a block of example code to your content"
+#~ msgstr "Voeg een blok met voorbeeld code toe aan uw inhoud"
+
+#~ msgid "Labels"
+#~ msgstr "Labels"
+
+#~ msgid "Type"
+#~ msgstr "Type"
+
+#~ msgid "Blockquote"
+#~ msgstr "Blockquote"
+
+#~ msgid "Include a blockquote in your content"
+#~ msgstr "Onder andere een blockquote in uw inhoud"
+
+#~ msgid "Cite"
+#~ msgstr "Citaat"
+
+#~ msgid "Cite the person you are quoting."
+#~ msgstr "Cite de persoon die u citeert."
+
+#, fuzzy
+#~| msgid "Font Style"
+#~ msgid "Blockquote Style"
+#~ msgstr "Lettertype stijl"
+
+#~ msgid "Pull"
+#~ msgstr "Pull"
+
+#~ msgid "Alignment"
+#~ msgstr "Uitlijning"
+
+#~ msgid "Testimonial"
+#~ msgstr "Referentie"
+
+#~ msgid "Testimonial Style"
+#~ msgstr "Beoordelingsstijl"
+
+#~ msgid "Top center"
+#~ msgstr "Midden boven"
+
+#, fuzzy
+#~| msgid "start"
+#~ msgid "Top start"
+#~ msgstr "start"
+
+#~ msgid "Bottom center"
+#~ msgstr "Bottom Midden"
+
+#~ msgid "Author Name"
+#~ msgstr "Auteur Naam"
+
+#~ msgid "Author Position"
+#~ msgstr "Functie auteur"
+
+#, fuzzy
+#~| msgid "Author: "
+#~ msgid "Author Photo"
+#~ msgstr "Auteur:"
+
+#, fuzzy
+#~| msgid "Photo size"
+#~ msgid "Photo Circle"
+#~ msgstr "Foto formaat"
+
+#, fuzzy
+#~| msgid "Your order"
+#~ msgid "Add Border"
+#~ msgstr "Uw bestelling"
+
+#~ msgid "Theme color"
+#~ msgstr "Themakleur"
+
+#~ msgid "Include a search field in your content"
+#~ msgstr "Onder meer een zoekveld in uw inhoud"
+
+#~ msgid "Protect"
+#~ msgstr "Beveiligen"
+
+#~ msgid "Protect content from non logged in users"
+#~ msgstr "Bescherm de inhoud van niet ingelogde gebruikers"
+
+#~ msgid "Icon List"
+#~ msgstr "Icoon lijst"
+
+#~ msgid "Include an icon list in your content"
+#~ msgstr "Onder meer een overzicht icoon in uw inhoud"
+
+#~ msgid "Icon List Item"
+#~ msgstr "Pictogram Lijst Item"
+
+#~ msgid "Include an icon list item in your icon list"
+#~ msgstr "Een icoon item in de lijst opnemen in uw icoon lijst"
+
+#, fuzzy
+#~| msgid "Product"
+#~ msgid "Product Menu"
+#~ msgstr "Product"
+
+#~ msgid "Menu Title"
+#~ msgstr "Menu Titel"
+
+#, fuzzy
+#~| msgid "Edit Menu Item"
+#~ msgid "Add Menu Title"
+#~ msgstr "Bewerk menu item"
+
+#~ msgid "Background color"
+#~ msgstr "Achtergrondkleur"
+
+#~ msgid "Background Image"
+#~ msgstr "Achtergrond afbeelding"
+
+#, fuzzy
+#~| msgid "Body Background Image"
+#~ msgid "Add a background image"
+#~ msgstr "Body achtergrond afbeelding"
+
+#, fuzzy
+#~| msgid "sub item"
+#~ msgid "Menu item"
+#~ msgstr "sub item"
+
+#~ msgid "Notification"
+#~ msgstr "Melding"
+
+#~ msgid "Item Image"
+#~ msgstr "Item afbeelding"
+
+#, fuzzy
+#~| msgid "Page Title Image"
+#~ msgid "Add a item image"
+#~ msgstr "Pagina Titel BG Afbeelding"
+
+#~ msgid "List Style"
+#~ msgstr "Lijst stijl"
+
+#, fuzzy
+#~| msgid "%s for %s item"
+#~| msgid_plural "%s for %s items"
+#~ msgid "Choose icon for list item"
+#~ msgstr "%s voor %s product"
+
+#~ msgid "Star"
+#~ msgstr "Ster"
+
+#~ msgid "Angle"
+#~ msgstr "Hoek"
+
+#~ msgid "Check"
+#~ msgstr "Controleer"
+
+#, fuzzy
+#~| msgid "Thumbnail"
+#~ msgid "Thumb-tack"
+#~ msgstr "Thumbnail"
+
+#~ msgid "List Item"
+#~ msgstr "Lijst Item"
+
+#~ msgid "Related posts"
+#~ msgstr "Gerelateerde berichten"
+
+#~ msgid "Column"
+#~ msgstr "Kolom"
+
+#~ msgid "Count"
+#~ msgstr "Aantal"
+
+#~ msgid "Enable"
+#~ msgstr "Inschakelen"
+
+#~ msgid "Inherit from smaller"
+#~ msgstr "Overerven van kleiner"
+
+#~ msgid "1 column - 1/12"
+#~ msgstr "1 kolom - 1/12"
+
+#~ msgid "2 columns - 1/6"
+#~ msgstr "2 kolommen - 1/6"
+
+#~ msgid "3 columns - 1/4"
+#~ msgstr "3 kolommen - 1/4"
+
+#~ msgid "4 columns - 1/3"
+#~ msgstr "4 kolommen - 1/3"
+
+#~ msgid "5 columns - 5/12"
+#~ msgstr "5 kolommen - 5/12"
+
+#~ msgid "6 columns - 1/2"
+#~ msgstr "6 kolommen - 1/2"
+
+#~ msgid "7 columns - 7/12"
+#~ msgstr "7 kolommen - 7/12"
+
+#~ msgid "8 columns - 2/3"
+#~ msgstr "8 kolommen - 2/3"
+
+#~ msgid "9 columns - 3/4"
+#~ msgstr "9 kolommen - 3/4"
+
+#~ msgid "10 columns - 5/6"
+#~ msgstr "10 kolommen - 5/6"
+
+#~ msgid "11 columns - 11/12"
+#~ msgstr "11 kolommen - 11/12"
+
+#~ msgid "12 columns - 1/1"
+#~ msgstr "12 kolommen - 1/1"
+
+#~ msgid "hidden"
+#~ msgstr "verborgen"
+
+#~ msgid "Raw HTML"
+#~ msgstr "Raw HTML"
+
+#~ msgid "Output raw HTML code on your page"
+#~ msgstr "Toon HTML-code op de pagina"
+
+#~ msgid "Raw JavaScript"
+#~ msgstr "Ruwe JavaScript"
+
+#~ msgid "Output raw JavaScript code on your page"
+#~ msgstr "Toon JavaScript-code op de pagina"
+
+#~ msgid "Revolution Slider"
+#~ msgstr "Revolution Slider"
+
+#~ msgid "Place a Revolution Slider element into your content"
+#~ msgstr "Plaats een revolutie Slider element in je eigen content"
+
+#~ msgid "Contact Form 7"
+#~ msgstr "Contact Form 7"
+
+#~ msgid "Place one of your contact forms into your content"
+#~ msgstr "Plaats een van uw contactformulieren in je eigen content"
+
+#~ msgid "Gravity Form"
+#~ msgstr "Gravity Form"
+
+#~ msgid "Place one of your Gravity Forms into your content"
+#~ msgstr "Gravity formulier plaatsen in inhoud"
+
+#~ msgid "Select which form you would like to display."
+#~ msgstr "Selecteer welke vorm je wilt weergeven."
+
+#~ msgid "Disable Title"
+#~ msgstr "Titel uitschakelen"
+
+#~ msgid "Select to disable the title of your form."
+#~ msgstr "Selecteer om de titel van uw formulier te schakelen."
+
+#~ msgid "Disable Description"
+#~ msgstr "Uitschakelen Beschrijving"
+
+#~ msgid "Select to disable the description of your form."
+#~ msgstr "Selecteer om de beschrijving van uw formulier uit te schakelen"
+
+#~ msgid "Enable AJAX"
+#~ msgstr "AJAX inschakelen?"
+
+#~ msgid "Select to enable the AJAX functionality of your form."
+#~ msgstr ""
+#~ "Selecteer om de AJAX functionaliteit van uw formulier in te schakelen."
+
+#~ msgid "Place and structure your shortcodes inside of a row"
+#~ msgstr "Plaats en de structuur van uw shortcodes binnenkant van een rij"
+
+#~ msgid "Dark Background"
+#~ msgstr "Donkere Achtergrond"
+
+#~ msgid "Background Type"
+#~ msgstr "Achtergrond type"
+
+#~ msgid ""
+#~ "Upload a background image to your content band (this will overwrite your "
+#~ "Background Pattern)."
+#~ msgstr ""
+#~ "Een achtergrond afbeelding uploaden naar uw inhoud band (dit zal uw "
+#~ "Achtergrondpatroon overschrijven)."
+
+#~ msgid "Background Pattern"
+#~ msgstr "Achtergrondpatroon"
+
+#, fuzzy
+#~| msgid "Background Color"
+#~ msgid "Background Video Path"
+#~ msgstr "Achtergrondkleur"
+
+#~ msgid "Cover"
+#~ msgstr "Cover"
+
+#~ msgid ""
+#~ "Select to activate the parallax effect with background patterns and "
+#~ "images."
+#~ msgstr ""
+#~ "Selecteer aan de parallax effect met achtergrond patronen en afbeeldingen "
+#~ "te activeren."
+
+#, fuzzy
+#~| msgid "Parallax"
+#~ msgid "Parallax Start"
+#~ msgstr "Parallax"
+
+#, fuzzy
+#~| msgid "Parallax"
+#~ msgid "Parallax Center"
+#~ msgstr "Parallax"
+
+#, fuzzy
+#~| msgid "Parallax"
+#~ msgid "Parallax End"
+#~ msgstr "Parallax"
+
+#~ msgid "Content Position"
+#~ msgstr "Inhoud positie"
+
+#~ msgid "Select content position within columns."
+#~ msgstr "Selecteer de positie van de inhoud in kolommen."
+
+#~ msgid "Top"
+#~ msgstr "Top"
+
+#~ msgid "Middle"
+#~ msgstr "Midden"
+
+#~ msgid "Bottom"
+#~ msgstr "Onderkant"
+
+#~ msgid "Min Height"
+#~ msgstr "Minimum hoogte"
+
+#~ msgid "Widget Area"
+#~ msgstr "Widgets"
+
+#~ msgid "WordPress widgetised sidebar"
+#~ msgstr "WordPress zijbalk gereed voor widgets"
+
+#~ msgid "Install Demos"
+#~ msgstr "Installeer demo's"
+
+#~ msgid "Share on Facebook"
+#~ msgstr "Deel op Facebook"
+
+#~ msgid "Share on Twitter"
+#~ msgstr "Deel op Twitter"
+
+#~ msgid "Share on Google+"
+#~ msgstr "Deel op Google+"
+
+#~ msgid "Share on LinkedIn"
+#~ msgstr "Deel op LinkedIn"
+
+#~ msgid "Share on Pinterest"
+#~ msgstr "Delen op Pinterest"
+
+#~ msgid "Share on Reddit"
+#~ msgstr "Deel op Reddit"
+
+#~ msgid "Share on Vk"
+#~ msgstr "Deel op VK"
+
+#~ msgid ""
+#~ "Hey, thought you might enjoy this! Check it out when you have a chance:"
+#~ msgstr ""
+#~ "Beste, ik kwam dit tegen en dacht dat je dit wel interessant zou vinden. "
+#~ "Kijk even!"
+
+#~ msgid "Share via Email"
+#~ msgstr "Delen via Email"
+
+#, fuzzy
+#~| msgid "Your Profile"
+#~ msgid "Flickr Profile"
+#~ msgstr "Jouw profiel"
+
+#~ msgid "YouTube Profile"
+#~ msgstr "YouTube Profiel"
+
+#~ msgid "Pinterest Profile"
+#~ msgstr "Pinterest Profiel"
+
+#~ msgid "Behance Profile"
+#~ msgstr "Behance Profiel"
+
+#~ msgid "Dribbble Profile"
+#~ msgstr "Dribble Profiel"
+
+#~ msgid "Displays About Me Information"
+#~ msgstr "Over mij informatie tonen"
+
+#~ msgid "About Me"
+#~ msgstr "Over mij"
+
+#~ msgid "Displays Advertisements"
+#~ msgstr "Advertenties tonen"
+
+#~ msgid " Advertisement"
+#~ msgstr " Advertentie"
+
+#~ msgid "Title:"
+#~ msgstr "Titel:"
+
+#~ msgid "Displays Adsense Ads"
+#~ msgstr "Adsense Advertenties tonen"
+
+#~ msgid "Adsense"
+#~ msgstr "Reklam"
+
+#~ msgid "Adsense Code"
+#~ msgstr "Adsense code"
+
+#~ msgid "Find us on Facebook"
+#~ msgstr "Vind ons op Facebook"
+
+#~ msgid "Hide Cover Photo"
+#~ msgstr "Verberg Cover Foto"
+
+#~ msgid "Use Small Header"
+#~ msgstr "Gebruike kleine koptekst"
+
+#~ msgid "Show Friend's Faces"
+#~ msgstr "Show Friend's Faces"
+
+#~ msgid "Enter your e-mail address"
+#~ msgstr "Voer uw e-mailadres in"
+
+#~ msgid "Subscribe"
+#~ msgstr "Inschrijven"
+
+#~ msgid "( Supports : Html & Shortcodes )"
+#~ msgstr "( Ondersteunt HTML en shortcodes )"
+
+#~ msgid "Feedburner ID:"
+#~ msgstr "Feedburner ID:"
+
+#~ msgid "Follow Me!"
+#~ msgstr "Volg ons!"
+
+#~ msgid "Number of photos"
+#~ msgstr "Nummer aantal foto’s"
+
+#~ msgid "Number of columns"
+#~ msgstr "Aantal kolommen"
+
+#~ msgid "Photo size"
+#~ msgstr "Foto formaat"
+
+#~ msgid "Original"
+#~ msgstr "Origineel"
+
+#~ msgid "Open links in"
+#~ msgstr "Opent link in"
+
+#~ msgid "Lightbox"
+#~ msgstr "Lightbox"
+
+#~ msgid "Current window (_self)"
+#~ msgstr "Huidig venster (_self)"
+
+#~ msgid "New window (_blank)"
+#~ msgstr "Nieuw venster (_blank)"
+
+#~ msgid "Link text"
+#~ msgstr "Link tekst"
+
+#~ msgid "Unable to communicate with Instagram."
+#~ msgstr "Kan niet communiceren met Instagram."
+
+#~ msgid "Instagram did not return a 200."
+#~ msgstr "Instagram heeft niet het antwoord 200 teruggegeven."
+
+#~ msgid "Instagram has returned invalid data."
+#~ msgstr "Instagram gaf ongeldige data terug."
+
+#~ msgid "Instagram Image"
+#~ msgstr "Instagram afbeelding"
+
+#~ msgid "Instagram did not return any images."
+#~ msgstr "Instagram geeft geen afbeeldingen vrij."
+
+#~ msgid "Number of posts to show:"
+#~ msgstr "Aantal te tonen berichten:"
+
+#~ msgid "Most Recent"
+#~ msgstr "Meest Recent"
+
+#~ msgid "Most Commented"
+#~ msgstr "Most Commented"
+
+#~ msgid "Most Viewed"
+#~ msgstr "Meest bekeken"
+
+#~ msgid "Slider"
+#~ msgstr "Slider"
+
+#~ msgid "Social Icons"
+#~ msgstr "Social media iconen"
+
+#~ msgid "Icon size"
+#~ msgstr "Icoongrootte"
+
+#~ msgid "Latest Tweets"
+#~ msgstr "Laatste Tweets"
+
+#~ msgid "ago"
+#~ msgstr "geleden"
+
+#~ msgid "Twitter Username:"
+#~ msgstr "Twitter gebruikersnaam:"
+
+#~ msgid "Consumer key:"
+#~ msgstr "Consumer Key:"
+
+#~ msgid "Consumer secret:"
+#~ msgstr "Consumer Secret:"
+
+#~ msgid "Number of Tweets to show:"
+#~ msgstr "Aantal weer te geven Tweets:"

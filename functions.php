@@ -27,7 +27,7 @@ function dima_child_enqueue_parent_style() {
 	wp_enqueue_style( 'child-style', get_stylesheet_directory_uri() . '/style.css', array( 'okab-style' ), $version );
 }
 
-add_action( 'wp_enqueue_scripts', 'dima_child_enqueue_parent_style' );
+add_action( 'wp_enqueue_scripts', 'dima_child_enqueue_parent_style', 15 );
 
 /**
  * Load languages.
