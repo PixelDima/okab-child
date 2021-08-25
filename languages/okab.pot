@@ -1,4 +1,4 @@
-# Copyright (C) 2020 Okab
+# Copyright (C) 2021 Okab
 # This file is distributed under the same license as the Okab package.
 msgid ""
 msgstr ""
@@ -57,7 +57,7 @@ msgstr ""
 msgid "Enter in your query in the search form above."
 msgstr ""
 
-#: bbpress/form-user-edit.php:252, woocommerce/cart/shipping-calculator.php:97
+#: bbpress/form-user-edit.php:252, woocommerce/cart/shipping-calculator.php:101
 msgid "Update"
 msgstr ""
 
@@ -89,7 +89,7 @@ msgstr ""
 msgid "This does not appear to be a WXR file, missing/invalid WXR version number"
 msgstr ""
 
-#: data/wordpress-importer.php:140, data/wordpress-importer.php:149, data/wordpress-importer.php:200, data/wordpress-importer.php:205, data/wordpress-importer.php:215, data/importer/class-logger-html.php:17
+#: data/wordpress-importer.php:140, data/wordpress-importer.php:149, data/wordpress-importer.php:205, data/wordpress-importer.php:200, data/wordpress-importer.php:215, data/importer/class-logger-html.php:17
 msgid "Sorry, there has been an error."
 msgstr ""
 
@@ -149,20 +149,20 @@ msgstr ""
 msgid "Import author:"
 msgstr ""
 
-#: data/wordpress-importer.php:325
-msgid "or create new user with login name:"
-msgstr ""
-
 #: data/wordpress-importer.php:328
 msgid "as a new user:"
 msgstr ""
 
-#: data/wordpress-importer.php:336
-msgid "assign posts to an existing user:"
+#: data/wordpress-importer.php:325
+msgid "or create new user with login name:"
 msgstr ""
 
 #: data/wordpress-importer.php:338
 msgid "or assign posts to an existing user:"
+msgstr ""
+
+#: data/wordpress-importer.php:336
+msgid "assign posts to an existing user:"
 msgstr ""
 
 #: data/wordpress-importer.php:343
@@ -189,12 +189,12 @@ msgstr ""
 msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
 msgstr ""
 
-#: data/wordpress-importer.php:611
-msgid "%s &#8220;%s&#8221; already exists."
-msgstr ""
-
 #: data/wordpress-importer.php:681
 msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr ""
+
+#: data/wordpress-importer.php:611
+msgid "%s &#8220;%s&#8221; already exists."
 msgstr ""
 
 #: data/wordpress-importer.php:858
@@ -245,16 +245,16 @@ msgstr ""
 msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
 msgstr ""
 
-#: woocommerce/content-product.php:63, framework/functions/__okab-template.php:303, woocommerce/loop/title.php:44, woocommerce/single-product/title.php:52
+#: woocommerce/content-product.php:66, framework/functions/__okab-template.php:303, woocommerce/loop/title.php:43, woocommerce/single-product/title.php:42
 msgid "Rated %d out of 5"
 msgstr ""
 
-#: woocommerce/content-product.php:67
-msgid "Customer review"
+#: woocommerce/content-product.php:73, woocommerce/loop/title.php:49, woocommerce/single-product/title.php:48
+msgid "Customers reviews"
 msgstr ""
 
-#: woocommerce/content-product.php:69, woocommerce/loop/title.php:50, woocommerce/single-product/title.php:58
-msgid "Customers reviews"
+#: woocommerce/content-product.php:71
+msgid "Customer review"
 msgstr ""
 
 #: woocommerce/single-product-reviews.php:29
@@ -269,18 +269,22 @@ msgstr ""
 msgid "Your Review *"
 msgstr ""
 
+#: woocommerce/single-product-reviews.php:117
+msgid "Reviews"
+msgstr ""
+
 #: woocommerce/single-product-reviews.php:115
 msgid "%1$s review for %2$s"
 msgid_plural "%1$s reviews for %2$s"
 msgstr[0] ""
 msgstr[1] ""
 
-#: woocommerce/single-product-reviews.php:117
-msgid "Reviews"
-msgstr ""
-
 #: woocommerce/single-product-reviews.php:143
 msgid "There are no reviews yet."
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:197
+msgid "Only logged in customers who have purchased this product may leave a review."
 msgstr ""
 
 #: woocommerce/single-product-reviews.php:158
@@ -321,10 +325,6 @@ msgstr ""
 
 #: woocommerce/single-product-reviews.php:180
 msgid "Very Poor"
-msgstr ""
-
-#: woocommerce/single-product-reviews.php:197
-msgid "Only logged in customers who have purchased this product may leave a review."
 msgstr ""
 
 #: data/importer/class-wxr-importer.php:135
@@ -439,103 +439,103 @@ msgstr ""
 msgid "Could not update comment #%d with mapped data"
 msgstr ""
 
-#: framework/functions/scripts.php:166
+#: framework/functions/scripts.php:180
 msgid "Let&apos;s go!"
 msgstr ""
 
-#: framework/functions/scripts.php:167
+#: framework/functions/scripts.php:181
 msgid "Working...!"
 msgstr ""
 
-#: framework/functions/scripts.php:168
+#: framework/functions/scripts.php:182
 msgid "<strong>Warning</strong><br> Importing demo data will overwrite your Customizer settings.<br>Importing data is recommended on fresh installs only.<br>Importing on sites with content or importing twice will duplicate menus, sliders, widget.</em>"
 msgstr ""
 
-#: framework/functions/scripts.php:169
+#: framework/functions/scripts.php:183
 msgid "<br><br><strong>Are you sure you want to proceed?</strong><br><em>(It will take a few minutes to complete)</em>"
 msgstr ""
 
-#: framework/functions/scripts.php:170
+#: framework/functions/scripts.php:184
 msgid "Please wait...!"
 msgstr ""
 
-#: framework/functions/scripts.php:171
+#: framework/functions/scripts.php:185
 msgid "Hang in there, trying to reconnect..."
 msgstr ""
 
-#: framework/functions/scripts.php:172
+#: framework/functions/scripts.php:186
 msgid "Experiencing technical difficulties..."
 msgstr ""
 
-#: framework/functions/scripts.php:173
+#: framework/functions/scripts.php:187
 msgid "We&apos;re sorry, but the demo data could not be imported."
 msgstr ""
 
-#: framework/functions/scripts.php:174
+#: framework/functions/scripts.php:188
 msgid "All done. Have fun!"
 msgstr ""
 
-#: framework/functions/scripts.php:176
+#: framework/functions/scripts.php:190
 msgid "<br><em><strong>Okab Demo Requirement</strong><br>-Memory Limit of 256 MB and max execution time (php time limit) of 300 seconds.<br>-Dima Shoretcodes, contact form 7,DIMA Portfolio, Revolution Slider and Woocommerce must be activated.<em>"
 msgstr ""
 
-#: framework/functions/scripts.php:177
+#: framework/functions/scripts.php:191
 msgid "<br><em><strong>Business Demo Requirement</strong><br>-Memory Limit of 128 MB and max execution time (php time limit) of 300 seconds.<br>-Dima Shoretcodes,DIMA Portfolio, Revolution Slider and contact form 7 must be activated.<em>"
 msgstr ""
 
-#: framework/functions/scripts.php:178
+#: framework/functions/scripts.php:192
 msgid "<br><em><strong>Business Finance Demo Requirement</strong><br>-Memory Limit of 128 MB and max execution time (php time limit) of 300 seconds.<br>-Dima Shoretcodes,DIMA Portfolio, Revolution Slider and contact form 7 must be activated.<em>"
 msgstr ""
 
-#: framework/functions/scripts.php:179
+#: framework/functions/scripts.php:193
 msgid "<br><em><strong>Consulting Demo Requirement</strong><br>-Memory Limit of 128 MB and max execution time (php time limit) of 300 seconds.<br>-Dima Shoretcodes,DIMA Portfolio, Revolution Slider and contact form 7 must be activated.<em>"
 msgstr ""
 
-#: framework/functions/scripts.php:180
+#: framework/functions/scripts.php:194
 msgid "<br><em><strong>App Demo Requirement</strong><br>-Memory Limit of 128 MB and max execution time (php time limit) of 300 seconds.<br>-Dima Shoretcodes, DIMA Portfolio, Revolution Slider and contact form 7 must be activated.<em>"
 msgstr ""
 
-#: framework/functions/scripts.php:181
+#: framework/functions/scripts.php:195
 msgid "<br><em><strong>Resume Demo Requirement</strong><br>-Memory Limit of 128 MB and max execution time (php time limit) of 300 seconds.<br>-Dima Shoretcodes, contact form 7 must be activated.<em>"
 msgstr ""
 
-#: framework/functions/scripts.php:182
+#: framework/functions/scripts.php:196
 msgid "<br><em><strong>Business (RTL) Demo Requirement</strong><br>-Memory Limit of 128 MB and max execution time (php time limit) of 300 seconds.<br>-Dima Shoretcodes, DIMA Portfolio, Revolution Slider and contact form 7 must be activated.<em>"
 msgstr ""
 
-#: framework/functions/scripts.php:183
+#: framework/functions/scripts.php:197
 msgid "<br><em><strong>Minimal Portfolio Demo Requirement</strong><br>-Memory Limit of 128 MB and max execution time (php time limit) of 300 seconds.<br>-Dima Shoretcodes, DIMA Portfolio, contact form 7 must be activated.<em>"
 msgstr ""
 
-#: framework/functions/scripts.php:184
+#: framework/functions/scripts.php:198
 msgid "<br><em><strong>Hosting Demo Requirement</strong><br>-Memory Limit of 128 MB and max execution time (php time limit) of 300 seconds.<br>-Dima Shoretcodes, DIMA Portfolio, contact form 7 must be activated.<em>"
 msgstr ""
 
-#: framework/functions/scripts.php:185
+#: framework/functions/scripts.php:199
 msgid "<br><em><strong>Magazine Demo Requirement</strong><br>-Memory Limit of 128 MB and max execution time (php time limit) of 300 seconds.<br>-Dima Shoretcodes, DIMA Portfolio, contact form 7 must be activated.<em>"
 msgstr ""
 
-#: framework/functions/scripts.php:186
+#: framework/functions/scripts.php:200
 msgid "<br><em><strong>Minimal Blog Demo Requirement</strong><br>-Memory Limit of 128 MB and max execution time (php time limit) of 300 seconds.<br>-Dima Shoretcodes, DIMA Portfolio, contact form 7 must be activated.<em>"
 msgstr ""
 
-#: framework/functions/scripts.php:187
+#: framework/functions/scripts.php:201
 msgid "<br><em><strong>Photography Demo Requirement</strong><br>-Memory Limit of 128 MB and max execution time (php time limit) of 300 seconds.<br>-Dima Shoretcodes, DIMA Portfolio, contact form 7 must be activated.<em>"
 msgstr ""
 
-#: framework/functions/scripts.php:188
+#: framework/functions/scripts.php:202
 msgid "<br><em><strong>Construction Demo Requirement</strong><br>-Memory Limit of 128 MB and max execution time (php time limit) of 300 seconds.<br>-Dima Shoretcodes, DIMA Portfolio, Revolution Slider and contact form 7 must be activated.<em>"
 msgstr ""
 
-#: framework/functions/scripts.php:189
+#: framework/functions/scripts.php:203
 msgid "<br><em><strong>Shop Demo Requirement</strong><br>-Memory Limit of 128 MB and max execution time (php time limit) of 300 seconds.<br>-Dima Shoretcodes, DIMA Portfolio, Woocommerce, Revolution Slider and contact form 7 must be activated.<em>"
 msgstr ""
 
-#: framework/functions/scripts.php:190
+#: framework/functions/scripts.php:204
 msgid "<br><em><strong>Cosmetic Demo Requirement</strong><br>-Memory Limit of 128 MB and max execution time (php time limit) of 300 seconds.<br>-Dima Shoretcodes, DIMA Portfolio, Woocommerce, Revolution Slider and contact form 7 must be activated.<em>"
 msgstr ""
 
-#: framework/functions/scripts.php:191
+#: framework/functions/scripts.php:205
 msgid "<br><em><strong>Restaurant Demo Requirement</strong><br>-Memory Limit of 128 MB and max execution time (php time limit) of 300 seconds.<br>-Dima Shoretcodes, DIMA Portfolio, Revolution Slider and contact form 7 must be activated.<em>"
 msgstr ""
 
@@ -595,22 +595,6 @@ msgstr ""
 msgid "Your comment is awaiting moderation."
 msgstr ""
 
-#: framework/functions/__okab-template.php:359
-msgid "Welcome"
-msgstr ""
-
-#: framework/functions/__okab-template.php:363
-msgid "Dashboard"
-msgstr ""
-
-#: framework/functions/__okab-template.php:366
-msgid "Your Profile"
-msgstr ""
-
-#: framework/functions/__okab-template.php:369
-msgid "Logout"
-msgstr ""
-
 #: framework/functions/__okab-template.php:382, framework/functions/__okab-template.php:383, framework/functions/__okab-template.php:384
 msgid "Username"
 msgstr ""
@@ -627,7 +611,23 @@ msgstr ""
 msgid "Lost your password?"
 msgstr ""
 
-#: framework/functions/__okab-template.php:488, framework/functions/admin/pixeldima-setup/framework-demo-content.php:589, framework/functions/admin/meta/object_types/edd_download_details.php:180
+#: framework/functions/__okab-template.php:359
+msgid "Welcome"
+msgstr ""
+
+#: framework/functions/__okab-template.php:363
+msgid "Dashboard"
+msgstr ""
+
+#: framework/functions/__okab-template.php:366
+msgid "Your Profile"
+msgstr ""
+
+#: framework/functions/__okab-template.php:369
+msgid "Logout"
+msgstr ""
+
+#: framework/functions/__okab-template.php:489, framework/functions/admin/pixeldima-setup/framework-demo-content.php:588, framework/functions/admin/meta/object_types/edd_download_details.php:180
 msgid "All"
 msgstr ""
 
@@ -643,16 +643,16 @@ msgstr ""
 msgid "The Page are looking for might have been removed, had its name change, or is temporarily unavailable."
 msgstr ""
 
-#: framework/views/wp-search.php:21, framework/views/wp-search.php:54
+#: framework/views/wp-search.php:69, framework/views/wp-search.php:38
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: framework/views/wp-search.php:54, framework/views/wp-search.php:21
 msgid "Not so happy with results? Search for a new keyword"
 msgstr ""
 
-#: framework/views/wp-search.php:28, framework/views/wp-search.php:61
+#: framework/views/wp-search.php:61, framework/views/wp-search.php:28
 msgid "search results for"
-msgstr ""
-
-#: framework/views/wp-search.php:38, framework/views/wp-search.php:69
-msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
 msgstr ""
 
 #: woocommerce/cart/cart-totals.php:31, woocommerce/cart/cart-totals.php:32
@@ -667,11 +667,11 @@ msgstr ""
 msgid "estimated for %s"
 msgstr ""
 
-#: woocommerce/cart/cart-totals.php:89, woocommerce/cart/cart-totals.php:90, woocommerce/myaccount/my-orders.php:26, woocommerce/order/order-details.php:47
+#: woocommerce/cart/cart-totals.php:89, woocommerce/cart/cart-totals.php:90, woocommerce/myaccount/my-orders.php:26, woocommerce/order/order-details.php:48
 msgid "Total"
 msgstr ""
 
-#: woocommerce/cart/cross-sells.php:29
+#: woocommerce/cart/cross-sells.php:28
 msgid "You may be interested in&hellip;"
 msgstr ""
 
@@ -687,19 +687,19 @@ msgstr ""
 msgid "Select a country&hellip;"
 msgstr ""
 
-#: woocommerce/cart/shipping-calculator.php:51, woocommerce/cart/shipping-calculator.php:58, woocommerce/cart/shipping-calculator.php:72
+#: woocommerce/cart/shipping-calculator.php:75, woocommerce/cart/shipping-calculator.php:59, woocommerce/cart/shipping-calculator.php:51
 msgid "State / county"
 msgstr ""
 
-#: woocommerce/cart/shipping-calculator.php:59
+#: woocommerce/cart/shipping-calculator.php:60
 msgid "Select a state&hellip;"
 msgstr ""
 
-#: woocommerce/cart/shipping-calculator.php:83
+#: woocommerce/cart/shipping-calculator.php:87
 msgid "City"
 msgstr ""
 
-#: woocommerce/cart/shipping-calculator.php:92
+#: woocommerce/cart/shipping-calculator.php:96
 msgid "Postcode / Zip"
 msgstr ""
 
@@ -731,6 +731,26 @@ msgstr ""
 msgid "Apply Coupon"
 msgstr ""
 
+#: woocommerce/checkout/thankyou.php:99, woocommerce/checkout/thankyou.php:42
+msgid "Thank you. Your order has been received."
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:46
+msgid "Order Number:"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:56, woocommerce/checkout/thankyou.php:51
+msgid "Date:"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:69
+msgid "Total:"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:79
+msgid "Payment method:"
+msgstr ""
+
 #: woocommerce/checkout/thankyou.php:29
 msgid "Unfortunately your order cannot be processed as the originating bank/merchant has declined your transaction. Please attempt your purchase again."
 msgstr ""
@@ -743,31 +763,11 @@ msgstr ""
 msgid "My Account"
 msgstr ""
 
-#: woocommerce/checkout/thankyou.php:42, woocommerce/checkout/thankyou.php:99
-msgid "Thank you. Your order has been received."
-msgstr ""
-
-#: woocommerce/checkout/thankyou.php:46
-msgid "Order Number:"
-msgstr ""
-
-#: woocommerce/checkout/thankyou.php:51, woocommerce/checkout/thankyou.php:56
-msgid "Date:"
-msgstr ""
-
-#: woocommerce/checkout/thankyou.php:69
-msgid "Total:"
-msgstr ""
-
-#: woocommerce/checkout/thankyou.php:79
-msgid "Payment method:"
-msgstr ""
-
 #: woocommerce/loop/sale-flash.php:17, woocommerce/single-product/sale-flash.php:26
 msgid "Sale!"
 msgstr ""
 
-#: woocommerce/loop/title.php:48, woocommerce/single-product/title.php:56
+#: woocommerce/loop/title.php:47, woocommerce/single-product/title.php:46
 msgid "Customer reviews"
 msgstr ""
 
@@ -811,9 +811,8 @@ msgstr ""
 msgid "Recent Orders"
 msgstr ""
 
-#: woocommerce/myaccount/my-orders.php:67
-msgctxt "hash before order number"
-msgid "#"
+#: woocommerce/myaccount/my-orders.php:93, framework/functions/admin/pixeldima-setup/framework-demo-content.php:700, framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:389
+msgid "Cancel"
 msgstr ""
 
 #: woocommerce/myaccount/my-orders.php:78
@@ -822,8 +821,9 @@ msgid_plural "%s for %s items"
 msgstr[0] ""
 msgstr[1] ""
 
-#: woocommerce/myaccount/my-orders.php:93, framework/functions/admin/pixeldima-setup/framework-demo-content.php:701, framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:370
-msgid "Cancel"
+#: woocommerce/myaccount/my-orders.php:67
+msgctxt "hash before order number"
+msgid "#"
 msgstr ""
 
 #: woocommerce/order/order-details-customer.php:26, woocommerce/order/w2-order-details-customer.php:21
@@ -854,11 +854,11 @@ msgstr ""
 msgid "Shipping Address"
 msgstr ""
 
-#: woocommerce/order/order-details.php:42
+#: woocommerce/order/order-details.php:43
 msgid "Order Details"
 msgstr ""
 
-#: woocommerce/order/order-details.php:46
+#: woocommerce/order/order-details.php:47
 msgid "Product"
 msgstr ""
 
@@ -866,7 +866,7 @@ msgstr ""
 msgid "You may also like&hellip;"
 msgstr ""
 
-#: woocommerce/single-product/w1-related.php:49, framework/functions/admin/customizer/register.php:2783
+#: woocommerce/single-product/w1-related.php:49, framework/functions/admin/customizer/register.php:2803
 msgid "Related Products"
 msgstr ""
 
@@ -874,15 +874,15 @@ msgstr ""
 msgid "Okab Plugins"
 msgstr ""
 
-#: framework/functions/admin/setup.php:61
+#: framework/functions/admin/setup.php:54
 msgid "Primary Menu"
 msgstr ""
 
-#: framework/functions/admin/setup.php:62, framework/functions/admin/customizer/register.php:2918, framework/functions/admin/customizer/register.php:3251
+#: framework/functions/admin/setup.php:55, framework/functions/admin/customizer/register.php:2938, framework/functions/admin/customizer/register.php:3271
 msgid "Footer Menu"
 msgstr ""
 
-#: framework/functions/admin/setup.php:65
+#: framework/functions/admin/setup.php:58
 msgid "AMP menu"
 msgstr ""
 
@@ -894,7 +894,7 @@ msgstr ""
 msgid "Appears on posts and pages that include the sidebar."
 msgstr ""
 
-#: framework/functions/admin/widgets.php:37, framework/functions/admin/customizer/register.php:3981
+#: framework/functions/admin/widgets.php:37, framework/functions/admin/customizer/register.php:3988
 msgid "Portfolio Sidebar"
 msgstr ""
 
@@ -950,7 +950,7 @@ msgstr ""
 msgid "This widget area uses in the Knowledge Base pages."
 msgstr ""
 
-#: framework/functions/extensions/woocommerce.php:298, framework/functions/extensions/woocommerce.php:300
+#: framework/functions/extensions/woocommerce.php:300, framework/functions/extensions/woocommerce.php:298
 msgid "There doesn&lsquo;t seem to be any available shipping methods. Please double check your address, or contact us if you need any help."
 msgstr ""
 
@@ -992,6 +992,10 @@ msgstr ""
 
 #: framework/functions/helper/advertisment.php:20
 msgid "Please consider supporting us by disabling your ad blocker"
+msgstr ""
+
+#: framework/functions/helper/class-dima-helper.php:1015
+msgid "Image"
 msgstr ""
 
 #: framework/functions/helper/pagination.php:34
@@ -1066,49 +1070,11 @@ msgstr ""
 msgid "404 - Page not Found"
 msgstr ""
 
-#: framework/functions/output/dima-class-breadcrumbs.php:123
-msgid "Latest Posts"
-msgstr ""
-
-#: framework/functions/output/dima-class-breadcrumbs.php:127
-msgid "Search results for: %s"
-msgstr ""
-
-#: framework/functions/output/dima-class-breadcrumbs.php:130
-msgid "Error 404 Page"
-msgstr ""
-
-#: framework/functions/output/dima-class-breadcrumbs.php:136, framework/functions/admin/meta/object_types/object_pages.php:80
-msgid "Shop"
-msgstr ""
-
-#: framework/functions/output/dima-class-breadcrumbs.php:156
-msgid "Daily Archives: %s"
-msgstr ""
-
-#: framework/functions/output/dima-class-breadcrumbs.php:158
-msgid "Monthly Archives: %s"
-msgstr ""
-
-#: framework/functions/output/dima-class-breadcrumbs.php:158
-msgctxt "monthly archives date format"
-msgid "F Y"
-msgstr ""
-
-#: framework/functions/output/dima-class-breadcrumbs.php:160
-msgid "Yearly Archives: %s"
-msgstr ""
-
-#: framework/functions/output/dima-class-breadcrumbs.php:160
-msgctxt "yearly archives date format"
-msgid "Y"
-msgstr ""
-
-#: framework/functions/output/featured.php:95, framework/functions/output/featured.php:329, framework/views/partials/contents/big-grid-content-list.php:33, framework/views/partials/contents/big-grid-content-list.php:47, framework/views/partials/contents/big-grid-content-main.php:30, framework/views/partials/contents/big-grid-content-main.php:43, framework/views/partials/contents/content-link.php:39, framework/views/partials/contents/content-link.php:42, framework/views/partials/contents/content-list.php:28, framework/views/partials/contents/content-list.php:37, framework/views/partials/contents/content-list.php:49, framework/views/partials/contents/content-quote.php:55, framework/views/partials/contents/_content-post-header.php:32
+#: framework/functions/output/featured.php:95, framework/functions/output/featured.php:329, framework/views/partials/contents/big-grid-content-list.php:47, framework/views/partials/contents/big-grid-content-list.php:33, framework/views/partials/contents/big-grid-content-main.php:43, framework/views/partials/contents/big-grid-content-main.php:30, framework/views/partials/contents/content-link.php:39, framework/views/partials/contents/content-link.php:42, framework/views/partials/contents/content-list.php:37, framework/views/partials/contents/content-list.php:28, framework/views/partials/contents/content-list.php:49, framework/views/partials/contents/content-quote.php:55, framework/views/partials/contents/_content-post-header.php:32
 msgid "Permalink to: \"%s\""
 msgstr ""
 
-#: framework/views/partials/related-post.php:20, framework/functions/admin/customizer/register.php:3210
+#: framework/views/partials/related-post.php:20, framework/functions/admin/customizer/register.php:299, framework/functions/admin/customizer/register.php:3230
 msgid "Related Posts"
 msgstr ""
 
@@ -1124,7 +1090,7 @@ msgstr ""
 msgid "On"
 msgstr ""
 
-#: framework/functions/admin/customizer/choices.php:45, framework/functions/admin/customizer/register.php:3512, framework/functions/admin/meta/meta-boxes.php:163, framework/functions/admin/meta/meta-boxes.php:255, framework/functions/admin/meta/meta-boxes.php:497, framework/functions/admin/meta/meta-boxes.php:554, framework/functions/admin/meta/meta-boxes.php:658, framework/functions/admin/meta/meta-boxes.php:799, framework/functions/admin/meta/meta-boxes.php:1164, framework/functions/admin/meta/meta-boxes.php:1262, framework/functions/admin/meta/meta-boxes.php:1410, framework/functions/admin/meta/meta-boxes.php:1422, framework/functions/admin/meta/meta-boxes.php:1513, framework/functions/admin/meta/object_types/object_portfolio.php:76, framework/functions/admin/meta/object_types/object_portfolio.php:92, framework/functions/admin/meta/object_types/object_portfolio.php:123, framework/functions/admin/meta/object_types/object_post.php:359, framework/functions/admin/meta/object_types/object_post.php:394, framework/functions/admin/meta/object_types/object_post.php:412, framework/functions/admin/meta/object_types/object_post.php:429, framework/functions/admin/meta/object_types/object_post.php:447
+#: framework/functions/admin/customizer/choices.php:45, framework/functions/admin/meta/meta-boxes.php:163, framework/functions/admin/meta/meta-boxes.php:255, framework/functions/admin/meta/meta-boxes.php:497, framework/functions/admin/meta/meta-boxes.php:554, framework/functions/admin/meta/meta-boxes.php:658, framework/functions/admin/meta/meta-boxes.php:799, framework/functions/admin/meta/meta-boxes.php:1164, framework/functions/admin/meta/meta-boxes.php:1262, framework/functions/admin/meta/meta-boxes.php:1410, framework/functions/admin/meta/meta-boxes.php:1422, framework/functions/admin/meta/meta-boxes.php:1513, framework/functions/admin/meta/object_types/object_portfolio.php:76, framework/functions/admin/meta/object_types/object_portfolio.php:92, framework/functions/admin/meta/object_types/object_portfolio.php:123, framework/functions/admin/meta/object_types/object_post.php:359, framework/functions/admin/meta/object_types/object_post.php:394, framework/functions/admin/meta/object_types/object_post.php:412, framework/functions/admin/meta/object_types/object_post.php:429, framework/functions/admin/meta/object_types/object_post.php:447
 msgid "Off"
 msgstr ""
 
@@ -1312,7 +1278,7 @@ msgstr ""
 msgid "Inherit"
 msgstr ""
 
-#: framework/functions/admin/customizer/customizer-data.php:129, framework/functions/admin/customizer/register.php:275
+#: framework/functions/admin/customizer/customizer-data.php:130, framework/functions/admin/customizer/register.php:275
 msgid "Breaking"
 msgstr ""
 
@@ -1336,7 +1302,7 @@ msgstr ""
 msgid "Header"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:78, framework/functions/admin/customizer/register.php:79, framework/functions/admin/customizer/register.php:315, framework/functions/admin/meta/object_types/object_pages.php:87, framework/functions/admin/meta/object_types/object_portfolio.php:170, framework/functions/admin/meta/object_types/object_post.php:547
+#: framework/functions/admin/customizer/register.php:78, framework/functions/admin/customizer/register.php:79, framework/functions/admin/customizer/register.php:210, framework/functions/admin/customizer/register.php:315, framework/functions/admin/meta/object_types/object_pages.php:87, framework/functions/admin/meta/object_types/object_portfolio.php:170, framework/functions/admin/meta/object_types/object_post.php:547
 msgid "Footer"
 msgstr ""
 
@@ -1344,7 +1310,7 @@ msgstr ""
 msgid "Okab WooCommerce"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:92, framework/functions/admin/customizer/register.php:93, framework/functions/admin/pixeldima-setup/framework-demo-content.php:604
+#: framework/functions/admin/customizer/register.php:92, framework/functions/admin/customizer/register.php:93, framework/functions/admin/pixeldima-setup/framework-demo-content.php:603
 msgid "Portfolio"
 msgstr ""
 
@@ -1380,6 +1346,10 @@ msgstr ""
 msgid "Main Menu"
 msgstr ""
 
+#: framework/functions/admin/customizer/register.php:154
+msgid "Main Menu: Dropdowns"
+msgstr ""
+
 #: framework/functions/admin/customizer/register.php:161
 msgid "Heading H1"
 msgstr ""
@@ -1412,6 +1382,10 @@ msgstr ""
 msgid "Button"
 msgstr ""
 
+#: framework/functions/admin/customizer/register.php:217
+msgid "Small Footer And Copyright"
+msgstr ""
+
 #: framework/functions/admin/customizer/register.php:231
 msgid "Header Style & Layouts"
 msgstr ""
@@ -1428,6 +1402,10 @@ msgstr ""
 msgid "Sub-Menu"
 msgstr ""
 
+#: framework/functions/admin/customizer/register.php:256
+msgid "Logo & Site Identity"
+msgstr ""
+
 #: framework/functions/admin/customizer/register.php:263
 msgid "Logo (RTL) ( Deprecated )"
 msgstr ""
@@ -1438,6 +1416,14 @@ msgstr ""
 
 #: framework/functions/admin/customizer/register.php:281
 msgid "Page title"
+msgstr ""
+
+#: framework/functions/admin/customizer/register.php:287
+msgid "Latest Posts Settings"
+msgstr ""
+
+#: framework/functions/admin/customizer/register.php:293
+msgid "Single Post Settings"
 msgstr ""
 
 #: framework/functions/admin/customizer/register.php:303, framework/functions/admin/meta/meta-boxes.php:772
@@ -1452,7 +1438,7 @@ msgstr ""
 msgid "General Settings"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:321, framework/functions/admin/pixeldima-setup/framework-demo-content.php:629
+#: framework/functions/admin/customizer/register.php:321, framework/functions/admin/pixeldima-setup/framework-demo-content.php:628
 msgid "Widgets"
 msgstr ""
 
@@ -1516,7 +1502,7 @@ msgstr ""
 msgid "Loading Screen"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:444, framework/functions/admin/customizer/register.php:2386, framework/functions/admin/customizer/register.php:3971, framework/functions/admin/customizer/register.php:4002, framework/functions/admin/meta/meta-boxes.php:734
+#: framework/functions/admin/customizer/register.php:444, framework/functions/admin/customizer/register.php:2396, framework/functions/admin/customizer/register.php:2416, framework/functions/admin/customizer/register.php:3978, framework/functions/admin/customizer/register.php:4009, framework/functions/admin/meta/meta-boxes.php:734
 msgid "Content Layout"
 msgstr ""
 
@@ -1556,7 +1542,7 @@ msgstr ""
 msgid "Check ON to activate sticky menu on mobile"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:561, framework/functions/admin/customizer/register.php:624, framework/functions/admin/customizer/register.php:3144, framework/functions/admin/meta/meta-boxes.php:274, framework/functions/admin/meta/meta-boxes.php:374
+#: framework/functions/admin/customizer/register.php:561, framework/functions/admin/customizer/register.php:624, framework/functions/admin/customizer/register.php:3164, framework/functions/admin/meta/meta-boxes.php:274, framework/functions/admin/meta/meta-boxes.php:374
 msgid "Logo Width (px)"
 msgstr ""
 
@@ -1584,7 +1570,7 @@ msgstr ""
 msgid "Upload Your Mobile Logo (Retina Version @2x)"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:687, framework/functions/admin/customizer/register.php:3299, framework/functions/admin/meta/meta-boxes.php:128
+#: framework/functions/admin/customizer/register.php:687, framework/functions/admin/customizer/register.php:3319, framework/functions/admin/meta/meta-boxes.php:128
 msgid "Header Background Color"
 msgstr ""
 
@@ -1928,7 +1914,7 @@ msgstr ""
 msgid "Smooth Scroll"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:1425, framework/functions/admin/customizer/include/controls/typography/dima_custom_control_typography.php:69
+#: framework/functions/admin/customizer/register.php:1425, framework/functions/admin/customizer/include/controls/typography/dima_custom_control_typography.php:70
 msgid "Custom Fonts"
 msgstr ""
 
@@ -1969,827 +1955,823 @@ msgid "Apply to use the font-awesome v5"
 msgstr ""
 
 #: framework/functions/admin/customizer/register.php:1495
-msgid "Use font-awesome v5 SVG"
+msgid "Preload font-awesome"
+msgstr ""
+
+#: framework/functions/admin/customizer/register.php:1498
+msgid "Font preloading can improve your site’s performance"
 msgstr ""
 
 #: framework/functions/admin/customizer/register.php:1505
+msgid "Use font-awesome v5 SVG"
+msgstr ""
+
+#: framework/functions/admin/customizer/register.php:1515
 msgid "Upgrading from FontAwesome Version 4"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:1515, framework/functions/admin/customizer/register.php:1628, framework/functions/admin/customizer/register.php:1713, framework/functions/admin/customizer/register.php:1798, framework/functions/admin/customizer/register.php:1883, framework/functions/admin/customizer/register.php:1968, framework/functions/admin/customizer/register.php:2053, framework/functions/admin/customizer/register.php:2138, framework/functions/admin/customizer/register.php:2241, framework/functions/admin/customizer/register.php:2318
+#: framework/functions/admin/customizer/register.php:1525, framework/functions/admin/customizer/register.php:1638, framework/functions/admin/customizer/register.php:1723, framework/functions/admin/customizer/register.php:1808, framework/functions/admin/customizer/register.php:1893, framework/functions/admin/customizer/register.php:1978, framework/functions/admin/customizer/register.php:2063, framework/functions/admin/customizer/register.php:2148, framework/functions/admin/customizer/register.php:2251, framework/functions/admin/customizer/register.php:2328
 msgid "Source"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:1518, framework/functions/admin/customizer/register.php:1631, framework/functions/admin/customizer/register.php:1716, framework/functions/admin/customizer/register.php:1801, framework/functions/admin/customizer/register.php:1886, framework/functions/admin/customizer/register.php:1971, framework/functions/admin/customizer/register.php:2056, framework/functions/admin/customizer/register.php:2141, framework/functions/admin/customizer/register.php:2244, framework/functions/admin/customizer/register.php:2321
+#: framework/functions/admin/customizer/register.php:1528, framework/functions/admin/customizer/register.php:1641, framework/functions/admin/customizer/register.php:1726, framework/functions/admin/customizer/register.php:1811, framework/functions/admin/customizer/register.php:1896, framework/functions/admin/customizer/register.php:1981, framework/functions/admin/customizer/register.php:2066, framework/functions/admin/customizer/register.php:2151, framework/functions/admin/customizer/register.php:2254, framework/functions/admin/customizer/register.php:2331
 msgid "Theme Defaults"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:1519, framework/functions/admin/customizer/register.php:1632, framework/functions/admin/customizer/register.php:1717, framework/functions/admin/customizer/register.php:1802, framework/functions/admin/customizer/register.php:1887, framework/functions/admin/customizer/register.php:1972, framework/functions/admin/customizer/register.php:2057, framework/functions/admin/customizer/register.php:2142, framework/functions/admin/customizer/register.php:2245, framework/functions/admin/customizer/register.php:2322, framework/functions/admin/customizer/include/controls/typography/dima_custom_control_typography.php:104
+#: framework/functions/admin/customizer/register.php:1529, framework/functions/admin/customizer/register.php:1642, framework/functions/admin/customizer/register.php:1727, framework/functions/admin/customizer/register.php:1812, framework/functions/admin/customizer/register.php:1897, framework/functions/admin/customizer/register.php:1982, framework/functions/admin/customizer/register.php:2067, framework/functions/admin/customizer/register.php:2152, framework/functions/admin/customizer/register.php:2255, framework/functions/admin/customizer/register.php:2332, framework/functions/admin/customizer/include/controls/typography/dima_custom_control_typography.php:105
 msgid "Google Fonts"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:1520, framework/functions/admin/customizer/register.php:1633, framework/functions/admin/customizer/register.php:1718, framework/functions/admin/customizer/register.php:1803, framework/functions/admin/customizer/register.php:1888, framework/functions/admin/customizer/register.php:1973, framework/functions/admin/customizer/register.php:2058, framework/functions/admin/customizer/register.php:2143, framework/functions/admin/customizer/register.php:2246, framework/functions/admin/customizer/register.php:2323
+#: framework/functions/admin/customizer/register.php:1530, framework/functions/admin/customizer/register.php:1643, framework/functions/admin/customizer/register.php:1728, framework/functions/admin/customizer/register.php:1813, framework/functions/admin/customizer/register.php:1898, framework/functions/admin/customizer/register.php:1983, framework/functions/admin/customizer/register.php:2068, framework/functions/admin/customizer/register.php:2153, framework/functions/admin/customizer/register.php:2256, framework/functions/admin/customizer/register.php:2333
 msgid "Standar Fonts"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:1521, framework/functions/admin/customizer/register.php:1634, framework/functions/admin/customizer/register.php:1719, framework/functions/admin/customizer/register.php:1804, framework/functions/admin/customizer/register.php:1889, framework/functions/admin/customizer/register.php:1974, framework/functions/admin/customizer/register.php:2059, framework/functions/admin/customizer/register.php:2144, framework/functions/admin/customizer/register.php:2247, framework/functions/admin/customizer/register.php:2324
+#: framework/functions/admin/customizer/register.php:1531, framework/functions/admin/customizer/register.php:1644, framework/functions/admin/customizer/register.php:1729, framework/functions/admin/customizer/register.php:1814, framework/functions/admin/customizer/register.php:1899, framework/functions/admin/customizer/register.php:1984, framework/functions/admin/customizer/register.php:2069, framework/functions/admin/customizer/register.php:2154, framework/functions/admin/customizer/register.php:2257, framework/functions/admin/customizer/register.php:2334
 msgid "FontFace.me"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:1522, framework/functions/admin/customizer/register.php:1635, framework/functions/admin/customizer/register.php:1720, framework/functions/admin/customizer/register.php:1805, framework/functions/admin/customizer/register.php:1890, framework/functions/admin/customizer/register.php:1975, framework/functions/admin/customizer/register.php:2060, framework/functions/admin/customizer/register.php:2145, framework/functions/admin/customizer/register.php:2248, framework/functions/admin/customizer/register.php:2325
+#: framework/functions/admin/customizer/register.php:1532, framework/functions/admin/customizer/register.php:1645, framework/functions/admin/customizer/register.php:1730, framework/functions/admin/customizer/register.php:1815, framework/functions/admin/customizer/register.php:1900, framework/functions/admin/customizer/register.php:1985, framework/functions/admin/customizer/register.php:2070, framework/functions/admin/customizer/register.php:2155, framework/functions/admin/customizer/register.php:2258, framework/functions/admin/customizer/register.php:2335
 msgid "Custom Fonts (e.g. Typekit)"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:1531, framework/functions/admin/customizer/register.php:1644, framework/functions/admin/customizer/register.php:1729, framework/functions/admin/customizer/register.php:1814, framework/functions/admin/customizer/register.php:1899, framework/functions/admin/customizer/register.php:1984, framework/functions/admin/customizer/register.php:2069, framework/functions/admin/customizer/register.php:2154, framework/functions/admin/customizer/register.php:2334
+#: framework/functions/admin/customizer/register.php:1541, framework/functions/admin/customizer/register.php:1654, framework/functions/admin/customizer/register.php:1739, framework/functions/admin/customizer/register.php:1824, framework/functions/admin/customizer/register.php:1909, framework/functions/admin/customizer/register.php:1994, framework/functions/admin/customizer/register.php:2079, framework/functions/admin/customizer/register.php:2164, framework/functions/admin/customizer/register.php:2344
 msgid "Font Family"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:1541, framework/functions/admin/customizer/register.php:1654, framework/functions/admin/customizer/register.php:1739, framework/functions/admin/customizer/register.php:1824, framework/functions/admin/customizer/register.php:1909, framework/functions/admin/customizer/register.php:1994, framework/functions/admin/customizer/register.php:2079, framework/functions/admin/customizer/register.php:2164, framework/functions/admin/customizer/register.php:2267, framework/functions/admin/customizer/register.php:2344
+#: framework/functions/admin/customizer/register.php:1551, framework/functions/admin/customizer/register.php:1664, framework/functions/admin/customizer/register.php:1749, framework/functions/admin/customizer/register.php:1834, framework/functions/admin/customizer/register.php:1919, framework/functions/admin/customizer/register.php:2004, framework/functions/admin/customizer/register.php:2089, framework/functions/admin/customizer/register.php:2174, framework/functions/admin/customizer/register.php:2277, framework/functions/admin/customizer/register.php:2354
 msgid "Font Variants"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:1551, framework/functions/admin/customizer/register.php:1664, framework/functions/admin/customizer/register.php:1749, framework/functions/admin/customizer/register.php:1834, framework/functions/admin/customizer/register.php:1919, framework/functions/admin/customizer/register.php:2004, framework/functions/admin/customizer/register.php:2089, framework/functions/admin/customizer/register.php:2174, framework/functions/admin/customizer/register.php:2277, framework/functions/admin/customizer/register.php:2354
+#: framework/functions/admin/customizer/register.php:1561, framework/functions/admin/customizer/register.php:1674, framework/functions/admin/customizer/register.php:1759, framework/functions/admin/customizer/register.php:1844, framework/functions/admin/customizer/register.php:1929, framework/functions/admin/customizer/register.php:2014, framework/functions/admin/customizer/register.php:2099, framework/functions/admin/customizer/register.php:2184, framework/functions/admin/customizer/register.php:2287, framework/functions/admin/customizer/register.php:2364
 msgid "Font Weights"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:1561, framework/functions/admin/customizer/register.php:1683, framework/functions/admin/customizer/register.php:1768, framework/functions/admin/customizer/register.php:1853, framework/functions/admin/customizer/register.php:1938, framework/functions/admin/customizer/register.php:2023, framework/functions/admin/customizer/register.php:2184
+#: framework/functions/admin/customizer/register.php:1571, framework/functions/admin/customizer/register.php:1693, framework/functions/admin/customizer/register.php:1778, framework/functions/admin/customizer/register.php:1863, framework/functions/admin/customizer/register.php:1948, framework/functions/admin/customizer/register.php:2033, framework/functions/admin/customizer/register.php:2194, framework/functions/admin/customizer/register.php:2297, framework/functions/admin/customizer/register.php:2374
 msgid "Font Size"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:1588
-msgid "Font Color"
+#: framework/functions/admin/customizer/register.php:1573, framework/functions/admin/customizer/register.php:1695, framework/functions/admin/customizer/register.php:1780, framework/functions/admin/customizer/register.php:1865, framework/functions/admin/customizer/register.php:1950, framework/functions/admin/customizer/register.php:2035, framework/functions/admin/customizer/register.php:2120, framework/functions/admin/customizer/register.php:2196, framework/functions/admin/customizer/register.php:2299, framework/functions/admin/customizer/register.php:2376, framework/functions/admin/customizer/register.php:2633, framework/functions/admin/customizer/register.php:2652, framework/functions/admin/customizer/register.php:3057, framework/functions/admin/customizer/register.php:3076
+msgid "You can add: px-rem-em-%, leave empty and it will apply px"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:1597
-msgid "Text Link color"
+#: framework/functions/admin/customizer/register.php:1580
+msgid "Line Height"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:1606
-msgid "Text Link Hover color"
+#: framework/functions/admin/customizer/register.php:1582
+msgid "Utilities for controlling the leading (line height)"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:1618, framework/functions/admin/customizer/register.php:1703, framework/functions/admin/customizer/register.php:1788, framework/functions/admin/customizer/register.php:1873, framework/functions/admin/customizer/register.php:1958, framework/functions/admin/customizer/register.php:2043
-msgid "Heading Font Style"
-msgstr ""
-
-#: framework/functions/admin/customizer/register.php:1674
-msgid "Headings Letter Spacing"
-msgstr ""
-
-#: framework/functions/admin/customizer/register.php:1692, framework/functions/admin/customizer/register.php:1777, framework/functions/admin/customizer/register.php:1862, framework/functions/admin/customizer/register.php:1947, framework/functions/admin/customizer/register.php:2032, framework/functions/admin/customizer/register.php:2117
-msgid "Headings color"
-msgstr ""
-
-#: framework/functions/admin/customizer/register.php:1759, framework/functions/admin/customizer/register.php:1844, framework/functions/admin/customizer/register.php:1929, framework/functions/admin/customizer/register.php:2014, framework/functions/admin/customizer/register.php:2099
+#: framework/functions/admin/customizer/register.php:1589, framework/functions/admin/customizer/register.php:1769, framework/functions/admin/customizer/register.php:1854, framework/functions/admin/customizer/register.php:1939, framework/functions/admin/customizer/register.php:2024, framework/functions/admin/customizer/register.php:2109
 msgid "Letter Spacing"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:2108
+#: framework/functions/admin/customizer/register.php:1598, framework/functions/admin/customizer/register.php:2203, framework/functions/admin/customizer/register.php:2221, framework/functions/admin/customizer/register.php:2966
+msgid "Font Color"
+msgstr ""
+
+#: framework/functions/admin/customizer/register.php:1607
+msgid "Text Link color"
+msgstr ""
+
+#: framework/functions/admin/customizer/register.php:1616
+msgid "Text Link Hover color"
+msgstr ""
+
+#: framework/functions/admin/customizer/register.php:1628, framework/functions/admin/customizer/register.php:1713, framework/functions/admin/customizer/register.php:1798, framework/functions/admin/customizer/register.php:1883, framework/functions/admin/customizer/register.php:1968, framework/functions/admin/customizer/register.php:2053
+msgid "Heading Font Style"
+msgstr ""
+
+#: framework/functions/admin/customizer/register.php:1684
+msgid "Headings Letter Spacing"
+msgstr ""
+
+#: framework/functions/admin/customizer/register.php:1702, framework/functions/admin/customizer/register.php:1787, framework/functions/admin/customizer/register.php:1872, framework/functions/admin/customizer/register.php:1957, framework/functions/admin/customizer/register.php:2042, framework/functions/admin/customizer/register.php:2127
+msgid "Headings color"
+msgstr ""
+
+#: framework/functions/admin/customizer/register.php:2118
 msgid "Font Size (px)"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:2128
+#: framework/functions/admin/customizer/register.php:2138
 msgid "Navbar Font Style"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:2231
+#: framework/functions/admin/customizer/register.php:2212, framework/functions/admin/customizer/register.php:2230
+msgid "Font Hover Color"
+msgstr ""
+
+#: framework/functions/admin/customizer/register.php:2241
 msgid "Logo Font Style"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:2296
+#: framework/functions/admin/customizer/register.php:2306
 msgid "Logo Letter Spacing"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:2305
+#: framework/functions/admin/customizer/register.php:2315
 msgid "Logo Text Color"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:2357
+#: framework/functions/admin/customizer/register.php:2367
 msgid "Important: Not all fonts support every font-weight."
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:2376
+#: framework/functions/admin/customizer/register.php:2386
 msgid "Posts Style"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:2396
+#: framework/functions/admin/customizer/register.php:2406
 msgid "Columns"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:2416
-msgid "Full Post Content on Index"
-msgstr ""
-
 #: framework/functions/admin/customizer/register.php:2426
-msgid "Excerpt Limit"
-msgstr ""
-
-#: framework/functions/admin/customizer/register.php:2428
-msgid "Displayed Post Excerpt"
+msgid "Remove Website URL Field"
 msgstr ""
 
 #: framework/functions/admin/customizer/register.php:2436
-msgid "Display Post Meta"
+msgid "Full Post Content on Index"
 msgstr ""
 
 #: framework/functions/admin/customizer/register.php:2446
+msgid "Excerpt Limit"
+msgstr ""
+
+#: framework/functions/admin/customizer/register.php:2448
+msgid "Displayed Post Excerpt"
+msgstr ""
+
+#: framework/functions/admin/customizer/register.php:2456
+msgid "Display Post Meta"
+msgstr ""
+
+#: framework/functions/admin/customizer/register.php:2466
 msgid "Display Categories Meta"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:2455
+#: framework/functions/admin/customizer/register.php:2475
 msgid "Display Author Name"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:2465
+#: framework/functions/admin/customizer/register.php:2485
 msgid "Display Views Meta"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:2475
+#: framework/functions/admin/customizer/register.php:2495
 msgid "Remove Featured Image"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:2485
+#: framework/functions/admin/customizer/register.php:2505
 msgid "Blog Hover Overlay Color"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:2487
+#: framework/functions/admin/customizer/register.php:2507
 msgid "This hover will apply on portfolio and blog."
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:2495
+#: framework/functions/admin/customizer/register.php:2515
 msgid "Blog Element Hover Effects "
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:2505
+#: framework/functions/admin/customizer/register.php:2525
 msgid "Blog Image Hover Effects "
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:2515
+#: framework/functions/admin/customizer/register.php:2535
 msgid "Display Previous/Next Pagination "
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:2525, framework/functions/admin/meta/object_types/object_post.php:401
+#: framework/functions/admin/customizer/register.php:2545, framework/functions/admin/meta/object_types/object_post.php:401
 msgid "Display Social Share Icons"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:2535, framework/functions/admin/meta/object_types/object_post.php:418
+#: framework/functions/admin/customizer/register.php:2555, framework/functions/admin/meta/object_types/object_post.php:418
 msgid "Display Author Box"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:2545, framework/functions/admin/meta/object_types/object_post.php:436
+#: framework/functions/admin/customizer/register.php:2565, framework/functions/admin/meta/object_types/object_post.php:436
 msgid "Display Related Posts"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:2555
+#: framework/functions/admin/customizer/register.php:2575
 msgid "Related Posts Is Slide"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:2565, framework/functions/admin/meta/object_types/object_post.php:454
+#: framework/functions/admin/customizer/register.php:2585, framework/functions/admin/meta/object_types/object_post.php:454
 msgid "Related Posts Columns"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:2575
+#: framework/functions/admin/customizer/register.php:2595
 msgid "Related Posts Count"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:2584, framework/functions/admin/customizer/register.php:3866
+#: framework/functions/admin/customizer/register.php:2604, framework/functions/admin/customizer/register.php:3873
 msgid "Structure Data"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:2593, framework/functions/admin/customizer/register.php:3876
+#: framework/functions/admin/customizer/register.php:2613, framework/functions/admin/customizer/register.php:3883
 msgid "Default Schema type"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:2596, framework/functions/admin/customizer/register.php:3879
+#: framework/functions/admin/customizer/register.php:2616, framework/functions/admin/customizer/register.php:3886
 msgid "NewsArticle"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:2597, framework/functions/admin/customizer/register.php:3880
+#: framework/functions/admin/customizer/register.php:2617, framework/functions/admin/customizer/register.php:3887
 msgid "Article"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:2598, framework/functions/admin/customizer/register.php:3881
+#: framework/functions/admin/customizer/register.php:2618, framework/functions/admin/customizer/register.php:3888
 msgid "BlogPosting"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:2611
+#: framework/functions/admin/customizer/register.php:2631
 msgid "Header text size"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:2620, framework/functions/admin/customizer/register.php:2639
+#: framework/functions/admin/customizer/register.php:2640, framework/functions/admin/customizer/register.php:2659
 msgid "Font Style"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:2630
+#: framework/functions/admin/customizer/register.php:2650
 msgid "Body/Link Text Size"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:2653
+#: framework/functions/admin/customizer/register.php:2673
 msgid "Navbar Menu"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:2663
+#: framework/functions/admin/customizer/register.php:2683
 msgid "Cart Price"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:2673
+#: framework/functions/admin/customizer/register.php:2693
 msgid "Menu Cart Display"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:2683
+#: framework/functions/admin/customizer/register.php:2703
 msgid "Shop Layout"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:2693
+#: framework/functions/admin/customizer/register.php:2713
 msgid "Shop Columns"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:2703
+#: framework/functions/admin/customizer/register.php:2723
 msgid "Product Per Page"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:2712
+#: framework/functions/admin/customizer/register.php:2732
 msgid "OKAB Sort"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:2722
+#: framework/functions/admin/customizer/register.php:2742
 msgid "Product Layout"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:2733
+#: framework/functions/admin/customizer/register.php:2753
 msgid "Product Tabs"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:2743
+#: framework/functions/admin/customizer/register.php:2763
 msgid "Description Tab"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:2753
+#: framework/functions/admin/customizer/register.php:2773
 msgid "Additional Information Tab"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:2763
+#: framework/functions/admin/customizer/register.php:2783
 msgid "Reviews Tab"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:2773
+#: framework/functions/admin/customizer/register.php:2793
 msgid "Slide Animation Type"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:2793
+#: framework/functions/admin/customizer/register.php:2813
 msgid "Related Product Columns"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:2803
+#: framework/functions/admin/customizer/register.php:2823
 msgid "Related Product Post Count"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:2812
+#: framework/functions/admin/customizer/register.php:2832
 msgid "Upsells"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:2822
+#: framework/functions/admin/customizer/register.php:2842
 msgid "Upsell Columns"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:2832
+#: framework/functions/admin/customizer/register.php:2852
 msgid "Upsell Post Count"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:2841
+#: framework/functions/admin/customizer/register.php:2861
 msgid "Cross Sells"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:2851
+#: framework/functions/admin/customizer/register.php:2871
 msgid "Cross Sells Columns"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:2861
+#: framework/functions/admin/customizer/register.php:2881
 msgid "Cross Sells Post Count"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:2878
+#: framework/functions/admin/customizer/register.php:2898
 msgid "Big Footer ( Widgets Area )"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:2888, framework/functions/admin/meta/meta-boxes.php:1251
+#: framework/functions/admin/customizer/register.php:2908, framework/functions/admin/meta/meta-boxes.php:1251
 msgid "Second Footer Widgets Area"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:2898
+#: framework/functions/admin/customizer/register.php:2918
 msgid "Footer In Center"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:2908, framework/functions/admin/meta/meta-boxes.php:1153
+#: framework/functions/admin/customizer/register.php:2928, framework/functions/admin/meta/meta-boxes.php:1153
 msgid "Small Footer"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:2928, framework/functions/admin/meta/meta-boxes.php:1170
+#: framework/functions/admin/customizer/register.php:2948, framework/functions/admin/meta/meta-boxes.php:1170
 msgid "Footer Background Color"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:2937
+#: framework/functions/admin/customizer/register.php:2957
 msgid "Small Footer Background Color"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:2964
+#: framework/functions/admin/customizer/register.php:2975
+msgid "Link Color"
+msgstr ""
+
+#: framework/functions/admin/customizer/register.php:2984
 msgid "Back To The Top Arrow"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:2974
+#: framework/functions/admin/customizer/register.php:2994
 msgid "Copyright Info"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:2988
+#: framework/functions/admin/customizer/register.php:3008
 msgid "Copyright Content"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:2997, framework/functions/admin/meta/meta-boxes.php:1192
+#: framework/functions/admin/customizer/register.php:3017, framework/functions/admin/meta/meta-boxes.php:1192
 msgid "Footer Widget Areas"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:3016, framework/functions/admin/meta/meta-boxes.php:1268
+#: framework/functions/admin/customizer/register.php:3036, framework/functions/admin/meta/meta-boxes.php:1268
 msgid "Second Footer Widget Areas"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:3035
+#: framework/functions/admin/customizer/register.php:3055
 msgid "Widget Header Font size"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:3044
+#: framework/functions/admin/customizer/register.php:3064
 msgid "Widget Header Font Style"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:3063
+#: framework/functions/admin/customizer/register.php:3074
+msgid "Widget Body/Link Font Size"
+msgstr ""
+
+#: framework/functions/admin/customizer/register.php:3083
 msgid "Widget Body/Link Font Style"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:3073, framework/functions/admin/meta/meta-boxes.php:1331
+#: framework/functions/admin/customizer/register.php:3093, framework/functions/admin/meta/meta-boxes.php:1331
 msgid "Widget Header Color"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:3082, framework/functions/admin/meta/meta-boxes.php:1343
+#: framework/functions/admin/customizer/register.php:3102, framework/functions/admin/meta/meta-boxes.php:1343
 msgid "Widget Text Color"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:3091, framework/functions/admin/meta/meta-boxes.php:1355
+#: framework/functions/admin/customizer/register.php:3111, framework/functions/admin/meta/meta-boxes.php:1355
 msgid "Widget Link Color"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:3100, framework/functions/admin/meta/meta-boxes.php:1379
+#: framework/functions/admin/customizer/register.php:3120, framework/functions/admin/meta/meta-boxes.php:1379
 msgid "Widget Border Color"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:3114
+#: framework/functions/admin/customizer/register.php:3134
 msgid "CSS"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:3126
+#: framework/functions/admin/customizer/register.php:3146
 msgid "Enable AMP"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:3136
+#: framework/functions/admin/customizer/register.php:3156
 msgid "Upload Your AMP Logo"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:3153
+#: framework/functions/admin/customizer/register.php:3173
 msgid "Facebook App ID"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:3162
+#: framework/functions/admin/customizer/register.php:3182
 msgid "Leave a Comment ( Translate )"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:3171
+#: framework/functions/admin/customizer/register.php:3191
 msgid "Check Also ( Translate )"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:3180
+#: framework/functions/admin/customizer/register.php:3200
 msgid "Categories ( Translate )"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:3189
+#: framework/functions/admin/customizer/register.php:3209
 msgid "Ago ( Translate )"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:3198
+#: framework/functions/admin/customizer/register.php:3218
 msgid "Tags ( Translate )"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:3220
+#: framework/functions/admin/customizer/register.php:3240
 msgid "Share Buttons"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:3231
+#: framework/functions/admin/customizer/register.php:3251
 msgid "Back to top button"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:3241
+#: framework/functions/admin/customizer/register.php:3261
 msgid "Footer Logo Image"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:3262
+#: framework/functions/admin/customizer/register.php:3282
 msgid "Copyright Text"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:3272
+#: framework/functions/admin/customizer/register.php:3292
 msgid "Advertisement Above Content"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:3274, framework/functions/admin/customizer/register.php:3282
+#: framework/functions/admin/customizer/register.php:3294, framework/functions/admin/customizer/register.php:3302
 msgid "Enter your Ad code, AMP pages support &lt;amp-ad&gt; tag only, <a href=\"%s\" target=\"_blank\">Click Here</a> For More info."
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:3280
+#: framework/functions/admin/customizer/register.php:3300
 msgid "Advertisement Below Content"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:3290
+#: framework/functions/admin/customizer/register.php:3310
 msgid "Background Color"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:3308
+#: framework/functions/admin/customizer/register.php:3328
 msgid "Title Color"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:3317
+#: framework/functions/admin/customizer/register.php:3337
 msgid "Links color"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:3326
+#: framework/functions/admin/customizer/register.php:3346
 msgid "Footer color"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:3334
+#: framework/functions/admin/customizer/register.php:3354
 msgid "Footer border color"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:3347
+#: framework/functions/admin/customizer/register.php:3367
 msgid "Ad Blocker Detector"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:3358
+#: framework/functions/admin/customizer/register.php:3378
 msgid "Above Article Ad"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:3367
+#: framework/functions/admin/customizer/register.php:3387
 msgid "Custom Ad Code -Above-"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:3369, framework/functions/admin/customizer/register.php:3388, framework/functions/admin/customizer/register.php:3398, framework/functions/admin/customizer/register.php:3407, framework/functions/admin/customizer/register.php:3416, framework/functions/admin/customizer/register.php:3425, framework/functions/admin/customizer/register.php:3434
+#: framework/functions/admin/customizer/register.php:3389, framework/functions/admin/customizer/register.php:3408, framework/functions/admin/customizer/register.php:3418, framework/functions/admin/customizer/register.php:3427, framework/functions/admin/customizer/register.php:3436, framework/functions/admin/customizer/register.php:3445, framework/functions/admin/customizer/register.php:3454
 msgid "Supports: Text, HTML and Shortcodes"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:3377
+#: framework/functions/admin/customizer/register.php:3397
 msgid "Below Article Ad"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:3386
+#: framework/functions/admin/customizer/register.php:3406
 msgid "Custom Ad Code -Below-"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:3396
+#: framework/functions/admin/customizer/register.php:3416
 msgid "[ads1] Ad Shortcode"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:3405
+#: framework/functions/admin/customizer/register.php:3425
 msgid "[ads2] Ad Shortcode"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:3414
+#: framework/functions/admin/customizer/register.php:3434
 msgid "[ads3] Ad Shortcode"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:3423
+#: framework/functions/admin/customizer/register.php:3443
 msgid "[ads4] Ad Shortcode"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:3432
+#: framework/functions/admin/customizer/register.php:3452
 msgid "[ads5] Ad Shortcode"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:3443
+#: framework/functions/admin/customizer/register.php:3463
 msgid "Disable GIF Featured Images"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:3456
+#: framework/functions/admin/customizer/register.php:3476
 msgid "Optimize WooCommerce scripts"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:3459
+#: framework/functions/admin/customizer/register.php:3479
 msgid "Load WooCommerce scripts and styles only on WooCommerce pages (WooCommerce plugin must be enabled)."
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:3466
+#: framework/functions/admin/customizer/register.php:3486
 msgid "Apply Lazy Image"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:3469
+#: framework/functions/admin/customizer/register.php:3489
 msgid "lazy Image mean: Images outside of viewport will not be loaded before user scrolls to them."
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:3476
+#: framework/functions/admin/customizer/register.php:3496
 msgid "Lazy Placeholder"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:3479
+#: framework/functions/admin/customizer/register.php:3499
 msgid "A small image will be shown at first. For best perceived preformance , leave the option off."
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:3486
+#: framework/functions/admin/customizer/register.php:3506
 msgid "Lazy Placeholder Type"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:3489
+#: framework/functions/admin/customizer/register.php:3509
 msgid "Pre-Placeholder"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:3490
+#: framework/functions/admin/customizer/register.php:3510
 msgid "Small Images"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:3499, framework/functions/admin/meta/object_types/object_post.php:312
+#: framework/functions/admin/customizer/register.php:3519, framework/functions/admin/meta/object_types/object_post.php:312
 msgid "Animation"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:3509
-msgid "Async JavaScript Method"
-msgstr ""
-
-#: framework/functions/admin/customizer/register.php:3513
-msgid "Defer"
-msgstr ""
-
-#: framework/functions/admin/customizer/register.php:3515
-msgid "Please select the method (async or defer) that you wish to enable"
-msgstr ""
-
-#: framework/functions/admin/customizer/register.php:3522
+#: framework/functions/admin/customizer/register.php:3529
 msgid "Remove ver parameters"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:3525
+#: framework/functions/admin/customizer/register.php:3532
 msgid "Remove %s parameter from CSS and JS file calls. It may improve speed in some browsers which do not cache files having the parameter."
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:3532
+#: framework/functions/admin/customizer/register.php:3539
 msgid "CSS Compiling method"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:3535, framework/functions/admin/meta/meta-boxes.php:1551, framework/functions/admin/meta/object_types/object_post.php:372
+#: framework/functions/admin/customizer/register.php:3542, framework/functions/admin/meta/meta-boxes.php:1551, framework/functions/admin/meta/object_types/object_post.php:372
 msgid "File"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:3536
+#: framework/functions/admin/customizer/register.php:3543
 msgid "Database"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:3537
+#: framework/functions/admin/customizer/register.php:3544
 msgid "Disabled"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:3539
+#: framework/functions/admin/customizer/register.php:3546
 msgid "Select \"File\" mode to compile the dynamic CSS to files (a separate file will be created for each of your pages & posts inside of the uploads/dima-styles folder), \"Database\" mode to cache the CSS in your database, or select \"Disabled\" to disable."
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:3546
+#: framework/functions/admin/customizer/register.php:3553
 msgid "Cache Server IP"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:3548
+#: framework/functions/admin/customizer/register.php:3555
 msgid "For unique cases where you are using cloud flare and a cache server, ex: varnish cache. Enter your cache server IP to clear the theme options dynamic CSS cache. Consult with your server admin for help."
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:3555
+#: framework/functions/admin/customizer/register.php:3562
 msgid "Space before &lt;/head&gt;"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:3557
+#: framework/functions/admin/customizer/register.php:3564
 msgid "Only accepts javascript code wrapped with &lt;script&gt;  tags and HTML markup that is valid inside the &lt;head&gt;  tag."
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:3564
+#: framework/functions/admin/customizer/register.php:3571
 msgid "Space After &lt;body&gt;"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:3566, framework/functions/admin/customizer/register.php:3575
+#: framework/functions/admin/customizer/register.php:3573, framework/functions/admin/customizer/register.php:3582
 msgid "Only accepts javascript code, wrapped with &lt;script&gt; tags and valid HTML markup inside the &lt;body&gt; tag."
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:3573
+#: framework/functions/admin/customizer/register.php:3580
 msgid "Space before &lt;/body&gt;"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:3582
+#: framework/functions/admin/customizer/register.php:3589
 msgid "Google Map API Key"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:3591
+#: framework/functions/admin/customizer/register.php:3598
 msgid "Custom JavaScript"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:3605
+#: framework/functions/admin/customizer/register.php:3612
 msgid "Facebook"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:3614
+#: framework/functions/admin/customizer/register.php:3621
 msgid "Twitter"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:3623
+#: framework/functions/admin/customizer/register.php:3630
 msgid "linkedin"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:3632
+#: framework/functions/admin/customizer/register.php:3639
 msgid "Youtube"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:3641
+#: framework/functions/admin/customizer/register.php:3648
 msgid "Vimeo"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:3650
+#: framework/functions/admin/customizer/register.php:3657
 msgid "Foursquare"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:3659
+#: framework/functions/admin/customizer/register.php:3666
 msgid "Tumblr"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:3668
+#: framework/functions/admin/customizer/register.php:3675
 msgid "Instagram"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:3677
+#: framework/functions/admin/customizer/register.php:3684
 msgid "Dribbble"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:3686
+#: framework/functions/admin/customizer/register.php:3693
 msgid "Flickr"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:3695
+#: framework/functions/admin/customizer/register.php:3702
 msgid "Behance"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:3704
+#: framework/functions/admin/customizer/register.php:3711
 msgid "Pinterest"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:3713
+#: framework/functions/admin/customizer/register.php:3720
 msgid "Whatsapp"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:3722
+#: framework/functions/admin/customizer/register.php:3729
 msgid "Soundcloud"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:3731
+#: framework/functions/admin/customizer/register.php:3738
 msgid "RSS"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:3740
+#: framework/functions/admin/customizer/register.php:3747
 msgid "VK"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:3753
+#: framework/functions/admin/customizer/register.php:3760
 msgid "Upload Favicon"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:3755
+#: framework/functions/admin/customizer/register.php:3762
 msgid "There are many favicon generators available online, such as  <a href=\"http://www.convertico.com/\" target=\"_blank\" rel=\"noopener\" title=\"Convertico\">Convertico</a> and <a href=\"http://www.favicon.co.uk/\" target=\"_blank\" rel=\"noopener\" title=\"Favicon.co.uk\">Favicon.co.uk</a>."
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:3761
+#: framework/functions/admin/customizer/register.php:3768
 msgid "Apple iPhone Icon"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:3763
+#: framework/functions/admin/customizer/register.php:3770
 msgid "Icon for Apple iPhone (57px x 57px)"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:3770
+#: framework/functions/admin/customizer/register.php:3777
 msgid "Apple iPhone Retina Icon"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:3772
+#: framework/functions/admin/customizer/register.php:3779
 msgid "Icon for Apple iPhone Retina Version (120px x 120px)"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:3779
+#: framework/functions/admin/customizer/register.php:3786
 msgid "Apple iPad Icon"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:3781
+#: framework/functions/admin/customizer/register.php:3788
 msgid "Icon for Apple iPhone (72px x 72px)"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:3788
+#: framework/functions/admin/customizer/register.php:3795
 msgid "Apple iPad Retina Icon"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:3790
+#: framework/functions/admin/customizer/register.php:3797
 msgid "Icon for Apple iPad Retina Version (144px x 144px)"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:3800
+#: framework/functions/admin/customizer/register.php:3807
 msgid "I am using plugin for SEO"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:3810
+#: framework/functions/admin/customizer/register.php:3817
 msgid "Open Graph"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:3820
+#: framework/functions/admin/customizer/register.php:3827
 msgid "Upload opengraph image"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:3822
+#: framework/functions/admin/customizer/register.php:3829
 msgid "Image URL which should represent your object within the graph."
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:3829
+#: framework/functions/admin/customizer/register.php:3836
 msgid "Facebook Pages ID"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:3838
+#: framework/functions/admin/customizer/register.php:3845
 msgid "Twitter Username (e.g. @pixeldima)"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:3847
+#: framework/functions/admin/customizer/register.php:3854
 msgid "Twitter Account ID"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:3856
+#: framework/functions/admin/customizer/register.php:3863
 msgid "Prefetching"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:3859
+#: framework/functions/admin/customizer/register.php:3866
 msgid "Enable or disable prefetching. If user is on homepage, then single page will load faster and if user is on single page, homepage will load faster in modern browsers."
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:3891, framework/functions/admin/meta/object_types/object_portfolio.php:112
+#: framework/functions/admin/customizer/register.php:3898, framework/functions/admin/meta/object_types/object_portfolio.php:112
 msgid "Display Related Projects"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:3901
+#: framework/functions/admin/customizer/register.php:3908
 msgid "Related Projects Style"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:3911
+#: framework/functions/admin/customizer/register.php:3918
 msgid "Related Projects Columns"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:3921
+#: framework/functions/admin/customizer/register.php:3928
 msgid "Related Projects Count"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:3930
+#: framework/functions/admin/customizer/register.php:3937
 msgid "Related Projects Element Hover Effects "
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:3940
+#: framework/functions/admin/customizer/register.php:3947
 msgid "Related Projects Image Hover Effects "
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:3950
+#: framework/functions/admin/customizer/register.php:3957
 msgid "Related Projects Border on Hover"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:3960
+#: framework/functions/admin/customizer/register.php:3967
 msgid "Portfolio Slug name"
 msgstr ""
 
-#: framework/functions/admin/customizer/register.php:3991
+#: framework/functions/admin/customizer/register.php:3998
 msgid "Inside pagination"
-msgstr ""
-
-#: framework/functions/admin/gutenberg/setup.php:34
-msgid "Okab Main"
-msgstr ""
-
-#: framework/functions/admin/gutenberg/setup.php:39
-msgid "white"
-msgstr ""
-
-#: framework/functions/admin/gutenberg/setup.php:44
-msgid "paragraph"
-msgstr ""
-
-#: framework/functions/admin/gutenberg/setup.php:49, framework/functions/admin/pixeldima-setup/framework-customizer-backup.php:94
-msgid "Error"
-msgstr ""
-
-#: framework/functions/admin/gutenberg/setup.php:54
-msgid "Warning"
-msgstr ""
-
-#: framework/functions/admin/gutenberg/setup.php:59
-msgid "Success"
-msgstr ""
-
-#: framework/functions/admin/gutenberg/setup.php:64
-msgid "Info"
 msgstr ""
 
 #: framework/functions/admin/meta/meta-boxes.php:51
@@ -3100,7 +3082,7 @@ msgstr ""
 msgid "Add gallery images"
 msgstr ""
 
-#: framework/functions/admin/meta/meta-boxes.php:1550, framework/functions/admin/meta/meta-boxes.php:1553, framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:364, framework/functions/admin/meta/object_types/object_post.php:371, framework/functions/admin/meta/object_types/object_post.php:374
+#: framework/functions/admin/meta/meta-boxes.php:1550, framework/functions/admin/meta/meta-boxes.php:1553, framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:375, framework/functions/admin/meta/object_types/object_post.php:371, framework/functions/admin/meta/object_types/object_post.php:374
 msgid "Remove"
 msgstr ""
 
@@ -3116,8 +3098,12 @@ msgstr ""
 msgid "Easily export or import your WordPress customizer settings!."
 msgstr ""
 
-#: framework/functions/admin/pixeldima-setup/framework-customizer-backup.php:68
-msgid "ERROR: An import error occured. Please try again."
+#: framework/functions/admin/pixeldima-setup/framework-customizer-backup.php:94
+msgid "Error"
+msgstr ""
+
+#: framework/functions/admin/pixeldima-setup/framework-customizer-backup.php:95
+msgid "Invalid file type provided or file size too big. Please try again."
 msgstr ""
 
 #: framework/functions/admin/pixeldima-setup/framework-customizer-backup.php:83, framework/functions/admin/pixeldima-setup/framework-customizer-backup.php:185
@@ -3128,11 +3114,11 @@ msgstr ""
 msgid "Successfully restored!."
 msgstr ""
 
-#: framework/functions/admin/pixeldima-setup/framework-customizer-backup.php:95
-msgid "Invalid file type provided or file size too big. Please try again."
+#: framework/functions/admin/pixeldima-setup/framework-customizer-backup.php:68
+msgid "ERROR: An import error occured. Please try again."
 msgstr ""
 
-#: framework/functions/admin/pixeldima-setup/framework-customizer-backup.php:114, framework/functions/admin/pixeldima-setup/framework-demo-content.php:698
+#: framework/functions/admin/pixeldima-setup/framework-customizer-backup.php:114, framework/functions/admin/pixeldima-setup/framework-demo-content.php:697
 msgid "Import"
 msgstr ""
 
@@ -3146,15 +3132,15 @@ msgstr ""
 msgid "Upload"
 msgstr ""
 
-#: framework/functions/admin/pixeldima-setup/framework-customizer-backup.php:170
-msgid "Clicking the button below will create a JSON file that contain all customizer settings."
-msgstr ""
-
 #: framework/functions/admin/pixeldima-setup/framework-customizer-backup.php:186
 msgid "Successfully Export."
 msgstr ""
 
-#: framework/functions/admin/pixeldima-setup/framework-customizer-backup.php:253, framework/functions/admin/pixeldima-setup/framework-customizer-backup.php:673
+#: framework/functions/admin/pixeldima-setup/framework-customizer-backup.php:170
+msgid "Clicking the button below will create a JSON file that contain all customizer settings."
+msgstr ""
+
+#: framework/functions/admin/pixeldima-setup/framework-customizer-backup.php:253, framework/functions/admin/pixeldima-setup/framework-customizer-backup.php:674
 msgid "Success!"
 msgstr ""
 
@@ -3168,31 +3154,31 @@ msgid ""
 "                    installation (you can also import/export your custom configurations)"
 msgstr ""
 
-#: framework/functions/admin/pixeldima-setup/framework-customizer-backup.php:674
+#: framework/functions/admin/pixeldima-setup/framework-customizer-backup.php:675
 msgid "Successfully delete cachet."
 msgstr ""
 
-#: framework/functions/admin/pixeldima-setup/framework-customizer-backup.php:684
+#: framework/functions/admin/pixeldima-setup/framework-customizer-backup.php:685
 msgid "Important!"
 msgstr ""
 
-#: framework/functions/admin/pixeldima-setup/framework-customizer-backup.php:685
+#: framework/functions/admin/pixeldima-setup/framework-customizer-backup.php:686
 msgid "Resets all Dynamic CSS, cleans-up the database and deletes the %1$s folder. When resetting the caches on the main site of a multisite installation, caches for all sub-sites will be reset. IMPORTANT NOTE: On large multisite installations with a low PHP timeout setting, bulk-resetting the caches may timeout."
 msgstr ""
 
-#: framework/functions/admin/pixeldima-setup/framework-customizer-backup.php:685
+#: framework/functions/admin/pixeldima-setup/framework-customizer-backup.php:686
 msgid "Resets all Dynamic CSS, cleans-up the database and deletes the %1$s folder."
 msgstr ""
 
-#: framework/functions/admin/pixeldima-setup/framework-customizer-backup.php:696, framework/functions/admin/pixeldima-setup/framework-customizer-backup.php:706
+#: framework/functions/admin/pixeldima-setup/framework-customizer-backup.php:697, framework/functions/admin/pixeldima-setup/framework-customizer-backup.php:707
 msgid "Delete All Cache."
 msgstr ""
 
-#: framework/functions/admin/pixeldima-setup/framework-customizer-backup.php:709
+#: framework/functions/admin/pixeldima-setup/framework-customizer-backup.php:710
 msgid "Clicking the button below will clear and delete all cache files."
 msgstr ""
 
-#: framework/functions/admin/pixeldima-setup/framework-customizer-backup.php:713
+#: framework/functions/admin/pixeldima-setup/framework-customizer-backup.php:714
 msgid "Delete All Cache"
 msgstr ""
 
@@ -3220,23 +3206,23 @@ msgstr ""
 msgid "Since Revolution Slider is not currently active, any sliders used in our Expanded demos will not be setup. If you wish for these sliders to be setup, please ensure that you have Revolution Slider installed and activated."
 msgstr ""
 
-#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:70, framework/functions/admin/pixeldima-setup/framework-demo-content.php:183, framework/functions/admin/pixeldima-setup/framework-demo-content.php:203, framework/functions/admin/pixeldima-setup/framework-demo-content.php:223, framework/functions/admin/pixeldima-setup/framework-demo-content.php:243, framework/functions/admin/pixeldima-setup/framework-demo-content.php:264, framework/functions/admin/pixeldima-setup/framework-demo-content.php:285, framework/functions/admin/pixeldima-setup/framework-demo-content.php:306, framework/functions/admin/pixeldima-setup/framework-demo-content.php:327, framework/functions/admin/pixeldima-setup/framework-demo-content.php:348, framework/functions/admin/pixeldima-setup/framework-demo-content.php:369, framework/functions/admin/pixeldima-setup/framework-demo-content.php:390, framework/functions/admin/pixeldima-setup/framework-demo-content.php:411, framework/functions/admin/pixeldima-setup/framework-demo-content.php:431, framework/functions/admin/pixeldima-setup/framework-demo-content.php:450, framework/functions/admin/pixeldima-setup/framework-demo-content.php:469, framework/functions/admin/pixeldima-setup/framework-demo-content.php:488, framework/functions/admin/pixeldima-setup/framework-demo-content.php:508, framework/functions/admin/pixeldima-setup/framework-demo-content.php:527, framework/functions/admin/pixeldima-setup/framework-demo-content.php:547
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:70, framework/functions/admin/pixeldima-setup/framework-demo-content.php:183, framework/functions/admin/pixeldima-setup/framework-demo-content.php:203, framework/functions/admin/pixeldima-setup/framework-demo-content.php:223, framework/functions/admin/pixeldima-setup/framework-demo-content.php:243, framework/functions/admin/pixeldima-setup/framework-demo-content.php:264, framework/functions/admin/pixeldima-setup/framework-demo-content.php:285, framework/functions/admin/pixeldima-setup/framework-demo-content.php:306, framework/functions/admin/pixeldima-setup/framework-demo-content.php:327, framework/functions/admin/pixeldima-setup/framework-demo-content.php:348, framework/functions/admin/pixeldima-setup/framework-demo-content.php:369, framework/functions/admin/pixeldima-setup/framework-demo-content.php:390, framework/functions/admin/pixeldima-setup/framework-demo-content.php:411, framework/functions/admin/pixeldima-setup/framework-demo-content.php:431, framework/functions/admin/pixeldima-setup/framework-demo-content.php:450, framework/functions/admin/pixeldima-setup/framework-demo-content.php:469, framework/functions/admin/pixeldima-setup/framework-demo-content.php:488, framework/functions/admin/pixeldima-setup/framework-demo-content.php:507, framework/functions/admin/pixeldima-setup/framework-demo-content.php:526, framework/functions/admin/pixeldima-setup/framework-demo-content.php:546
 msgid "DIMA ShortCodes: For all the shortcodes used in %s."
 msgstr ""
 
-#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:71, framework/functions/admin/pixeldima-setup/framework-demo-content.php:185, framework/functions/admin/pixeldima-setup/framework-demo-content.php:205, framework/functions/admin/pixeldima-setup/framework-demo-content.php:225, framework/functions/admin/pixeldima-setup/framework-demo-content.php:245, framework/functions/admin/pixeldima-setup/framework-demo-content.php:266, framework/functions/admin/pixeldima-setup/framework-demo-content.php:288, framework/functions/admin/pixeldima-setup/framework-demo-content.php:309, framework/functions/admin/pixeldima-setup/framework-demo-content.php:330, framework/functions/admin/pixeldima-setup/framework-demo-content.php:351, framework/functions/admin/pixeldima-setup/framework-demo-content.php:372, framework/functions/admin/pixeldima-setup/framework-demo-content.php:393, framework/functions/admin/pixeldima-setup/framework-demo-content.php:413, framework/functions/admin/pixeldima-setup/framework-demo-content.php:490
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:71, framework/functions/admin/pixeldima-setup/framework-demo-content.php:185, framework/functions/admin/pixeldima-setup/framework-demo-content.php:205, framework/functions/admin/pixeldima-setup/framework-demo-content.php:225, framework/functions/admin/pixeldima-setup/framework-demo-content.php:245, framework/functions/admin/pixeldima-setup/framework-demo-content.php:266, framework/functions/admin/pixeldima-setup/framework-demo-content.php:288, framework/functions/admin/pixeldima-setup/framework-demo-content.php:309, framework/functions/admin/pixeldima-setup/framework-demo-content.php:330, framework/functions/admin/pixeldima-setup/framework-demo-content.php:351, framework/functions/admin/pixeldima-setup/framework-demo-content.php:372, framework/functions/admin/pixeldima-setup/framework-demo-content.php:393, framework/functions/admin/pixeldima-setup/framework-demo-content.php:413
 msgid "Slider Revolution: For Sliders."
 msgstr ""
 
-#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:72, framework/functions/admin/pixeldima-setup/framework-demo-content.php:184, framework/functions/admin/pixeldima-setup/framework-demo-content.php:204, framework/functions/admin/pixeldima-setup/framework-demo-content.php:224, framework/functions/admin/pixeldima-setup/framework-demo-content.php:244, framework/functions/admin/pixeldima-setup/framework-demo-content.php:265, framework/functions/admin/pixeldima-setup/framework-demo-content.php:287, framework/functions/admin/pixeldima-setup/framework-demo-content.php:308, framework/functions/admin/pixeldima-setup/framework-demo-content.php:329, framework/functions/admin/pixeldima-setup/framework-demo-content.php:350, framework/functions/admin/pixeldima-setup/framework-demo-content.php:371, framework/functions/admin/pixeldima-setup/framework-demo-content.php:392, framework/functions/admin/pixeldima-setup/framework-demo-content.php:412, framework/functions/admin/pixeldima-setup/framework-demo-content.php:432, framework/functions/admin/pixeldima-setup/framework-demo-content.php:451, framework/functions/admin/pixeldima-setup/framework-demo-content.php:470, framework/functions/admin/pixeldima-setup/framework-demo-content.php:489, framework/functions/admin/pixeldima-setup/framework-demo-content.php:509, framework/functions/admin/pixeldima-setup/framework-demo-content.php:529, framework/functions/admin/pixeldima-setup/framework-demo-content.php:548
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:72, framework/functions/admin/pixeldima-setup/framework-demo-content.php:184, framework/functions/admin/pixeldima-setup/framework-demo-content.php:204, framework/functions/admin/pixeldima-setup/framework-demo-content.php:224, framework/functions/admin/pixeldima-setup/framework-demo-content.php:244, framework/functions/admin/pixeldima-setup/framework-demo-content.php:265, framework/functions/admin/pixeldima-setup/framework-demo-content.php:287, framework/functions/admin/pixeldima-setup/framework-demo-content.php:308, framework/functions/admin/pixeldima-setup/framework-demo-content.php:329, framework/functions/admin/pixeldima-setup/framework-demo-content.php:350, framework/functions/admin/pixeldima-setup/framework-demo-content.php:371, framework/functions/admin/pixeldima-setup/framework-demo-content.php:392, framework/functions/admin/pixeldima-setup/framework-demo-content.php:412, framework/functions/admin/pixeldima-setup/framework-demo-content.php:432, framework/functions/admin/pixeldima-setup/framework-demo-content.php:451, framework/functions/admin/pixeldima-setup/framework-demo-content.php:470, framework/functions/admin/pixeldima-setup/framework-demo-content.php:489, framework/functions/admin/pixeldima-setup/framework-demo-content.php:508, framework/functions/admin/pixeldima-setup/framework-demo-content.php:528, framework/functions/admin/pixeldima-setup/framework-demo-content.php:547
 msgid "Visual Composer: For page builder."
 msgstr ""
 
-#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:73, framework/functions/admin/pixeldima-setup/framework-demo-content.php:186, framework/functions/admin/pixeldima-setup/framework-demo-content.php:206, framework/functions/admin/pixeldima-setup/framework-demo-content.php:226, framework/functions/admin/pixeldima-setup/framework-demo-content.php:246, framework/functions/admin/pixeldima-setup/framework-demo-content.php:267, framework/functions/admin/pixeldima-setup/framework-demo-content.php:289, framework/functions/admin/pixeldima-setup/framework-demo-content.php:310, framework/functions/admin/pixeldima-setup/framework-demo-content.php:331, framework/functions/admin/pixeldima-setup/framework-demo-content.php:352, framework/functions/admin/pixeldima-setup/framework-demo-content.php:373, framework/functions/admin/pixeldima-setup/framework-demo-content.php:394, framework/functions/admin/pixeldima-setup/framework-demo-content.php:414, framework/functions/admin/pixeldima-setup/framework-demo-content.php:433, framework/functions/admin/pixeldima-setup/framework-demo-content.php:452, framework/functions/admin/pixeldima-setup/framework-demo-content.php:471, framework/functions/admin/pixeldima-setup/framework-demo-content.php:491, framework/functions/admin/pixeldima-setup/framework-demo-content.php:510, framework/functions/admin/pixeldima-setup/framework-demo-content.php:530, framework/functions/admin/pixeldima-setup/framework-demo-content.php:549
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:73, framework/functions/admin/pixeldima-setup/framework-demo-content.php:186, framework/functions/admin/pixeldima-setup/framework-demo-content.php:206, framework/functions/admin/pixeldima-setup/framework-demo-content.php:226, framework/functions/admin/pixeldima-setup/framework-demo-content.php:246, framework/functions/admin/pixeldima-setup/framework-demo-content.php:267, framework/functions/admin/pixeldima-setup/framework-demo-content.php:289, framework/functions/admin/pixeldima-setup/framework-demo-content.php:310, framework/functions/admin/pixeldima-setup/framework-demo-content.php:331, framework/functions/admin/pixeldima-setup/framework-demo-content.php:352, framework/functions/admin/pixeldima-setup/framework-demo-content.php:373, framework/functions/admin/pixeldima-setup/framework-demo-content.php:394, framework/functions/admin/pixeldima-setup/framework-demo-content.php:414, framework/functions/admin/pixeldima-setup/framework-demo-content.php:433, framework/functions/admin/pixeldima-setup/framework-demo-content.php:452, framework/functions/admin/pixeldima-setup/framework-demo-content.php:471, framework/functions/admin/pixeldima-setup/framework-demo-content.php:490, framework/functions/admin/pixeldima-setup/framework-demo-content.php:509, framework/functions/admin/pixeldima-setup/framework-demo-content.php:529, framework/functions/admin/pixeldima-setup/framework-demo-content.php:548
 msgid "Contact Form 7: For the contact form."
 msgstr ""
 
-#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:74, framework/functions/admin/pixeldima-setup/framework-demo-content.php:247, framework/functions/admin/pixeldima-setup/framework-demo-content.php:268, framework/functions/admin/pixeldima-setup/framework-demo-content.php:528
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:74, framework/functions/admin/pixeldima-setup/framework-demo-content.php:247, framework/functions/admin/pixeldima-setup/framework-demo-content.php:268, framework/functions/admin/pixeldima-setup/framework-demo-content.php:527
 msgid "WooCommerce: For the Shop section."
 msgstr ""
 
@@ -3252,97 +3238,97 @@ msgstr ""
 msgid "DIMA Portfolio: for portfolio items in %s."
 msgstr ""
 
-#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:577
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:576
 msgid "Previw"
 msgstr ""
 
-#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:582
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:581
 msgid "Import Content"
 msgstr ""
 
-#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:583
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:582
 msgid "( menus only import with \"All\" )"
 msgstr ""
 
-#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:594
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:593
 msgid "Posts"
 msgstr ""
 
-#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:599
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:598
 msgid "Pages"
 msgstr ""
 
-#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:609
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:608
 msgid "Products"
 msgstr ""
 
-#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:614
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:613
 msgid "Media"
 msgstr ""
 
-#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:619
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:618
 msgid "Sliders"
 msgstr ""
 
-#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:624
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:623
 msgid "Customizer"
 msgstr ""
 
-#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:635
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:634
 msgid "Need help ? "
 msgstr ""
 
-#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:636
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:635
 msgid "Do you have trouble installing demo ? "
 msgstr ""
 
-#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:640
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:639
 msgid "Manual Demo Import . "
 msgstr ""
 
-#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:653
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:652
 msgid "Important Notes:"
 msgstr ""
 
-#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:655
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:654
 msgid "Importing demo data will overwrite your Customizer settings . "
 msgstr ""
 
-#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:656
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:655
 msgid "We recommend to run Demo Import on a clean WordPress installation . "
 msgstr ""
 
-#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:659
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:658
 msgid ""
 "The Demo Import will not import the images we have used in our live demos, due to\n"
 "                                    copyright / license reasons . "
 msgstr ""
 
-#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:668
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:667
 msgid ""
 "No existing posts, pages, categories, images, custom post types or any other data\n"
 "                                    will be deleted or modified . "
 msgstr ""
 
-#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:675
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:674
 msgid "Posts, pages, images, widgets and menus will get imported . "
 msgstr ""
 
-#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:676
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:675
 msgid "Before you begin, make sure all the required plugins are activated . "
 msgstr ""
 
-#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:679
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:678
 msgid ""
 "Do not run the Demo Import multiple times one after another, it will result in\n"
 "                                    double content . "
 msgstr ""
 
-#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:691
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:690
 msgid "Are you sure you want to proceed?"
 msgstr ""
 
-#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:694
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:693
 msgid "( It will take a few minutes to complete)"
 msgstr ""
 
@@ -3406,28 +3392,28 @@ msgstr ""
 msgid "Required"
 msgstr ""
 
-#: framework/functions/admin/pixeldima-setup/framework-system-status.php:220
+#: framework/functions/admin/pixeldima-setup/framework-system-status.php:183
 msgid "Please copy and paste this information in your ticket when contacting support:"
 msgstr ""
 
-#: framework/functions/admin/pixeldima-setup/framework-system-status.php:222
+#: framework/functions/admin/pixeldima-setup/framework-system-status.php:184
 msgid "Get system report"
 msgstr ""
 
-#: framework/functions/admin/pixeldima-setup/framework-system-status.php:232
+#: framework/functions/admin/pixeldima-setup/framework-system-status.php:194
 msgid "Looking for a good web hosting company? %1$sCheck our recommendations!%2$s"
 msgstr ""
 
-#: framework/functions/admin/pixeldima-setup/framework-system-status.php:357
+#: framework/functions/admin/pixeldima-setup/framework-system-status.php:333
 msgid "System Status"
 msgstr ""
 
-#: framework/functions/admin/pixeldima-setup/framework-system-status.php:361
+#: framework/functions/admin/pixeldima-setup/framework-system-status.php:337
 msgid "Here you can check the system status."
 msgstr ""
 
-#: framework/functions/admin/pixeldima-setup/framework-system-status.php:397
-msgid "This plugin is required to run %1$s. It provides a all the shortcodes used in %2$s"
+#: framework/functions/admin/pixeldima-setup/framework-system-status.php:373
+msgid "This plugin is required to run %1$s. It provides all the shortcodes used in %2$s"
 msgstr ""
 
 #: framework/functions/admin/pixeldima-setup/framework-validation.php:60
@@ -3454,7 +3440,7 @@ msgstr ""
 msgid "Revolution Slider downloaded..."
 msgstr ""
 
-#: framework/functions/admin/pixeldima-setup/pixeldima-setup-settings.php:772, framework/functions/admin/pixeldima-setup/pixeldima-setup-settings.php:778
+#: framework/functions/admin/pixeldima-setup/pixeldima-setup-settings.php:778, framework/functions/admin/pixeldima-setup/pixeldima-setup-settings.php:772
 msgid "Install"
 msgstr ""
 
@@ -3470,157 +3456,156 @@ msgstr ""
 msgid "Demo Requirement"
 msgstr ""
 
-#: framework/functions/admin/tmg/registration.php:230
+#: framework/functions/admin/tmg/registration.php:242
 msgid "Install Required Plugins"
 msgstr ""
 
-#: framework/functions/admin/tmg/registration.php:231
+#: framework/functions/admin/tmg/registration.php:243
 msgid "Install Plugins"
 msgstr ""
 
-#: framework/functions/admin/tmg/registration.php:232
+#: framework/functions/admin/tmg/registration.php:244
 msgid "Installing Plugin: %s"
 msgstr ""
 
-#: framework/functions/admin/tmg/registration.php:233
+#: framework/functions/admin/tmg/registration.php:245
 msgid "Something went wrong with the plugin API."
 msgstr ""
 
-#: framework/functions/admin/tmg/registration.php:234
+#: framework/functions/admin/tmg/registration.php:246
 msgid "This theme requires the following plugin: %1$s."
 msgid_plural "This theme requires the following plugins: %1$s."
 msgstr[0] ""
 msgstr[1] ""
 
-#: framework/functions/admin/tmg/registration.php:235
+#: framework/functions/admin/tmg/registration.php:247
 msgid "This theme recommends the following plugin: %1$s."
 msgid_plural "This theme recommends the following plugins: %1$s."
 msgstr[0] ""
 msgstr[1] ""
 
-#: framework/functions/admin/tmg/registration.php:236
+#: framework/functions/admin/tmg/registration.php:248
 msgid "Sorry, but you do not have the correct permissions to install the %s plugin. Contact the administrator of this site for help on getting the plugin installed."
 msgid_plural "Sorry, but you do not have the correct permissions to install the %s plugins. Contact the administrator of this site for help on getting the plugins installed."
 msgstr[0] ""
 msgstr[1] ""
 
-#: framework/functions/admin/tmg/registration.php:237
+#: framework/functions/admin/tmg/registration.php:249
 msgid "The following required plugin is currently inactive: %1$s."
 msgid_plural "The following required plugins are currently inactive: %1$s."
 msgstr[0] ""
 msgstr[1] ""
 
-#: framework/functions/admin/tmg/registration.php:238
+#: framework/functions/admin/tmg/registration.php:250
 msgid "The following recommended plugin is currently inactive: %1$s."
 msgid_plural "The following recommended plugins are currently inactive: %1$s."
 msgstr[0] ""
 msgstr[1] ""
 
-#: framework/functions/admin/tmg/registration.php:239
+#: framework/functions/admin/tmg/registration.php:251
 msgid "Sorry, but you do not have the correct permissions to activate the %s plugin. Contact the administrator of this site for help on getting the plugin activated."
 msgid_plural "Sorry, but you do not have the correct permissions to activate the %s plugins. Contact the administrator of this site for help on getting the plugins activated."
 msgstr[0] ""
 msgstr[1] ""
 
-#: framework/functions/admin/tmg/registration.php:240
+#: framework/functions/admin/tmg/registration.php:252
 msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
 msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
 msgstr[0] ""
 msgstr[1] ""
 
-#: framework/functions/admin/tmg/registration.php:241
+#: framework/functions/admin/tmg/registration.php:253
 msgid "Sorry, but you do not have the correct permissions to update the %s plugin. Contact the administrator of this site for help on getting the plugin updated."
 msgid_plural "Sorry, but you do not have the correct permissions to update the %s plugins. Contact the administrator of this site for help on getting the plugins updated."
 msgstr[0] ""
 msgstr[1] ""
 
-#: framework/functions/admin/tmg/registration.php:242
+#: framework/functions/admin/tmg/registration.php:254
 msgid "Begin installing plugin"
 msgid_plural "Begin installing plugins"
 msgstr[0] ""
 msgstr[1] ""
 
-#: framework/functions/admin/tmg/registration.php:243
+#: framework/functions/admin/tmg/registration.php:255
 msgid "Activate installed plugin"
 msgid_plural "Activate installed plugins"
 msgstr[0] ""
 msgstr[1] ""
 
-#: framework/functions/admin/tmg/registration.php:244
+#: framework/functions/admin/tmg/registration.php:256
 msgid "Return to Required Plugins Installer"
 msgstr ""
 
-#: framework/functions/admin/tmg/registration.php:245
+#: framework/functions/admin/tmg/registration.php:257
 msgid "Plugin activated successfully."
 msgstr ""
 
-#: framework/functions/admin/tmg/registration.php:246
+#: framework/functions/admin/tmg/registration.php:258
 msgid "All plugins installed and activated successfully. %s"
 msgstr ""
 
-#: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:29
+#: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:28
 msgid "Menu Icon (Use font awesome or simple line icons name)"
 msgstr ""
 
-#: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:39
+#: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:38
 msgid "Text Clasess"
 msgstr ""
 
-#: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:49
+#: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:48
 msgid "Menu First Level Style"
 msgstr ""
 
-#: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:54
+#: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:53
 msgid "Default Style"
 msgstr ""
 
-#: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:56
+#: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:55
 msgid "Button Mini"
 msgstr ""
 
-#: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:58
+#: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:57
 msgid "Button Small"
 msgstr ""
 
-#: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:60
+#: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:59
 msgid "Button Large"
 msgstr ""
 
-#: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:62
+#: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:61
 msgid "Button Big"
 msgstr ""
 
-#: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:64
+#: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:63
 msgid "Button Huge"
 msgstr ""
 
-#: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:77
+#: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:76
 msgid "Enable OKAB Mega Menu"
 msgstr ""
 
-#: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:87
+#: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:86
 msgid "Disable MegaMenu Title"
 msgstr ""
 
-#: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:93
+#: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:92
 msgid "Mega Menu Columns"
 msgstr ""
 
-#: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:110
+#: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:109
 msgid "Set MegaMenu Background"
 msgstr ""
 
-#. translators: %s: title of menu item which is invalid
-#: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:204
-msgid "%s (Invalid)"
-msgstr ""
-
 #. translators: %s: title of menu item in draft ismega
-#: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:208
+#: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:204
 msgid "%s (Pending)"
 msgstr ""
 
-#: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:224
+#: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:200
+msgid "%s (Invalid)"
+msgstr ""
+
+#: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:220
 msgid "sub item"
 msgstr ""
 
@@ -3628,63 +3613,63 @@ msgstr ""
 msgid "Move up"
 msgstr ""
 
-#: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:253
+#: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:257
 msgid "Move down"
 msgstr ""
 
-#: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:257, framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:259
+#: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:261, framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:265
 msgid "Edit Menu Item"
 msgstr ""
 
-#: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:268, framework/functions/admin/meta/object_types/object_post.php:292
+#: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:274, framework/functions/admin/meta/object_types/object_post.php:292
 msgid "URL"
 msgstr ""
 
-#: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:278
+#: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:284
 msgid "Navigation Label"
 msgstr ""
 
-#: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:287
+#: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:293
 msgid "Title Attribute"
 msgstr ""
 
-#: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:299
+#: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:305
 msgid "Open link in a new window/tab"
 msgstr ""
 
-#: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:304
+#: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:310
 msgid "CSS Classes (optional)"
 msgstr ""
 
-#: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:313
+#: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:319
 msgid "Link Relationship (XFN)"
 msgstr ""
 
-#: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:322
+#: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:328
 msgid "Description"
 msgstr ""
 
-#: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:327
+#: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:333
 msgid "The description will be displayed in the menu if the current theme supports it."
 msgstr ""
 
-#: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:335
+#: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:341
 msgid "Move"
 msgstr ""
 
-#: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:337
+#: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:343
 msgid "Up one"
 msgstr ""
 
-#: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:339
+#: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:345
 msgid "Down one"
 msgstr ""
 
-#: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:343
+#: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:349
 msgid "To the top"
 msgstr ""
 
-#: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:350
+#: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:356
 msgid "Original: %s"
 msgstr ""
 
@@ -3704,47 +3689,47 @@ msgstr ""
 msgid "Comments are closed."
 msgstr ""
 
-#: framework/views/partials/comments/wp-comments.php:69
+#: framework/views/partials/comments/wp-comments.php:75, framework/views/partials/comments/wp-comments.php:70
 msgid "Name*"
 msgstr ""
 
-#: framework/views/partials/comments/wp-comments.php:70
+#: framework/views/partials/comments/wp-comments.php:76, framework/views/partials/comments/wp-comments.php:71
 msgid "Email*"
 msgstr ""
 
-#: framework/views/partials/comments/wp-comments.php:71
-msgid "Website"
-msgstr ""
-
-#: framework/views/partials/comments/wp-comments.php:72
+#: framework/views/partials/comments/wp-comments.php:77, framework/views/partials/comments/wp-comments.php:73
 msgid "Save my name, email, and website in this browser for the next time I comment."
 msgstr ""
 
-#: framework/views/partials/comments/wp-comments.php:101
-msgid "You must be %1$slogged in%2$s to post a comment."
-msgstr ""
-
-#: framework/views/partials/comments/wp-comments.php:102
-msgid "Logged in as"
-msgstr ""
-
-#: framework/views/partials/comments/wp-comments.php:102
-msgid "Log out of this account"
-msgstr ""
-
-#: framework/views/partials/comments/wp-comments.php:102
-msgid "Log out &raquo;"
-msgstr ""
-
-#: framework/views/partials/comments/wp-comments.php:103
-msgid "cancel reply"
-msgstr ""
-
-#: framework/views/partials/comments/wp-comments.php:104
-msgid "Comment..."
+#: framework/views/partials/comments/wp-comments.php:72
+msgid "Website"
 msgstr ""
 
 #: framework/views/partials/comments/wp-comments.php:107
+msgid "You must be %1$slogged in%2$s to post a comment."
+msgstr ""
+
+#: framework/views/partials/comments/wp-comments.php:108
+msgid "Logged in as"
+msgstr ""
+
+#: framework/views/partials/comments/wp-comments.php:108
+msgid "Log out of this account"
+msgstr ""
+
+#: framework/views/partials/comments/wp-comments.php:108
+msgid "Log out &raquo;"
+msgstr ""
+
+#: framework/views/partials/comments/wp-comments.php:109
+msgid "cancel reply"
+msgstr ""
+
+#: framework/views/partials/comments/wp-comments.php:110
+msgid "Comment..."
+msgstr ""
+
+#: framework/views/partials/comments/wp-comments.php:113
 msgid "POST COMMENT"
 msgstr ""
 
@@ -3764,7 +3749,7 @@ msgstr ""
 msgid "CLOSE"
 msgstr ""
 
-#: framework/views/partials/header/navbar-mobile.php:43, framework/views/partials/header/navbar.php:55, framework/views/partials/header/navbar.php:93
+#: framework/views/partials/header/navbar-mobile.php:43, framework/views/partials/header/navbar.php:93, framework/views/partials/header/navbar.php:55
 msgid "Start Typing..."
 msgstr ""
 
@@ -3806,6 +3791,10 @@ msgstr ""
 
 #: framework/functions/admin/meta/object_types/object_pages.php:52, framework/functions/admin/meta/object_types/object_portfolio.php:135, framework/functions/admin/meta/object_types/object_post.php:477, framework/functions/admin/meta/object_types/object_product.php:44
 msgid "General"
+msgstr ""
+
+#: framework/functions/admin/meta/object_types/object_pages.php:80
+msgid "Shop"
 msgstr ""
 
 #: framework/functions/admin/meta/object_types/object_pages.php:96, framework/functions/admin/meta/object_types/object_portfolio.php:179, framework/functions/admin/meta/object_types/object_product.php:74
@@ -4056,14 +4045,14 @@ msgstr ""
 msgid "Here you will find various options you can use to create different product styles."
 msgstr ""
 
-#: framework/functions/admin/customizer/include/controls/typography/dima_custom_control_typography.php:60
+#: framework/functions/admin/customizer/include/controls/typography/dima_custom_control_typography.php:61
 msgid "Select Font"
 msgstr ""
 
-#: framework/functions/admin/customizer/include/controls/typography/dima_custom_control_typography.php:84
+#: framework/functions/admin/customizer/include/controls/typography/dima_custom_control_typography.php:85
 msgid "FontFace Fonts"
 msgstr ""
 
-#: framework/functions/admin/customizer/include/controls/typography/dima_custom_control_typography.php:94
+#: framework/functions/admin/customizer/include/controls/typography/dima_custom_control_typography.php:95
 msgid "Standard Fonts"
 msgstr ""

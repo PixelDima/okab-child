@@ -35,7 +35,7 @@ add_action( 'wp_enqueue_scripts', 'dima_child_enqueue_parent_style', 15 );
  * @return void
  */
 function okab_lang_setup() {
-	$lang = get_stylesheet_directory() . ' / languages';
+	$lang = get_stylesheet_directory() . '/languages';
 	load_child_theme_textdomain( 'okab', $lang );
 }
 
