@@ -1,4 +1,4 @@
-# Copyright (C) 2021 Okab
+# Copyright (C) 2022 Okab
 # This file is distributed under the same license as the Okab package.
 msgid ""
 msgstr ""
@@ -61,7 +61,7 @@ msgstr ""
 msgid "Update"
 msgstr ""
 
-#: bbpress/form-user-login.php:14, framework/functions/__okab-template.php:392
+#: bbpress/form-user-login.php:14, framework/functions/__okab-template.php:399
 msgid "Login"
 msgstr ""
 
@@ -245,7 +245,7 @@ msgstr ""
 msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
 msgstr ""
 
-#: woocommerce/content-product.php:66, framework/functions/__okab-template.php:303, woocommerce/loop/title.php:43, woocommerce/single-product/title.php:42
+#: woocommerce/content-product.php:66, framework/functions/__okab-template.php:310, woocommerce/loop/title.php:43, woocommerce/single-product/title.php:42
 msgid "Rated %d out of 5"
 msgstr ""
 
@@ -539,95 +539,95 @@ msgstr ""
 msgid "<br><em><strong>Restaurant Demo Requirement</strong><br>-Memory Limit of 128 MB and max execution time (php time limit) of 300 seconds.<br>-Dima Shoretcodes, DIMA Portfolio, Revolution Slider and contact form 7 must be activated.<em>"
 msgstr ""
 
-#: framework/functions/__okab-template.php:30, framework/functions/__okab-template.php:113, framework/functions/__okab-template.php:198
+#: framework/functions/__okab-template.php:30, framework/functions/__okab-template.php:114, framework/functions/__okab-template.php:205
 msgid "Leave a comment on: &ldquo;%s&rdquo;"
 msgstr ""
 
-#: framework/functions/__okab-template.php:46, framework/functions/__okab-template.php:129
+#: framework/functions/__okab-template.php:46, framework/functions/__okab-template.php:130
 msgid "View all posts in: &ldquo;%s&rdquo;"
 msgstr ""
 
-#: framework/functions/__okab-template.php:87, framework/functions/__okab-template.php:178
+#: framework/functions/__okab-template.php:88, framework/functions/__okab-template.php:183
 msgid "By"
 msgstr ""
 
-#: framework/functions/__okab-template.php:98
+#: framework/functions/__okab-template.php:99
 msgid "Comment"
 msgstr ""
 
-#: framework/functions/__okab-template.php:99, framework/views/partials/comments/wp-comments.php:28
+#: framework/functions/__okab-template.php:100, framework/views/partials/comments/wp-comments.php:28
 msgid "Comments"
 msgstr ""
 
-#: framework/functions/__okab-template.php:106, framework/functions/__okab-template.php:152, framework/functions/__okab-template.php:191, framework/functions/__okab-template.php:210
+#: framework/functions/__okab-template.php:107, framework/functions/__okab-template.php:153, framework/functions/__okab-template.php:198, framework/functions/__okab-template.php:217
 msgid "0"
 msgstr ""
 
-#: framework/functions/__okab-template.php:147, woocommerce/myaccount/my-orders.php:89
+#: framework/functions/__okab-template.php:148, woocommerce/myaccount/my-orders.php:89
 msgid "View"
 msgstr ""
 
-#: framework/functions/__okab-template.php:148
+#: framework/functions/__okab-template.php:149
 msgid "Views"
 msgstr ""
 
-#: framework/functions/__okab-template.php:247
+#: framework/functions/__okab-template.php:254
 msgid "Author"
 msgstr ""
 
-#: framework/functions/__okab-template.php:270
+#: framework/functions/__okab-template.php:277
 msgid "%1$s at %2$s"
 msgstr ""
 
-#: framework/functions/__okab-template.php:289
+#: framework/functions/__okab-template.php:296
 msgid "Reply <span class=\"comment-reply-link-after\"></span>"
 msgstr ""
 
-#: framework/functions/__okab-template.php:299, framework/functions/helper/class-dima-helper.php:103
+#: framework/functions/__okab-template.php:306, framework/functions/helper/class-dima-helper.php:103
 msgid "Edit"
 msgstr ""
 
-#: framework/functions/__okab-template.php:305
+#: framework/functions/__okab-template.php:312
 msgid "out of 5"
 msgstr ""
 
-#: framework/functions/__okab-template.php:312
+#: framework/functions/__okab-template.php:319
 msgid "Your comment is awaiting moderation."
 msgstr ""
 
-#: framework/functions/__okab-template.php:382, framework/functions/__okab-template.php:383, framework/functions/__okab-template.php:384
+#: framework/functions/__okab-template.php:389, framework/functions/__okab-template.php:390, framework/functions/__okab-template.php:391
 msgid "Username"
 msgstr ""
 
-#: framework/functions/__okab-template.php:388, framework/functions/__okab-template.php:389, framework/functions/__okab-template.php:390
+#: framework/functions/__okab-template.php:395, framework/functions/__okab-template.php:396, framework/functions/__okab-template.php:397
 msgid "Password"
 msgstr ""
 
-#: framework/functions/__okab-template.php:396
+#: framework/functions/__okab-template.php:403
 msgid "Remember Me"
 msgstr ""
 
-#: framework/functions/__okab-template.php:407
+#: framework/functions/__okab-template.php:414
 msgid "Lost your password?"
 msgstr ""
 
-#: framework/functions/__okab-template.php:359
+#: framework/functions/__okab-template.php:366
 msgid "Welcome"
 msgstr ""
 
-#: framework/functions/__okab-template.php:363
+#: framework/functions/__okab-template.php:370
 msgid "Dashboard"
 msgstr ""
 
-#: framework/functions/__okab-template.php:366
+#: framework/functions/__okab-template.php:373
 msgid "Your Profile"
 msgstr ""
 
-#: framework/functions/__okab-template.php:369
+#: framework/functions/__okab-template.php:376
 msgid "Logout"
 msgstr ""
 
-#: framework/functions/__okab-template.php:489, framework/functions/admin/pixeldima-setup/framework-demo-content.php:588, framework/functions/admin/meta/object_types/edd_download_details.php:180
+#: framework/functions/__okab-template.php:496, framework/functions/admin/pixeldima-setup/framework-demo-content.php:588, framework/functions/admin/meta/object_types/edd_download_details.php:180
 msgid "All"
 msgstr ""
 
@@ -3436,23 +3436,23 @@ msgstr ""
 msgid "Buy a License"
 msgstr ""
 
-#: framework/functions/admin/pixeldima-setup/pixeldima-setup-settings.php:423
+#: framework/functions/admin/pixeldima-setup/pixeldima-setup-settings.php:421
 msgid "Revolution Slider downloaded..."
 msgstr ""
 
-#: framework/functions/admin/pixeldima-setup/pixeldima-setup-settings.php:778, framework/functions/admin/pixeldima-setup/pixeldima-setup-settings.php:772
+#: framework/functions/admin/pixeldima-setup/pixeldima-setup-settings.php:777, framework/functions/admin/pixeldima-setup/pixeldima-setup-settings.php:771
 msgid "Install"
 msgstr ""
 
-#: framework/functions/admin/pixeldima-setup/pixeldima-setup-settings.php:784
+#: framework/functions/admin/pixeldima-setup/pixeldima-setup-settings.php:783
 msgid "Preview"
 msgstr ""
 
-#: framework/functions/admin/pixeldima-setup/pixeldima-setup-settings.php:792
+#: framework/functions/admin/pixeldima-setup/pixeldima-setup-settings.php:791
 msgid "Required Plugins"
 msgstr ""
 
-#: framework/functions/admin/pixeldima-setup/pixeldima-setup-settings.php:800
+#: framework/functions/admin/pixeldima-setup/pixeldima-setup-settings.php:799
 msgid "Demo Requirement"
 msgstr ""
 
@@ -3749,12 +3749,8 @@ msgstr ""
 msgid "CLOSE"
 msgstr ""
 
-#: framework/views/partials/header/navbar-mobile.php:43, framework/views/partials/header/navbar.php:93, framework/views/partials/header/navbar.php:55
+#: framework/views/partials/header/navbar-mobile.php:43, framework/views/partials/header/navbar.php:34
 msgid "Start Typing..."
-msgstr ""
-
-#: framework/views/partials/header/navbar.php:146
-msgid "Typing..."
 msgstr ""
 
 #: framework/functions/admin/meta/object_types/edd_download_details.php:19
